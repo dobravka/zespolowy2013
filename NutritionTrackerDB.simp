@@ -1,0 +1,1708 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="5.95" multi-file="no">
+  <meta>
+    <name>NutritionTrackerDB</name>
+    <authors>Dobrawa Winnicka</authors>
+    <description>Schemat bazy danych projektu NutritionTracker.</description>
+  </meta>
+  <management>
+    <persons>
+      <person id="P04c7b98d15454a488d917acf4f6f983c">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Foreign Key" name="Foreign Key" description="" />
+      <type id="Primary Key, Foreign Key" name="Primary Key, Foreign Key" description="" />
+      <type id="nvchar(128)" name="nvchar(128)" description="" />
+      <type id="int" name="int" description="" />
+      <type id="nvchar(16)" name="nvchar(16)" description="" />
+      <type id="nvchar(256)" name="nvchar(256)" description="" />
+      <type id="datetime" name="datetime" description="" />
+      <type id="bit" name="bit" description="" />
+      <type id="ntext" name="ntext" description="" />
+      <type id="Primary Key" name="Primary Key" description="" />
+      <type id="Primary Key, nvchar(128)" name="Primary Key, nvchar(128)" description="" />
+      <type id="Foreign Key, uniqueidentifier" name="Foreign Key, uniqueidentifier" description="" />
+      <type id="Primary Key, uniqueidentifier" name="Primary Key, uniqueidentifier" description="" />
+      <type id="Primary Key, Foreign Key, uniqueidentifier" name="Primary Key, Foreign Key, uniqueidentifier" description="" />
+      <type id="nvchar(254)" name="nvchar(254)" description="" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="ddip324223877412211952_623185872219938002" cid="REL024" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:29:18">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="ddip324223877412211952_334412865158177085" to="ddip324223877412211952_653022226763958129">
+        <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+      </relation>
+    </item>
+  </items>
+  <models>
+    <model id="p656716363468284667" name="Model bazy danych" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/14/2013 20:16:37</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p324223877412211952" name="DB" order-index="1" show-nullability="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/14/2013 20:18:11</creation-date>
+          <change-date>03/14/2013 23:00:31</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="ddip324223877412211952_176591147735239400" cid="C003" type="class" name="aspnet_Membership" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:18:16">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a02f7e81c19fd45ffa0a2f48510fa45ae37" name="ApplicationId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <definition>
+                      <sections>
+                        <section name="">
+                          <header>
+                            <text>
+                              <content />
+                            </text>
+                          </header>
+                          <footer>
+                            <text>
+                              <content />
+                            </text>
+                          </footer>
+                          <default-page>
+                            <page size="21,29.7" header-offset="15" footer-offset="15" unit="mm">
+                              <margins left="20" right="20" top="20" bottom="20" />
+                            </page>
+                          </default-page>
+                        </section>
+                      </sections>
+                      <pages />
+                    </definition>
+                    <content>
+                      <paragraph line-spacing="1">
+                        <p index="0">
+                          <t />
+                          <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a866816a6717c4d20a835ac24fd41a834509" name="UserId" type="Primary Key, Foreign Key, uniqueidentifier" type-id="Primary Key, Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a6d76dd06da494b1aa0ed1c8e3b690154924" name="Password" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a2364003014fe4a11b9b199a2ca7267ff844" name="PasswordFormat" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a758fb4c974644819b79777effe2badc8364" name="PasswordSalt" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="acf3a5d4c83d94cd38899c4e254f7cac1285" name="MobilePIN" type="nvchar(16)" type-id="nvchar(16)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a1379ab21d3ae47e1a0dd90e96d9cc6b4267" name="Emaill" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a48ba8a96840d4c8db738b886e48ca58f972" name="LoweredEmail" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a5130f08e15214a96b3b11e942975be47475" name="PasswordQuestion" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a9f42326f5fdf4989b258fa67610a358d355" name="PasswordAnswer" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="afb5c3920cb3048b0a775bf9b98d1606d131" name="IsApproved" type="bit" type-id="bit" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="afd31a54a2e924f1382fa8a91272c0d3f979" name="IsLockedOut" type="bit" type-id="bit" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a68f9b460721f4ea484df6eb0252f0422402" name="CreateDate" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aff563206f71944869b68241ea0b0743291" name="LastLoginDate" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a82305fa1332b4ecab848abb2f59542d2603" name="LastPasswordChangeDate" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a8010d717302e4dc39840207227b751c5610" name="LastLockoutDate" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a58577130a4d1409d8509c37c3dd012c3698" name="FailedPasswordAttemptCount" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="acb4066edd0294c488d22464ddbce6d38770" name="FailedPasswordAttemptWindowStart" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a3c481197bf004ce3a1af30d12190e4dc371" name="FailedPasswordAnswerAttemptCount" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aace1b9d8b1be4271b18dd81c7bd5441f538" name="FailedPasswordAnswerAttemptWindowStart" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a5466b8224f0740fdb0058765af4d7413672" name="Comment" type="ntext" type-id="ntext" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_887144429460101697" cid="C003" type="class" name="aspnet_Users" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:18:16">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a02f7e81c19fd45ffa0a2f48510fa45ae37" name="ApplicationId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content>
+                      <paragraph line-spacing="1">
+                        <p index="0">
+                          <t />
+                          <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a866816a6717c4d20a835ac24fd41a834509" name="UserId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ae77cab1fbb924f37851e0a5f53fcce55581" name="UserName" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ad66babd6020f4782938cb465766b2fce88" name="LoweredUserName" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a5606c0f9672a4def830aecfe3a269492216" name="MobileAlias" type="nvchar(16)" type-id="nvchar(16)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a44ebf2b6bb20444296a2e09c1be5f779240" name="IsAnonymous" type="bit" type-id="bit" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a539c208ec6654624b7e2160199b5ec66237" name="LastActivityDate" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_569664817812513946" cid="C004" type="class" name="aspnet_Applications" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:36:20">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="afa2476d333b54bf2b8a23751629fd742899" name="ApplicationName" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aaafab3366ebc493296d94f73cc07eb77606" name="LoweredApplicationName" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="afb4e0b9af1514e4d85e2f506ab7071e2750" name="ApplicationId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ab64126ea3e40423d948ca15c970420e2950" name="Description" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_842039326432971037" cid="C004" type="class" name="aspnet_SchemaVersions" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:36:20">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="aef065353a9794c70a6cdce37601d25ad469" name="Feature" type="Primary Key, nvchar(128)" type-id="Primary Key, nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a22a485da196b4df5ac545f1348343250901" name="CompatibleSchemaVersion" type="Primary Key, nvchar(128)" type-id="Primary Key, nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a10673d48d3f141ba8eb0877f885f6313173" name="IsCurrentVersion" type="bit" type-id="bit" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_181781182257596268" cid="REL005" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:47:26">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <relation from="ddip324223877412211952_887144429460101697" to="ddip324223877412211952_176591147735239400">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_400801039692393427" cid="REL007" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:48:42">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <relation from="ddip324223877412211952_569664817812513946" to="ddip324223877412211952_176591147735239400">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_304062968790431837" cid="REL006" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 20:48:37">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFD5FF" background-color2="#FFFF8080" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <relation from="ddip324223877412211952_569664817812513946" to="ddip324223877412211952_887144429460101697">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_334412865158177085" cid="C005" type="class" name="Users" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:12:35">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FF00FF80" background-color2="#FFFFFFAA" border-color="#FF000000" border-width="2" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="ac6532e9f25174a77816b6be32c6aa357414" name="UserId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a137b3cbeeda542cd90b5a3b5e31840ba709" name="UserName" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a67c2c959acfe4872a6f4191684b8ea03127" name="UserTypeId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a77e55725a21c4036948736cbb4eb9e51333" name="Age" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ae27d2169165b4907893f9fac612324a2413" name="Gender" type="nvchar(16)" type-id="nvchar(16)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ac00542273d8f465e83c53cfb41e92b7d61" name="Weight" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a42d013bbeced4c3c8160079383f6b52f372" name="ScheduleId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_938153888638881424" cid="REL008" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:19:07">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_887144429460101697" to="ddip324223877412211952_334412865158177085">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_153806895788805235" cid="C013" type="class" name="HoursWorkout" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:21:39">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFF80FF" background-color2="#FF00D5D5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="ad9eaf8df2b524e8180cb45d3431510cf415" name="HoursArchiveId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a9ccdd8e2af444ef080300335dcae869531" name="WorkoutId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_629671784357518974" cid="C007" type="class" name="Messages" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:26:51">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FF55AAFF" background-color2="#FFFFFFD5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="af12840f4e45d4c45915d31e749e475da606" name="MessageId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="af18a3253d2594a03ab065ba5e18cb3b1623" name="Content" type="nvchar(256)" type-id="nvchar(256)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_636477050866803619" cid="C008" type="class" name="UserTypes" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:28:22">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FF55AAFF" background-color2="#FFFFFFD5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a6161b1abb35c4c01accb3bcb17f5d2fd169" name="UserTypeId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_574371432341124663" cid="REL009" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:31:58">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_636477050866803619" to="ddip324223877412211952_334412865158177085">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_198520842668867266" cid="C012" type="class" name="Workout" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:05:46">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFFFD5" background-color2="#FFAAFF55" border-color="#FF000000" border-width="2" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a39c2623a38214d5ca3f8105959f3294b935" name="WorkourtId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a95170fa5854d460ba776b210c9f3740c935" name="WorkoutName" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aac2cf84cc1d848948ff8e3c9a2d55437808" name="CaloriesInFiveMinutes" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_479804825165334395" cid="C009" type="class" name="DayArchive" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:33:21">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFD500D5" background-color2="#FF00AAAA" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a7e075989cd174444be8bc044cd9be017693" name="DayArchiveId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ab4ed224c78284782993b2a0a2b7db24e61" name="Date" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a6548f9664a414121824044300ce9ef8b708" name="Weekday" type="nvchar(16)" type-id="nvchar(16)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_653022226763958129" cid="C010" type="class" name="UserDayArchive" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:46:55">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFF80FF" background-color2="#FF00D5D5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a96439b80b37844c0b5c9c48b3d1a4bf3632" name="UserId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ad928dbc638e843658e7c8c1b9b26243688" name="DayArchiveId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_989746946241219663" cid="C011" type="class" name="UserTypesMessages" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:53:49">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FF55AAFF" background-color2="#FFFFFFD5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a14119047c6854bfaa4b6a082482cb8ad319" name="UserTypeId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aebea6fe21c10407b909533d4444bdcc1942" name="MessageId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_808593794669718863" cid="C014" type="class" name="ScheduleTypes" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:51:41">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ace2d45538f4145529f017d4fd0c4dcef444" name="ScheduleTypeId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a68ae553e83b74062bfedfa0c8e4cd570506" name="ScheduleTypeName" type="nvchar(254)" type-id="nvchar(254)" visibility="private" abstract="false" virtual="false" default-value="&quot;custom&quot;">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a5c76b363a4094935acae3d1fa5348ccf387" name="DietId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_498322751718081482" cid="REL015" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:52:28">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFD500D5" background-color2="#FF00AAAA" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <relation from="ddip324223877412211952_653022226763958129" to="ddip324223877412211952_479804825165334395">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_160376735943986532" cid="REL017" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:56:16">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_989746946241219663" to="ddip324223877412211952_629671784357518974">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_487935061552327948" cid="REL018" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 21:56:19">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_989746946241219663" to="ddip324223877412211952_636477050866803619">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_114492097265744348" cid="C012" type="class" name="Products" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:05:46">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFFFD5" background-color2="#FFBFFF80" border-color="#FF000000" border-width="2" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a39c2623a38214d5ca3f8105959f3294b935" name="ProductId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a95170fa5854d460ba776b210c9f3740c935" name="ProducktName" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="aabfa2e15860a4d4f84a315a51367853c702" name="Calories" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a44e571ae350b4affa611a51ae95a05be814" name="Fat" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ae4dc2517a43f4ef1b951d88f4beeed32526" name="Protein" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ac561a6aaac1e43b0aceaf2273e65cf3a998" name="Carbs" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="ac071832ed38641a691e59dfa200b989146" name="Sugar" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a5c26680a56ac4f549a5752157f88f42a270" name="Cholesterol" type="int" type-id="int" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_285375420429590807" cid="C013" type="class" name="DayArchiveHoursArchive" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:21:39">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFF80FF" background-color2="#FF00D5D5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="abea6d5917faf4c2f895f165ce355cf69486" name="DayArchiveId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a9754149e9adc4dcbb01c4d1e5a7e2982255" name="HoursArchiveId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_480819787270549267" cid="C013" type="class" name="HoursArchive" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:21:39">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFAA00AA" background-color2="#FF00AAAA" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a1c155a13ae1a40c58d3d7199d872da00711" name="HoursArchiveId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a4c5ea6d848074872883034c07909cb2d890" name="StartTime" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a4b92b5c3c3d940d9aa6653a5982bab2b809" name="EndTime" type="datetime" type-id="datetime" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_644155441803466517" cid="C013" type="class" name="Meal" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:21:39">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFF80FF" background-color2="#FF00D5D5" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="ad9eaf8df2b524e8180cb45d3431510cf415" name="HoursArchiveId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a9ccdd8e2af444ef080300335dcae869531" name="ProductId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_929665398377823945" cid="C013" type="class" name="HoursArchive" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:21:39">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFAA00AA" background-color2="#FF00AAAA" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_731636602165362034" cid="REL026" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:46:59">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_153806895788805235" to="ddip324223877412211952_198520842668867266">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_497758898857798138" cid="REL019" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:25:31">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_285375420429590807" to="ddip324223877412211952_479804825165334395">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_116708609204517470" cid="REL020" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:25:34">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_285375420429590807" to="ddip324223877412211952_480819787270549267">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_854147963604154445" cid="REL021" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:25:40">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_644155441803466517" to="ddip324223877412211952_480819787270549267">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_379749585428891193" cid="REL023" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:27:14">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_644155441803466517" to="ddip324223877412211952_114492097265744348">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_451091947785418697" cid="REL027" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:47:08">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_153806895788805235" to="ddip324223877412211952_480819787270549267">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_769791823262345698" cid="C014" type="class" name="Schedules" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:51:41">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ace2d45538f4145529f017d4fd0c4dcef444" name="ScheduleId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a68ae553e83b74062bfedfa0c8e4cd570506" name="ScheduleTypeId" type="Foreign Key, uniqueidentifier" type-id="Foreign Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_516635373646704191" cid="REL028" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:52:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_769791823262345698" to="ddip324223877412211952_334412865158177085">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_142141031133476158" cid="REL030" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:56:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_808593794669718863" to="ddip324223877412211952_769791823262345698">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip324223877412211952_307444909703428686" cid="C012" type="class" name="Diets" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 22:05:46">
+            <stereotypes>
+              <stereotype name="table" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style background-type="vertical-linear" background-color="#FFFFFFD5" background-color2="#FFBFFF80" border-color="#FF000000" border-width="2" shadow-type="smooth" shadow-offset="-2,-2" shadow-size="6,6" shadow-visible="true" shadow-color="#50000000" shadow-radius="6" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" text-wrapping-threshold="0" padding="0" name-color="#FF000000" name-font="Microsoft Sans Serif;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Microsoft Sans Serif;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Microsoft Sans Serif;10;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Microsoft Sans Serif;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Microsoft Sans Serif;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center" />
+            <attributes>
+              <attribute id="a39c2623a38214d5ca3f8105959f3294b935" name="DietId" type="Primary Key, uniqueidentifier" type-id="Primary Key, uniqueidentifier" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+              <attribute id="a95170fa5854d460ba776b210c9f3740c935" name="DietName" type="nvchar(128)" type-id="nvchar(128)" visibility="private" abstract="false" virtual="false">
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip324223877412211952_154217797499149030" cid="REL031" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="03/14/2013 23:00:31">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip324223877412211952_307444909703428686" to="ddip324223877412211952_808593794669718863">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="ddip324223877412211952_176591147735239400" iid="e0ef2a12a9aa49269a525ffa438683b5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:18:16" order-index="1" type="entity">
+            <layout ax="70.47388" ay="110.5057" awidth="350" aheight="400" x="70" y="110" width="350" height="400" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_887144429460101697" iid="aa5540d5d12d4d3a9959de8f9fec82f3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:18:16" order-index="2" type="entity">
+            <layout ax="470.5708" ay="340.8038" awidth="350" aheight="170" x="470" y="340" width="350" height="170" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_569664817812513946" iid="c9571303e6e14d05849a84ce8969a670" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:36:20" order-index="3" type="entity">
+            <layout ax="470.4666" ay="210.7591" awidth="350" aheight="100" x="470" y="210" width="350" height="100" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_842039326432971037" iid="96f6ca0a9e9744d19f0511dab4b9df37" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:36:20" order-index="4" type="entity">
+            <layout ax="470.403" ay="110.7231" awidth="350" aheight="90" x="470" y="110" width="350" height="90" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_181781182257596268" iid="5e689a822cec4cb6ae3bd968ff06447f" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:47:26" order-index="20" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="471" y1="376" x2="420" y2="361" start-border-pos="0.801062325870289" end-border-pos="0.406675839424133">
+              <points>
+                <point x="471" y="376" />
+                <point x="420" y="361" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_887144429460101697" from-iid="aa5540d5d12d4d3a9959de8f9fec82f3" to="ddip324223877412211952_176591147735239400" to-iid="e0ef2a12a9aa49269a525ffa438683b5" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_304062968790431837" iid="9393b38d8ea4410b9b7d33cf643f2eb8" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:48:37" order-index="21" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="645" y1="311" x2="645" y2="341" start-border-pos="0.624878845214844" end-border-pos="0.124938616071429">
+              <points>
+                <point x="645" y="311" />
+                <point x="645" y="341" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_569664817812513946" from-iid="c9571303e6e14d05849a84ce8969a670" to="ddip324223877412211952_887144429460101697" to-iid="aa5540d5d12d4d3a9959de8f9fec82f3" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_400801039692393427" iid="249c9770d6e04c93963e1d4a7eae7041" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 20:48:42" order-index="22" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="470" y1="283" x2="420" y2="289" start-border-pos="0.930289764404297" end-border-pos="0.361637063026428">
+              <points>
+                <point x="470" y="283" />
+                <point x="420" y="289" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_569664817812513946" from-iid="c9571303e6e14d05849a84ce8969a670" to="ddip324223877412211952_176591147735239400" to-iid="e0ef2a12a9aa49269a525ffa438683b5" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_334412865158177085" iid="6aaa836c3a214e34bc2f0e325f34ee23" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:12:35" order-index="5" type="entity">
+            <layout ax="470.7936" ay="540.8511" awidth="350" aheight="180" x="470" y="540" width="350" height="180" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_938153888638881424" iid="4ac34497c22c4183a42201142a8f33c3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:19:07" order-index="23" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="646" y1="511" x2="646" y2="541" start-border-pos="0.625306570870536" end-border-pos="0.125147421700614">
+              <points>
+                <point x="646" y="511" />
+                <point x="646" y="541" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_887144429460101697" from-iid="aa5540d5d12d4d3a9959de8f9fec82f3" to="ddip324223877412211952_334412865158177085" to-iid="6aaa836c3a214e34bc2f0e325f34ee23" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_629671784357518974" iid="605d211fd8ef4067a5334856940dd7d8" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:26:51" order-index="7" type="entity">
+            <layout ax="1270" ay="760" awidth="350" aheight="190" x="1270" y="760" width="350" height="190" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_636477050866803619" iid="438460794bf641ac8a00d25730aa0849" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:28:22" order-index="6" type="entity">
+            <layout ax="470" ay="760" awidth="350" aheight="190" x="470" y="760" width="350" height="190" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_574371432341124663" iid="8663fa7725ec488db1abd6a1aa5fbf8d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:31:58" order-index="24" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="645" y1="760" x2="646" y2="721" start-border-pos="0.125302952357701" end-border-pos="0.624863608224051">
+              <points>
+                <point x="645" y="760" />
+                <point x="646" y="721" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_636477050866803619" from-iid="438460794bf641ac8a00d25730aa0849" to="ddip324223877412211952_334412865158177085" to-iid="6aaa836c3a214e34bc2f0e325f34ee23" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_479804825165334395" iid="5eb631e9669744c2ad3da73754912e1c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:33:21" order-index="8" type="entity">
+            <layout ax="70.98083" ay="759.8271" awidth="350" aheight="190" x="70" y="759.6383" width="350" height="190" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_653022226763958129" iid="7d42ce0067bc4c5c9ede62fa9b1e8901" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:46:55" order-index="9" type="entity">
+            <layout ax="70.86511" ay="540" awidth="349.1349" aheight="180" x="70" y="539.6383" width="350" height="180" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_498322751718081482" iid="a67e8f6ac98647db87efedd016fd7f39" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:52:28" order-index="25" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="245" y1="720" x2="246" y2="760" start-border-pos="0.62497668361355" end-border-pos="0.124712104797363">
+              <points>
+                <point x="245" y="720" />
+                <point x="246" y="760" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_653022226763958129" from-iid="7d42ce0067bc4c5c9ede62fa9b1e8901" to="ddip324223877412211952_479804825165334395" to-iid="5eb631e9669744c2ad3da73754912e1c" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_989746946241219663" iid="6c6c41f434594b0ab806764b67968717" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:53:49" order-index="10" type="entity">
+            <layout ax="870" ay="760" awidth="350" aheight="190" x="870" y="760" width="350" height="190" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_160376735943986532" iid="860a92cb871d48d2ab92155d674d752d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:56:16" order-index="26" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1220" y1="855" x2="1270" y2="855" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="1220" y="855" />
+                <point x="1270" y="855" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_989746946241219663" from-iid="6c6c41f434594b0ab806764b67968717" to="ddip324223877412211952_629671784357518974" to-iid="605d211fd8ef4067a5334856940dd7d8" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_487935061552327948" iid="f8e4e7c94c664c008907ad69ccd2a0a7" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 21:56:19" order-index="27" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="870" y1="855" x2="820" y2="855" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="870" y="855" />
+                <point x="820" y="855" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_989746946241219663" from-iid="6c6c41f434594b0ab806764b67968717" to="ddip324223877412211952_636477050866803619" to-iid="438460794bf641ac8a00d25730aa0849" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_285375420429590807" iid="45abed6f05ee4526a294fa5f6d6a48a6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:21:39" order-index="14" type="entity">
+            <layout ax="70" ay="979.6383" awidth="350" aheight="210.3617" x="70" y="979.6383" width="350" height="210.3617" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_480819787270549267" iid="9f0b80a9dcb54bec9cd0a07da673da87" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:21:39" order-index="15" type="entity">
+            <layout ax="470" ay="980" awidth="350" aheight="210" x="470" y="980" width="350" height="210" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_644155441803466517" iid="06734894592a41459ab10a66f1b6a46c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:21:39" order-index="16" type="entity">
+            <layout ax="870" ay="980" awidth="350" aheight="210" x="870" y="980" width="350" height="210" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_497758898857798138" iid="17063475bb644238a888225c76c31d81" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:25:31" order-index="28" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="245" y1="980" x2="246" y2="950" start-border-pos="0.125326091221401" end-border-pos="0.624721772330148">
+              <points>
+                <point x="245" y="980" />
+                <point x="246" y="950" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_285375420429590807" from-iid="45abed6f05ee4526a294fa5f6d6a48a6" to="ddip324223877412211952_479804825165334395" to-iid="5eb631e9669744c2ad3da73754912e1c" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_116708609204517470" iid="8bcc3dba4ef64828b7a9226ce334269e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:25:34" order-index="29" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="420" y1="1085" x2="470" y2="1085" start-border-pos="0.37521492407225" end-border-pos="0.875">
+              <points>
+                <point x="420" y="1085" />
+                <point x="470" y="1085" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_285375420429590807" from-iid="45abed6f05ee4526a294fa5f6d6a48a6" to="ddip324223877412211952_480819787270549267" to-iid="9f0b80a9dcb54bec9cd0a07da673da87" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_854147963604154445" iid="24479735d3a74f14b1725425f21cedee" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:25:40" order-index="30" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="870" y1="1085" x2="820" y2="1085" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="870" y="1085" />
+                <point x="820" y="1085" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_644155441803466517" from-iid="06734894592a41459ab10a66f1b6a46c" to="ddip324223877412211952_480819787270549267" to-iid="9f0b80a9dcb54bec9cd0a07da673da87" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_379749585428891193" iid="d1f305df852341b3a7eac3c701f1ef89" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:27:14" order-index="31" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1220" y1="1085" x2="1270" y2="1085" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="1220" y="1085" />
+                <point x="1270" y="1085" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_644155441803466517" from-iid="06734894592a41459ab10a66f1b6a46c" to="ddip324223877412211952_114492097265744348" to-iid="871000b56f6e4f21916b49530236188a" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_198520842668867266" iid="6eefa7ca73b841bdbf057415b199a506" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:05:46" order-index="12" type="entity">
+            <layout ax="470" ay="1480" awidth="350" aheight="210" x="470" y="1480" width="350" height="210" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_731636602165362034" iid="9a36f23d40844969ad5fdb00eae33ed5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:46:59" order-index="33" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="645" y1="1440" x2="645" y2="1480" start-border-pos="0.625" end-border-pos="0.125">
+              <points>
+                <point x="645" y="1440" />
+                <point x="645" y="1480" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_153806895788805235" from-iid="d37de746c1a14f23b07aa0434f534743" to="ddip324223877412211952_198520842668867266" to-iid="6eefa7ca73b841bdbf057415b199a506" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_451091947785418697" iid="718546d973c2429d952ff49a175071a6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:47:08" order-index="34" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="645" y1="1230" x2="645" y2="1190" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="645" y="1230" />
+                <point x="645" y="1190" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_153806895788805235" from-iid="d37de746c1a14f23b07aa0434f534743" to="ddip324223877412211952_480819787270549267" to-iid="9f0b80a9dcb54bec9cd0a07da673da87" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_769791823262345698" iid="aa30294cd61a4913b20cfd76f0ef6be3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:51:41" order-index="18" type="entity">
+            <layout ax="870" ay="540" awidth="350" aheight="180" x="870" y="540" width="350" height="180" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_516635373646704191" iid="e91e6aee6fd349d89232665c3af1f9aa" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:52:36" order-index="35" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="870" y1="630" x2="821" y2="631" start-border-pos="0.875609164767795" end-border-pos="0.374601152208116">
+              <points>
+                <point x="870" y="630" />
+                <point x="821" y="631" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_769791823262345698" from-iid="aa30294cd61a4913b20cfd76f0ef6be3" to="ddip324223877412211952_334412865158177085" to-iid="6aaa836c3a214e34bc2f0e325f34ee23" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_623185872219938002" iid="66e088c77a474de7a08810bc5b76c971" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:29:18" order-index="32" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="471" y1="631" x2="420" y2="630" start-border-pos="0.8745972527398" end-border-pos="0.375606113009983">
+              <points>
+                <point x="471" y="631" />
+                <point x="420" y="630" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_334412865158177085" from-iid="6aaa836c3a214e34bc2f0e325f34ee23" to="ddip324223877412211952_653022226763958129" to-iid="7d42ce0067bc4c5c9ede62fa9b1e8901" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_808593794669718863" iid="0b16458c9e8246be9f24564abb537d57" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:51:41" order-index="19" type="entity">
+            <layout ax="1270" ay="540" awidth="350" aheight="180" x="1270" y="540" width="350" height="180" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_142141031133476158" iid="dddc8ec132c540f3847eacaebe3accb3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:56:39" order-index="36" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1270" y1="630" x2="1220" y2="630" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="1270" y="630" />
+                <point x="1220" y="630" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_808593794669718863" from-iid="0b16458c9e8246be9f24564abb537d57" to="ddip324223877412211952_769791823262345698" to-iid="aa30294cd61a4913b20cfd76f0ef6be3" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_307444909703428686" iid="7aae278bb8a44fb3af0218d11bba4a3a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:05:46" order-index="13" type="entity">
+            <layout ax="1270" ay="290" awidth="350" aheight="210" x="1270" y="290" width="350" height="210" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_154217797499149030" iid="207430a25d6f40b69f4d456dac0d2b52" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 23:00:31" order-index="37" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1445" y1="500" x2="1445" y2="540" start-border-pos="0.625" end-border-pos="0.125">
+              <points>
+                <point x="1445" y="500" />
+                <point x="1445" y="540" />
+              </points>
+            </layout>
+            <relation from="ddip324223877412211952_307444909703428686" from-iid="7aae278bb8a44fb3af0218d11bba4a3a" to="ddip324223877412211952_808593794669718863" to-iid="0b16458c9e8246be9f24564abb537d57" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="ddip324223877412211952_114492097265744348" iid="871000b56f6e4f21916b49530236188a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:05:46" order-index="11" type="entity">
+            <layout ax="1270" ay="980" awidth="350" aheight="210" x="1270" y="980" width="350" height="210" angle="0" />
+            <class />
+          </item>
+          <item id="ddip324223877412211952_153806895788805235" iid="d37de746c1a14f23b07aa0434f534743" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/14/2013 22:21:39" order-index="17" type="entity">
+            <layout ax="470" ay="1230" awidth="350" aheight="210" x="470" y="1230" width="350" height="210" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
