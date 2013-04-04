@@ -1,0 +1,1733 @@
+﻿###########################################################
+ Software Ideas Modeler                                     
+ Author:   Dušan Rodina                                     
+ E-mail:   softwareideas@softwareideas.net
+ WWW:      http://www.softwareideas.net/                    
+###########################################################
+
+Version 5.61 (Release date: 2012-10-03) -------------------
+* Fixed wrong range of ports in Options
+* Fixed wrong list of offered operations in sequence diagram (they were from the source lifeline instead of from the target)
+* Fixed update of bounds of sequence message after editing
+* Fixed unclickable sequence message when it is moved far away from line
+* Fixed name of output file for state machine in JavaScript
+* Fixed application crash when loading project with a sequence message with parameters
+
+
+Version 5.60 (Release date: 2012-09-30) -------------------
++ Improved sequence messages in sequence diagram
+	+ Mapping to class operations
+	+ Return values
+	+ Assignment of return value
+	+ Parameters
++ Added source code template for State Machine (C#, JavaScript)
++ Added new template commands: 
+	+ ModelElements, DiagramElements (Project type)
+	+ Uid, DocumentationLines, TaggedValues, GetTaggedValue (Model type)
+	+ DocumentationLines, TaggedValues, GetTaggedValue (Diagram type)
+	+ Owner, Class (UmlAttribute, UmlOperation type)
+	+ Owner, Entity (ErdAttribute)
+	+ AssociatedDiagrams, Model, GetTaggedValue (ModelElement type)
+	+ Model, Diagram, Container, OutRelations, InRelations (DiagramElement type)
+	+ FromElement, From, ToElement, To (Relation type)
+	+ BehaviorExpression, Guard, Triggers (Transition type)
+	+ Add second optional parameter to Diagram.Elements, Model.Elements, Project.ModelElements and Project.DiagramElements, which allow to filter elements by type
+	+ Added new commands for enumerations: FilterByType(typeName1, ..., typeNameN), Skip(count) and Select(expression)
+	+ Allowed to define custom name for iteration variable - SIM:ForEach:Element.Attributes(myVar)
+	+ IsEmpty(expression)
++ Allowed to connect a sequence message to destroy element (Sequence diagram)
++ Added tagged values to models and diagrams
++ Added support for static modifier to PHP source code generation [RQ#103]
++ Added proxy settings for auto update
++ Changes made using Diagram Properties dialog can be undone
++ Lifeline classifier can be set using inline editing
++ Added support for comments to XMI export
+* Updated Dutch translation (thanks to Raymond Meester)
+* Fixed z-order for text of Self Message and Recursive Message (Sequence Diagram) [RQ#106]
+* Fixed CTRL-W for closing tab, shortcut keys added to the default menu definition [RQ#108]
+* Fixed a special case of application crash when exporting a activity diagram to XMI
+* Fixed XMI export - wrong pins and doubled references [RQ#105]
+* Added expansion nodes to XMI export [RQ#104]
+* Fixed missing references to actions contained in expansion regions [RQ#109]
+* Fixed Javascript source code generation
+
+
+Version 5.50 (Release date: 2012-09-16) -------------------
++ Classes defined in project can be used as types of attributes and operations
++ Added auto-complete of types when editing attributes and operations of class
++ Added option for setting password and saving of encrypted project files [RQ#79]
++ Added new menu Arrange/Rotation for precise rotation
++ Added 'Override operations' context command for class
++ Added 'Implement interface' context command for realization
++ Added 'Override operations' context command for generalization
++ Added columns for easy editing of abstract, virtual and static modifiers of operations to grid in Item Properties dialog
++ Name of diagram is rendered in two lines instead of one and half [RQ#89]
++ Fields (names, attributes, etc.) of grouped elements can be edited [RQ#93]
++ Support for inline editing of triggers, guard and behaviour expression of statechart transition instead of its name [RQ#102]
++ Size grips rotates with element [RQ#97]
++ Rotation continues where it ends instead of reseting after each new try
++ Rotation applied also on hover selection of fields
++ Adjusted Decision and Merge nodes to better fit default grid [RQ#98]
++ Added option to remove point using context menu [RQ#82]
++ Added background, border, shadow and gloss settings for Text (from Drawing group) 
++ Added support for interface extending in PHP source code generation [RQ#91]
++ Added auto replace of << and >> in name of UML association to symbol of black solid triangle [RQ#94]
+* Fixed rotation saving [RQ#99]
+* Fixed crash when sending request/bug report and there is no network connection
+* Fixed loading of type list [RQ#101]
+* Fixed undo/redo for movement of relation name, associations roles and multiplicities [RQ#100]
+* Fixed application crash when downloading auto-update files and there is no network connection [RQ#90]
+* Fixed format setting of cell text in document editor
+* Fixed alignment of text (drawing group)
+* Fixed application crash when click with the middle-button on an empty space on tab bar
+
+
+Version 5.40 (Release date: 2012-07-22) -------------------
++ Added source code parsing for PHP 
++ Added Italian translation (thanks to Gabriele Campo)
++ Improved SQL DDL generation - added support for Primary keys, Foreign keys  [RQ#69]
++ Added specification of columns for relation in ERD diagram
++ Added drawing modifier key (CTRL)  for symmetrical change of bounds when resizing [RQ#74]
++ Added drawing modifier key (SHIFT) for propotional change of size - width:height ration will be preserved   [RQ#74]
++ Added drawing modifier key (SHIFT) for rotation in exact angle (0°, 45°, 90°, etc.)
++ Improved work with multi-selection in project tree
++ Added new properties for ERD entities in template evaluator: PrimaryKeys, ForeignKeys, NullableAttributes, NotNullableAttributes, HasPrimaryKey, HasForeignKey
++ Significantly improved speed of source code parsing
++ Key, type, type size, nullability and default value of entity attributes (in ERD diagram) can be edited inline (directly in diagram)
++ Improved work with tabs
+	+ Added right-click context menu
+	+ All other tabs can be closed
+	+ All tabs can be closed	
+	+ Tabs can be reordered
++ Added modes (iterative, parallel, stream) for expansion regions [RQ#81]
++ Improved XMI export/import [RQ#67, RQ#81]
+	+ Added suport for Input and Ouput Pins
+	+ Added support for Object Nodes
++ Added support for drop of image files to text box
++ Set as High-DPI aware - removes blur at high DPI
+* Fixed application crash when try to edit diagram after moving to another model [RQ#68]
+* Fixed copying of image from diagram
+* Fixed undo for delete diagram
+* Fixed recalculating of attribute/operation bounds after moving attributes/operations when attributes/operations of class have different heights
+* Fixed PHP enum generation
+* Fixed rare problem with out of range coordinates
+* Fixed application crash when CTRL-W is pressed and there is no tab open [RQ#84]
+* Fixed wrong z-order after undoing delete action of container with nested element [RQ#83]
+* Fixed application crash when parsing source code in project without models [RQ#80]
+* Fixed problem with unwanted change of parent of interaction operand [RQ#85]
+* Fixed undo action for movement of sequence message text [RQ#86]
+* Fixed unapplied padding style for some element types
+* Fixed drag&drop of project items to documentation
+
+
+Version 5.30 (Release date: 2012-06-03) -------------------
++ Added generation of Interactive Documentation (Ultimate edition)
++ Added drawing modifier key (SHIFT) to allow easy drawing of shapes with the same width and height (squares, circles) [RQ#66]
++ Added drawing modifier key (SHIFT) for relations to allow draw lines in exact angle (0°, 45°, 90°, etc.) [RQ#66]
++ Added drawing modifier key (CTRL) which allows to draw a shape from its center 
++ Added drawing modifier key (ALT) for relations to suppress auto position and preserve exactly what is drawn
++ Added support for page break in document editor (CTRL-Enter)
++ Last cursor position is remembered for each document and is restored after switching to document
++ Version number can be selected and copied from About dialog [RQ#63]
++ Added CTRL-A shortcut for select all in What's New text box
++ Updated Czech localization (thanks to Jiří Šafra)
+* Changed default settings for displaying of diagram paper
+* Fixed deleting of multiple selected items from diagram using Delete key in project tree
+* Fixed deleting of documents using Delete key in project tree
+* Fixed incorrect redo of ungroup command when group and ungroup commands follow
+* Fixed drag&drop in document editor
+* Fixed enabled TO-DO tab page when no project is loaded
+* Fixed auto-update fail [RQ#62]
+* Fixed applying of default visibility for attributes and operations when added from Properties dialog
+* Fixed resizing of table
+* Fixed copy/paste from document using menu and toolbar
+* Fixed displaying of transition text (removed trailing comma, added missing slash when only behavior expression is defined)
+* Fixed overflow of table cell content in document editor
+* Fixed incorrect export of cell background color to PDF
+* Fixed incorrect horizontal position of table in PDF export
+* Fixed incorrect export of multiple spaces to HTML
+* Fixed displaying of cursor in empty document
+* Fixed ActivityPartitions and InterruptibleActivityRegions contain no references [RQ#64]
+* Fixed problem with inserting special characters using AltGr-Char into documentation text box 
+* Fixed application crash when try to undo creation of drawing element (rectangle, ellipse, etc.)
+* Other minor stability fixes
+
+
+Version 5.25 (Release date: 2012-05-21) -------------------
++ Added source code generation for Action Script [RQ#58]
++ Added panning diagram when spacebar held [RQ#55]
++ Improved rendering of activity Final Node and Final State
++ Added Transitions to Statemachine diagram, original transitons renamed to Protocol Transitions 
++ Added Control Flow and Object Flow to Activity diagram instead of Transition
++ Added Java type set
++ Added auto complete for lifeline classifier in Properties dialog
++ Classifier of lifeline can be set so that you drag a class from the project tree and drop it over lifeline
++ Lifeline can be created so that you drag class from the project tree and drop it to Sequence diagram
++ Object can be created so that you drag class from the project tree and drop it to Object diagram
++ Added option for opening the generated document after generation
++ Program offers default path and file name for generated documentation
++ Program remembers 10 last used paths for documentation generation and offers it in drop down list
++ Added support for pasting images to documentation
++ Added option to connect a flow to another flow in flowchart diagram
+* Fixed incorrect location of lifeline after deleting a create action
+* Project tree refreshes automatically after renaming element
+* Fixed XMI export of activity diagram [RQ#53] and added new supported elements InterruptibleActivityRegion and ActivityPartition [RQ#60]
+* Fixed disappearing of scrollbar of Styles panel [RQ#56]
+* Fixed application crash when rendering highlighting in text of operation
+* Fixed binding of lifeline classifier in Properties dialog
+* Fixed undo action for setting lifeline/object classifier when you set it using drag&drop of a class from another diagram
+* Fixed saving of images in documentation
+* Fixed rendering of labels with shortcut keys in toolbox in Icons mode
+* Fixed incorrect checked rendering quality after application start
+* Fixed navigation to selected element when it is selected using space bar in project tree
+* Fixed omitting of empty lines in exported documentation
+* Fixed jumping of cursor to start of document in document editor when you move over space between pages
+* Fixed specific case of application crash when applying smart layout [RQ#61]
+* Fixed application crash when removing table columns or rows
+* Fixed grouping of elements
+* Fixed deleting of multiple selected items from diagram using context menu in project tree
+* Fixed refreshing of start page
+* Other minor stability fixes and some Mono(Linux)-specific bugs
+
+
+Version 5.20 (Release date: 2012-05-02) -------------------
++ Improved searching
+	+ Match case
+	+ Match whole word
+	+ Wildcard searching
+	+ Regular expression searching
+	+ Look in current project, current model, current diagram or open diagrams
+	+ Open window with all found items
+	+ Find in parts (Name, CustomID, Stereotype, Tagged Value, Documentation, Comment, Attribute, Operation, Other)
+	+ Highlighting of found text
++ Added replace feature (Edit / Replace)
++ Completely rewritten module for XMI import and export [RQ#43]
+	+ Supported export/import of guards, preconditions and postconditions [RQ#44]
++ Easy manipulating with self relations [RQ#48]
++ Added new element: Junction (State Machine Diagram)
++ Added name rendering for some elements (ports, pins, initial nodes, initial states, flow final nodes, final nodes, final states, entry points, exit points, decisions, merges)
++ Added option to show/hide the name for these elements (+  activity parameter nodes)
++ Added option to choose the format of text before the text is typed in document editor
++ New style options for relation texts: Text Wrapping and Text Wrapping Threshold
++ Added delete button for each item in list of recent projects
++ Added support for Page Up and Page Down in document editor
++ Added progress dialog for source code parsing
++ Improved drag&drop to submodel [RQ#51]
++ Slightly improved Smart Layout
++ Improved export of documentation to HTML (lists, background color of text, size of table)
++ Added new option to batch export: Create subdirectories for models [RQ#52]
++ Added support for pasting images and text into diagram
++ SIM Project (.simp) file can be drag&dropped to editor - it opens the dialog for copying the diagrams from dragged project to open project
++ Added button for hiding the context toolbar
++ Folder Browser dialog in Batch Export dialog changed to Open File Dialog
++ Thumbnails of diagrams in batch export dialog (thummbnail displays when mouse is over the diagram name at least 1.5 sec)
+* Improved selecting in document editor
+* Fixed project tree refreshing after parsing the source code
+* Fixed saving custom position of name label of Activity Parameter Node
+* Fixed moving of group of objects using keyboard
+* Fixed application crash when loading Operation dialog with source code of undefined language
+* Fixed incorrect setting of view when use CTRL-Home or CTRL-End keys in document editor
+* Fixed rendering of cell background when it is edited
+* Fixed calculation of relation bounds when displaying of texts is turned off
+* Fixed drag&drop of image files to editor when no temp directory is created
+* Fixed cancelling of changes when elements are moved after applying some arrange commands
+* Fixed updating of diagram bounds after some arrange commands
+* Fixed searching in nested models
+* Fixed problem with missing objects in exported documentation
+
+
+Version 5.11 (Release date: 2012-04-01) -------------------
++ Added new class modifiers: Root, Leaf, Active
++ Improved Paste options form (based on [RQ#42])
+	+ Changed default action for paste to Paste as a copy
+	+ Added description for each option
+	+ Added an icon for each option
++ Added confirmation dialog for Delete from Project command (dialog displays all elements which will be deleted and in what diagrams they are placed) (based on [RQ#42])
++ Added option for output encoding (UTF-8, UTF-7, UTF-32, Unicode, Unicode Big Endian, ASCII) in setting dialog for source code generation (based on [RQ#38])
++ Added numbered lists in document editor
++ Added support for Select all in document editor
++ Added new source code template (With type hinting) for PHP [RQ#40]
++ Added delete confirmation before deleting document or document template
+* Added check for person ID, whether is filled and whether is not already used
+* Fixed application crash when some element contains comment from undefined person
+* Fixed application crash when no temp directory is created
+* Fixed application crash when delete text of last attribute or operation in inline edit mode
+* Fixed application crash when try to delete document and nothing is selected
+* Fixed application crash at source code generating when a class has the name which is not allowed for file
+* Fixed wrong behavior of delete and delete from project when more elements with the same model are used on the single diagram [RQ#42]
+* Fixed incorrect binding of relations to elements with shared model, when multiple elements with the same shared model are used on the single diagram [RQ#42]
+* Fixed some cases of incorrect rendering of selection in document editor
+* Fixed renaming and deleting of documents in project tree
+* Fixed All entities view in project tree (it showed only items from Project repository)
+* Fixed loss of class attribute multiplicity when open again in Properties dialog [RQ#41]
+* Fixed not working menu item Delete from Project for selected diagram element in project tree
+* Fixed deleting of multiple elements from project tree
+* Fixed printing of replaced command texts in document editor - now they are printed without blue background and borders
+* Fixed tool unlocking in toolbox
+* Changed text Cancel Bulleted List to None
+
+
+Version 5.10 (Release date: 2012-03-27) -------------------
++ Reorganized menus to make the enviroment clearer
++ Improved Java source code generation (interfaces and enums supported)
++ Imports (imported packages/namespaces) can be defined for each class in diagram using tagged values (Name=Import,Value=Package_name)
++ At source code generation, package/namespace name of class is based also on package, in which the class is placed
++ Source code generator supports creation of subdirectories for namespaces/packages
++ Custom radio button is automatically checked when you edit the custom name pattern in image batch export dialog [RQ#37]
++ Open diagrams are selected for batch export as default [RQ#37]
++ Added menu item Close (CTRL-W) into Windows menu - it allows to close active tab/child window  [RQ#36]
++ Added menu items Minimize and Maximize into Windows menu
++ Added new menu items Delete from Diagram and Delete from Project into Edit/Delete Special
++ Improved delete command - if deleted element has only one instance in the whole project, it will be deleted also from repository
++ Added new template command for element: Package
++ Template command TaggedValues can be called with parameter, which allows to return only tagged values with specific name
++ Added support for tabbing between cells of table in document editor
++ Added support for navigation using cursor keys (left, right, down, up) in table
++ First cell of table is edited after inserting table in document editor
++ Used tagged names are suggested when adding new tagged value
++ Added context menu to formatted text editor
++ Open diagrams are selected in source code generation dialog
++ Added selection buttons (Select All, Invert, None) into source code generation dialog
++ Added line spacing option in document editor
++ Added left indent, right indent and first line indent option in document editor
++ Added popup menu for table creation
++ Document editor supports tabs
++ Added horizontal ruler to document editor
++ Newly created paragraph takes the style of previous one instead of the default style
++ Added print of documentation
++ Table can be moved using special move grip
+* Disabled adding of empty names of imported packages/namespaces in source code generation dialog
+* Fixed application crash in Code Editor control, when it is resized to very small size [RQ#32]
+* Fixed application crash when clicking on empty area in tree control [RQ#33]
+* Fixed problem with export of diagram to PDF [RQ#35]
+* Fixed application crash when adding new source code language in class properties dialog
+* Fixed predefined diagram filters
+* Fixed work with tables in document editor
+* Fixed undo for paste command in formatted text editor
+* Fixed showing of save message also when no changes made in documentation template editor
+* Small visual fixes and improvements
+
+
+Version 5.07 (Release date: 2012-03-19) -------------------
++ Document editor supports drag&drop of text
++ All elements of grid can be selected by clicking on the upper left corner
++ Added support for keys Page Down, Page Up, Home, End in list boxes
++ Big update for Chinese translation (thanks to Zen Liu)
+* Increased resolution of diagram images in documentation editor
+* Cursor in documetation editor changes to arrow when it is over the object (image, table)
+* Button in toolbox will be unselected, when you click on locked button to release the lock and the default button (Selection) will be selected
+* Node in project tree is selected no more after clicking on Expand/Collapse (plus/minus) button
+* Fixed incorrect generation of source code for interface [RQ#28]
+* Fixed application crash when adding a new model in project sidebar and no node of project tree is selected [RQ#29]
+* Fixed application crash when try to generate source code to not existing directory and added message box that ask you whether to create this directory [RQ#27]
+* Fixed moving in list boxes using keys (selection event did not fire before)
+* Fixed clipping of long text in use case
+* Fixed rendering of lock icon to not overlay shorcut key label
+* Fixed selecting of marked text (command text) in documentation editor
+* Fixed disabled drag&drop of elements from project tree to documentation editor
+* Fixed possible application crash in document editor
+* Fixed possible application crash in glossary editor
+* Fixed selection in end of document
+* Fixed double-click selection of words on beginning or end of line
+* Fixed project tree updating when added/removed document in project documentation or documentation template
+* Fixed problem with not working END command in text editor in a specific case
+* Fixed application crash when editing source code of element [RQ#31]
+
+
+Version 5.06 (Release date: 2012-03-11) -------------------
++ New arrange option - distribute
++ Attributes and operation can be moved using drag&drop (also to another class)
++ Improved XMI import (supported comments, lowerValue and upperValue of attributes)
++ Added setting for background color of cell in document editor
++ Elements can be moved to other diagram and diagrams to other model using drag&drop in project tree [RQ#25]
++ Added support for interfaces in PHP source code generation [RQ#22]
++ Documents and templates are displayed in project tree
++ Reorganized toolbars in documentation editor
++ Edited document can be open in new window
+* Fixed small repositioning of relation ends after loading at specific cases
+* Fixed some inaccuracies in cursor positioning in document editor
+* Fixed unavailable editing of diagram documentation in sidebar
+* Fixed applying changes in documentation from side bar editor when only format changes were made
+* Fixed application crash with out of range exception in state machine diagram [RQ#23]
+* Fixed problem with serialization when copying table in document [RQ#25]
+* Fixed saving/loading of item position in project tree
+* Fixed incorrect setting of attribute type when it is edited using Attribute dialog [RQ#26]
+
+
+Version 5.05 (Release date: 2012-03-06) -------------------
++ At first save application offers as default name for project file the project name
++ Project Properties window displays when clicking on project node in project tree
++ Project can be renamed directly in project tree
++ Faster document editor
++ Added setting for background color of text in document editor
++ Added setting for justified text in document editor
++ Copy, Paste, Cut, Undo and Redo buttons work for document editor when it is active
++ Added support for multiple selected rows in attributes, operations and parameters grids in Properties dialog
++ Added support for copying of grid content (attributes grid, operations grid, etc.)
++ Program remembers default size of Element Properties dialog
++ Position of sequence message text can be changed [RQ#19]
++ Sequence message switch to edit mode after inserting
++ Added support for multiline text of sequence message [RQ#19]
++ Added support for multiline name for actions, activities, states
++ Added * symbol to title bar for unsaved project
++ Displaying save icon in status bar when saving
+* Fixed serialization error wben copying [RQ#17]
+* Fixed inserting interaction operands using drag&drop [RQ#18]
+* Fixed application crash when removing column from table
+* Fixed application crash when try to export document with table which contains empty cell(s)
+* Fixed wrong offseting of text after sever clicks on table cell in documentat editor
+* Fixed removing entity attribute from Properties dialog
+* Fixed applying default setting for source code generation language and template in main window
+* Fixed missing spaces in generated TXT documents [RQ#21]
+* Fixed table rendering in generated TXT documents
+
+
+Version 5.04 (Release date: 2012-02-26) -------------------
++ Added new way of adding relationships using drag&drop (relationship starting in selected element and ending in element over which you drop relationship) [based on RQ#12]
+	+ If multiple elements are selected, multiple relationships will be added 
+	+ If SHIFT is pressed at drop time, relationship will be added reversed
++ Added new tool: Image
++ Added support for embedded images in project
++ Images can be added to diagram from file using drag&drop
++ Higher default lifelines inserted using drag&drop
+* Added missing statements to statement list in source code editor
+* Fixed wrong binding of elements from subrepositories [RQ#14]
+* Fixed binding of object classifier [RQ#15]
+* Fixed missing of nested models in classifier choice dialog
+* Fixed problem with saving of style, which was changed from context bar, when element had assigned a style class
+
+
+Version 5.03 (Release date: 2012-02-20) -------------------
++ Added new option: Show Paper (Diagram/Bounds)
++ Added new context bar command for Fragment: Add Interaction Operand
++ Added new copy commands for selection: Copy as Bitmap and Copy as Metafile
++ Program remembers last set background for diagram and use it for newly created diagrams
++ Language menu moved to Options widnow (General tab)
++ Copy commands for diagram moved to submenu (Diagram/Copy)
++ Added new elements to State machine diagram and Interaction overview diagram: Merge, Fork and Join (splitted Fork/Join)
+* Ref Fragment replaced with Interaction Use
+* Added icons missing in project tree
+* Fixed application crash when confirm Options window without displaying Menu tab
+* Fixed displaying of checked state of Show Borders option in menu, if option 'Expand In All Directions' was active
+* Fixed application crash when saving project with template parameters
+* Fixed application crash when try to export to XMI the project with disconnected relations
+* Fixed displaying Unknown as type of some elements in the project tree
+* Fixed region resizing in fragments and states
+* Fixed editing of template parameters using mouse
+
+
+Version 5.02 (Release date: 2012-02-15) -------------------
++ Added context bar button for switching between vertical and horizontal swimlane
++ Program remembers last settings for documentation generation setting dialog
++ Program remembers last settings for source code generation (language, template)
++ Program remembers last settings for diagram size
++ The first template is selected as default (Setting dialog for documentation generation)
++ Suffix of output filename is automatically changed when another format is selected (Setting dialog for documentation generation)
++ Added support for many same elements in the single diagram
++ Updated Polish translation for version 5 (thanks to Bartosz Gołek)
+* Fixed canceling of changes of edited field when clicking on context bar button which starts a new edit action
+* Fixed vertical alignment command
+* Fixed problem with disabled cooperation side bar
+* Fixed binding of relations in nested models after loading
+* Fixed loading of elements defined in model repositories
+* Fixed updating diagram bounds after applying auto update
+* Fixed repainting during element rotation
+* Fixed applying changes of name and other properties made in dialog after duplicating a source code template
+* Fixed selecting classifier for lifeline from dialog
+* Fixed accumulating of empty persons after each load when user profile is not filled
+* Fixed application crash when pasting new instance of element in diagram which already contains this element and doing some action
+* Fixed some typo errors
+
+
+Version 5.01 (Release date: 2012-02-10) -------------------
++ Added new template commands: Equals, IsStartRoleAssociationType, IsEndRoleAssociationType, StartRoleElementId, EndRoleElementId
++ Added types of glossary item
+* Added missing icons for some element types in project tree
+* Added missing diagram types in Start with... section on Start Page
+* Fixed wrong message box with question when clicking on OK button in Source Code Template Editor
+* Fixed conflict with profile of previous version
+* Fixed processing of key shortcut F12 for fullscreen, Escape for exit fullscreen
+* Fixed displaying checked state when Auto Expand In All Direction is active
+* Fixed application crash when showing Element Browser in project with no elements
+* Fixed text in restart request box which show after clicking 'Change Edition' menu item
+* Fixed clearing code editor when select Setting tab  as the first one in Source Code Template Editor
+* Fixed application crash when adding create message from activation bar (sequence diagram)
+* Fixed crash of template evaluator when evaluating iteration without items
+* Fixed rare application crash which could occurs on paint of rulers
+* Fixed application crash when inserting forked conversation link using drag&drop
+
+
+Version 5.00 (Release date: 2012-02-06) -------------------
+@ Professional Edition:
++ Added BPMN diagrams
+	+ Conversation diagram
+	+ Collaboration diagram
+	+ Choreography diagram	
++ Added JSD diagrams
+	+ Entity structure diagram
+	+ Network diagram
++ Added Entity Life History diagram
++ Added Hierarchical Task Analysis diagram
++ Added Gane & Sarson notation for DFD
++ Added new UML elements:
+	+ Activity Loop Node
+	+ Activity Conditional Node
+	+ Connector
+	+ Gate
+	+ Boundary, Control and Entity lifelines
+	+ ForkJoin element was split to Fork and Join
+	+ Merge
++ Added other new elements:
+	+ Art text
++ Source Code parsing into model/diagrams
+	+ C# parser
+	+ VB.NET parser
+	+ Java parser	
++ Support for multiple templates per programming language
++ Advanced selectors for parts of source code template
++ Smart keys
+	+ Added shortcut keys for tools
++ Source Code Parser in side bar - identifies inserted code and generates diagram elements
++ Project documents
+	+ Export to HTML	
+	+ Export to ODT	
+	+ Export to PDF	
+	+ Export to RTF	
+	+ Export to TXT
++ Improved database importing
+	+ Import tables from MySQL
+	+ Import tables from any data source using OLE DB	
++ Support for reverse engineering of .NET 4 assemblies
++ Improved reverse engineering (recognizes abstract, virtal and static methods)
++ Several levels of element repositories which define the visibility of element in the project (project repository - present in previous versions, model repository, diagram repository)
++ Improved Element Browser
+	+ Shows related elements	
+	+ Shows diagram on which the selected element is present 
+	+ Shows associated diagrams
+	+ Name filter
++ Added operation body with source code (multiple languages supported)
++ Name of activity parameter is turned into label
++ Diagram size settings 
+	+ Expand in all directions
+	+ Expand right down
+	+ Fixed sizes (A4, A3, letter, legal, ...)
+	+ Multiple pages of chosen size
+	+ Custom size
++ Show/hide paper borders
++ Rotation of elements
++ Improved automatic refreshing of project tree
++ Elements can be precisely moved in vertical and horizontal direction when CTRL is pressed during moving
++ Diagram will be not open when you drag an element in the project tree
++ User Profiles - First Name, Last Name, Initials, E-mail
++ Displaying creator of element
++ Items in project tree can be reordered using mouse
++ Project tree can be ordered in various ways:
+	+ Custom order
+	+ Order by name 	
+	+ Order by creation date
+	+ Order by type
++ Splittable diagram editor
++ Information about selection in the status bar
+	+ Coordinates can be displayed in one of 4 units (pixels, millimeters, centimeters, inches)
++ Rulers in diagram editor
++ New context bar buttons:
+	+ Change border color
+	+ Change background color
+	+ Change second background color
+	+ Change border width
++ Added context menu for toolbox  (allows collapse/expand the group, change the style of icons)
++ Icons in toolbox can be displayed without names
++ Dialog with Paste options
++ Items can be pasted as instances of existing model item, which will be connected with
++ Renaming of diagrams and models using double-click on tab
++ Added Associated Diagrams tab in Item Properties dialog
++ Items can be deleted using DELETE key in Project tree
++ Menu shortcut keys editor 
++ Project can be saved into multiple files
++ Added keys for adjusting view 
+	+ Small move - Left/Right/Up/Down
+	+ Large move - SHIFT + Left/Right/Up/Down
+	+ Page move - Page Up, Page Down
++ Cancel selection with ESCAPE key	
++ Custom filters
++ Management of custom filters (global/project filters)
++ Filter by author of element
++ Added Diagram Properties item into the context menu for diagram
++ Added Style tab in Diagram Properties dialog (diagram background can be set)
++ Multiselection in project tree can be clear using ESCAPE key
++ Elements can be drawn in any direction not only from left top to right bottom
++ Multiplicity of association role can be chosen from drop down list
++ Tab pages in sidebar can be closed (using middle mouse button or from menu View/Sidebars/)
++ Border width of comment connector can be changed
++ Improved style of menus
++ New souce code template commands:
+	+ Bounds commands (DElement.X, DElement.Y, DElement.Width, DElement.Height)	
++ Associated diagrams are displayed without their content in the project tree (makes work with bigger project much more faster)
++ Project filename is displayed in title bar of main window
++ Names of state regions are displayed
++ Lifeline stops automatically after destroy
++ Class attribute supports multiplicity
++ Class attribute supports ordering
++ Elements can be moved to another layer using context menu
++ New style option: Padding
++ Lifelines in Communication Diagram supports active and multi-object parameter
++ Some message boxes with question can be set to not show again
++ Rendering quality setting is persistent
++ Added shortcut key (/) for 100% zoom
++ New grid in ERD entity editor (Properties Dialog)
++ Background colors, border colors and line width can be set from context bar for multiple elements at once
++ Start and end role group boxes in properties dialog for association contain the name of element, to which they refer
++ Updated icons and added more icons, different icons for Add Attribute, Add Operation, Add SubClass and Add SuperClass
++ Added Pan tool
++ Author of project, model and diagram is automatically filled by application settings
++ Added new properties to model: Author, Version, Creation Date
++ Changed localization file format from custom format to standard .resx format
+* Fixed tab order in diagram properties window
+* Project tree is automatically updated after dropping item from toolbox
+* Fixed incorrect change of position of activity parameter when is on bottom of activity and the activity is resized
+
+@ Ultimate Edition:
++ Templates for project documents
++ Aliases - sets of alternative names
++ Graphics library
++ Graphics editor
++ Added Shape tab into side bar
++ Custom graphics can be added for stereotypes
++ Cooperation panel
++ Cooperation tab in Properties dialog for each element
+	+ Creator of element
+	+ Participants
+	+ User comments
++ Project comparison
+	+ Exact comparison
+	+ Comparison by name
+	+ Comparison by custom ID
++ Project glossary
++ Template editor for generated source code
+	+ Visual template editor
+	+ Text template editor
+	+ Preview of generated code
+
+
+Version 4.104 (Release date: 2012-02-06) ------------------
+* Fixed updating of styles panel after opening style set
+* Fixed saving of last change of edited style in style set editor
+* Fixed saving of style class for drawing items
+* Fixed saving of name for drawing items
+* Fixed rendering transition line with curve style
+
+
+Version 4.103 (Release date: 2011-11-15) ------------------
++ Default style uses default system font instead of Arial
+* Fixed application crash when loading special case of sequence diagram
+* Fixed application crash when TAB pressed in diagram with no elements
+* Fixed inserting of actors from project tree into sequence diagram
+* Fixed batch export of images for diagrams with invalid file name characters in name
+* Fixed copying of polygons
+
+
+Version 4.102 (Release date: 2011-10-10) ------------------
++ Added French translation (thanks to Nadir Benyoub and also Gwendal Toullec for some corrections)
++ Changed grid control in Operation editor dialog
+* Fixed adding pin to action
+* Fixed application crash when editing operation parameter (only Linux)
+* Fixed application crash when editing ERD entity attribute (only Linux)
+* Fixed closing Item Properties dialog without confirmation (only Linux)
+* Fixed application crash when loading ERD entity attribute dialog at specific conditions
+* Fixed application crash when adding new diagram at specific conditions
+* Fixed application crash when editing Timing diagram at specific conditions
+
+
+Version 4.101 (Release date: 2011-09-03) ------------------
++ Escape key can be used for exit from fullscreen
+* Fixed application crash when adding Flowchart, Robustness or Timing diagram from New Diagram dialog
+* Fixed application crash when generating very small thumbnail for diagram in tab
+* Fixed moving lines in group
+* Fixed drawing vertical and horizontal lines
+* Fixed displaying of diagram documentation when no element is selected
+* Fixed landscape printing (from File / Print)
+* Fixed allowed nesting of lifelines
+
+
+Version 4.100 (Release date: 2011-08-21) ------------------
++ Improved XMI import (UML:AssociationEnd.participant supported)
++ Name field and ID field are swapped in Properties dialog, Name field is the first one now
++ Added prompt on close of Properties dialog
+* Relation ends are adjusted when dragging is finished and the relation is disconnected
+* Fixed exporting of a single character on a new line in SVG export
+* Fixed moving down and up of attributes of ERD entity after loading a saved project
+* Fixed canceling of an edited value (attribute, operation) when new edit action starts before confirming the previous editing
+* Fixed application crash when clicking on Add TO-DO and no project is open (TO-DO panel is now disabled when no project is open)
+* Label 'Text' was renamed to 'Task' in TO-DO dialog
+* Fixed drawing of line and its resizing
+
+
+Version 4.99 (Release date: 2011-07-18) -------------------
+* Fixed application crash on first startup when no profile is created
+
+
+Version 4.98 (Release date: 2011-07-10) -------------------
++ Allowed to change destination activation bar of sequence message
++ Allowed to change parent lifeline of activation bar
+* Fixed adding/editing of custom types
+* Fixed undo for change of relation end
+* Fixed application crash when try to draw polygon with a single point
+* Fixed source code template for C# class
+
+
+Version 4.97 (Release date: 2011-06-14) -------------------
++ Option for Show/Hide visibility of attributes and operations
++ Improved operation parameters parsing in the Properties window (as separator can be used also semicolon)
++ Improved SVG import - all gradient types supported, better opacity support in gradients
+* Fixed tab order in the Diagram Properties dialog
+* Fixed mnemonic shortcut for Element (it was E as for Edit)
+* Fixed appliction crash when try to scroll treeview without scrollbar on mouse wheel
+* Fixed grid scrolling - now it cannot be scrolled on mouse wheel when there is no scrollbar
+* Fixed problem with duplicating of types in the default type set after reloading project
+* Fixed application crash when updating dates in the recent project list and some file is moved
+* Fixed commands Center Horizontally and Center Vertically (they were swapped)
+
+
+Version 4.96 (Release date: 2011-05-10) -------------------
++ Improved rendering of long sequence messages
++ Small improvements in XMI import and export
+* Fixed application crash at special combination of elements in sequence diagram
+* Fixed rendering of multiobject lifeline
+* Fixed problem with z-order of elements in SVG export
+* Fixed inaccurate clip of right and bottom border of exported SVG image
+* Fixed key shortcut for 'Add Model' - changed to CTRL-M
+* Fixed application crash when sequence action tool is active and double-click is used
+* Fixed moving of sequence actions and relations using arrow keys
+
+
+Version 4.95 (Release date: 2011-04-17) -------------------
++ The path of relation from an element to itself can be edited
++ Improved editing of ERD entities (attribute is in edit mode after inserting; navigation in attributes using arrow keys)
+* Fixed saving changes of fields in Project properties window
+* Fixed precision of value lifeline according to ticks (Timing Diagram)
+* Fixed rendering of gloss effect for value lifeline (Timing Diagram)
+* Fixed rare application crash when performing hit test for relation
+* Small improvements in XMI import and export
+
+
+Version 4.94 (Release date: 2011-04-11) -------------------
+* Fixed binding of visibilities after copying and pasting
+* Fixed inserting recursive and self messages onto an existing activation bar
+* Fixed drawing of Timing frame content after loading a saved project
+* Fixed precision of timeline drawing to be consistent with ticks
+* Fixed disconnected line between component and interface after loading
+* Fixed icon for Realization
+
+
+Version 4.93 (Release date: 2011-03-23) -------------------
+* Fixed application crash after closing window without loading or creating a project
+* Fixed application crash when no e-mail application is associated and click on e-mail address in About dialog 
+* Fixed hidden toolbar on Style tab
+* Fixed missing elements from model after grouping
+* Fixed unconnected relations after pasting a group and ungrouping
+* Better update of user interface after changing the language
+
+
+Version 4.92 (Release date: 2011-03-22) -------------------
++ Added Brazilian Portuguese localization (thanks to Franz E. Arnold)
++ Removed Save button in Project properties window - information changes are automatically applied to project
++ Project file is locked for write after loading to prevent unauthorized writing
++ Added option for disabling shortcuts with CTRL-ALT
++ Added immediate editing of name also after inserting element using double-click
+* Print window is automatically closed after finishing the print 
+* Fixed tab-order in Item Properties window
+* Fixed omitted update of relation points when resizing group of elements
+* Fixed processing of relations with multiple nodes by auto layout
+* Fixed a specific case of application crash when loading project with groups of elements
+* Fixed recognition of project properties change
+* Fixed tooltip text of Expand All button in side bar
+* Fixed inserting comments and constraints using double-click
+
+
+Version 4.91 (Release date: 2011-03-10) -------------------
++ Improved moving of relationship paths (nested elements, multiple selected elements)
++ List of recent projects is ordered by last change date
++ Added displaying of last change date (list of recent projects)
++ File name is displayed instead of full path (list of recent projects)
++ Package tab is enlarged when the name is too long
++ Added context menu for layer control
++ Added Collapse All button in project tree panel
++ Added icon to indicate whether layer is displayed or hidden
++ Auto-update options - Turn off / Notify new version / Full setup / Fast update (for RS and OS)
++ Added new shortcut keys (Export/Image - Ctrl-Shift-B and Export/XMI - Ctrl-Shift-X)
++ Element types in Stereotypes window are ordered by name
++ Added artifact in list of element types (Stereotypes window)
+* Fixed specific case of application crash when loading diagram with polygon element
+* Fixed incorrect calculation of relation bounds after loading which prevented moving of relation texts
+* Fixed application crash when using selection inside container (Alt + Mouse)
+* Fixed applying setting 'Relations always on top' in export
+* Fixed incorrect setting of container bounds after undoing adding to container with inflating
+* Fixed application crash when pasting special combination of elements
+* Fixed Mono specific problem with checking whether directory is available for writing
+
+
+Version 4.90 (Release date: 2011-02-20) -------------------
++ Auto update (for Registred Users [RS] and Official Supporters [OS])
++ Send request form (for RS and OS)
++ Send error report on one click when some exception occurs (for RS and OS)
++ Improved XMI export and import
++ Added Structure element (in Class Diagram)
+* Fixed application crash when renaming diagram and diagram window is closed
+* Fixed application crash when exporting to XMI
+* Fixed problem with loading on Linux
+* Fixed specific case when relations cannot be moved after loading
+
+
+Version 4.88 (Release date: 2011-02-06) -------------------
++ Added setting for default attribute visibility
++ Added setting for default operation visibility
++ Added setting for default displaying of NULL/NOT NULL in ERD entities 
++ Added support for editing documentation of diagram in sidebar documentation editor when no element is selected
++ Added specific default names for all diagrams
++ Added command for showing all layers (Diagram/Layers/Show All)
+* Arrows in communication messages are rendered as filled
+* Fixed direction of arrows in communication messages
+* Fixed updating list of diagrams in Model Overview window after deleting/adding diagram
+* Fixed application crash when copying and pasting relation without its destination element
+* Fixed special case of application crash when adding diagram into the project tree
+* Fixed application crash when trying to delete project from context menu in project tree (this item is disabled for project now)
+* Fixed copying of Communication Messages (in Communication Diagram)
+* Fixed loading of Timing Diagrams
+* Fixed rendering of Duration Constraints
+* Ref Fragment tool changed into Interaction Use (in Sequence diagram)
+* Fixed misspelling (Inseraction Use > Interaction Use)
+* Fixed setting custom return type of operation from Operation Editor dialog
+
+
+Version 4.87 (Release date: 2011-01-30) -------------------
++ Added Dutch translation (thanks to Edwin Huijsing)
++ Tab can be closed using middle button
++ Diagram layers can be renamed
++ Added undo support for renaming in project tree panel
+* Inflate container dialog is not displayed when moving border element
+* Fixed application crash when pasting some elements
+* Fixed refreshing of name in tab header when changing diagram name
+
+
+Version 4.86 (Release date: 2011-01-16) -------------------
++ Added Spanish translation (thanks to Delbert Friesen)
++ Added Frame element
++ Added Interaction element
++ Added Interaction Use element
++ Layers can be reordered
++ Added setting for initial state of project tree (fully expanded, expand models, expand project, collapsed)
++ Added more interaction operators into combo box in Fragment properties dialog (critical, assert, strict, seq, ignore, consider)
++ Better optimized for portable version (settings and profile are saved in the application root directory)
++ User profile is now saved into {UserPath}\AppData\Roaming\DusanRodina\SoftwareIdeasModeler (previous 'Program Files' location needs administrator rights e.g. to add custom stereotypes)
++ Full filename is appended to project name in Recent Projects list of Start Page
++ Lifeline header is automatically inflated when the content is larger
++ Added create sequence action into toolbox and enhanced the layout of sequence diagrams with create sequence actions
++ Improved drawing of activation bars
+* Fixed application crash when zooming out
+* Fixed application crash when pasting relation in the specific state
+* Fixed problem when the same file could be added several times to the list of recent projects
+* Fixed adding of existing diagram when it has elements with internal IDs which already exist in current project
+* Fixed resizing of documentation text box
+* Fixed group moving of sequence actions
+* Fixed remembering of paths for open and save file dialog
+
+
+Version 4.85 (Release date: 2011-01-09) -------------------
++ Attributes from super classes can be added to object
++ Added support for inline editing to relations
++ Added check for output directory in batch export
+* Disabled buttons which cannot be used when no project is loaded
+* Fixed unwanted displaying of dialog for inflating container
+* Fixed rare problem with printing of lines
+* Fixed incorrect offset of grid at specific zoom values
+* Fixed adjusting of view when zooming using zoom bar in statusbar
+* Fixed zoom setting in print preview dialog
+
+
+Version 4.84 (Release date: 2011-01-03) -------------------
++ Added Traditional Chinese localization (thanks to Hueyan Chen)
++ Stereotypes can be reordered
++ Multiple stereotypes can be removed at once
++ Multiple selected elements in the project tree can be added to another diagram
+* Fixed problem with stereotypes in constraints
+* Fixed application crash after pasting group of elements
+* Fixed application crash after pasting element which has associated some relations in original diagram
+* Fixed saving of Snap To Grid setting
+
+
+Version 4.83 (Release date: 2010-12-18) -------------------
++ Very long relations/transitions texts are wrapped
+* Added support for displaying tagged values for these elements: Node, Lifeline, Actor, System Boundary, Package, Collaboration, Signal Receipt, Signal Sending, Expansion Region, Interruptible Activity Region, Action
+* Fixed displaying state name
+* Fixed wrong restriction of Actor lifeline (any element could be added)
+* Fixed applying grid settings when inserting element using double-click or drag and drop
+* Fixed rare crash when resizing rounded element to very small size
+* Fixed some minor rendering problems
+
+
+Version 4.82 (Release date: 2010-12-14) -------------------
++ Added Realization into the Use Case Diagram
++ Added type sets for PostgreSQL and Python (thanks to Dmitry Anchakov)
++ Commands for relations (Reverse, Lock Start Point, Lock End Point, Line Style) can be executed for more selected relations
++ Program ask whether to inflate container (i.e. package) if at least one of elements is not fully contained in container
+* Window with purchase/donation appeal is not displayed for donors
+* Forbidden adding of empty custom stereotype
+* Fixed saving ang loading of custom types
+* Fixed JavaScript source code generation from dialog (Tools > Generate Source Code)
+* Fixed missing response to left and right keys in the text box in the project tree
+* Fixed ignoring of setting 'Relations always on top' in print
+* Fixed ignoring of setting 'Relations always on top' when selecting an element (relations was visible but not selectable)
+* Fixed printing using default printer instead of the chosen one
+* Fixed wrong referencing of removed extension points
+* Fixed application crash during XMI import
+* Fixed problems with incorrect layout of sequence diagram layout after loading
+* Fixed cancel button in dialog for .NET Framework reverse engineering
+* Fixed cropping of shadows in exported image
+* Fixed adding elements into container which are not intersecting with container when multiple elements dragging (now they are not added into container)
+* Fixed incorrect view adjustment after pasting elements from clipboard
+* Fixed incorrect check state displaying of Show Grid menu item
+* (Linux only) Fixed wrong displaying of language choice window - only first item was displayed
+
+
+Version 4.81 (Release date: 2010-12-08) -------------------
++ Added German localization (thanks to F. Braun and C. Rauber)
++ Added support for JavaScript source code generation
++ Added rendering of stimulus and duration constraint (Timing diagram)
++ Bounds of Self messages and Recursive messages can be adjusted
++ Underlined name of lifeline is optional
++ Colon is not displayed after lifeline name when base classifier is not specified
++ Saving of path for batch export
+* Fixed special case of wrong cropping of exported diagram into image
+* Fixed application crash after second editing of events in Properties dialog (Timing diagram)
+
+
+Version 4.80 (Release date: 2010-11-29) -------------------
++ Added new elements into Sequence Diagram:
+	+ Duration Message
+	+ Found Message
+	+ Lost Message
+	+ Coregion
+	+ State Invariant
+	+ Duration Constraint	
++ Added new elements into Activity Diagram:
+	+ Activity Parameter Node
+	+ Expansion Region
+	+ Expansion Node
+	+ Pin
+	+ Exception Handler
++ Added editable rectangular style of line
++ Routing of relation (Arrange>Route Relation)
++ The list of recent files can be cleared (Tools>Options>Recent Projects>Clear Recent Projects list OR File>Recent Projects>Clear this list)
++ Preserving settings after application update
++ Added undo suport for Remove All Custom Styles
++ New relation added into the diagram has the same line style as the last one
+* Fixed moving group of activation bars or messages in sequence diagram
+* Fixed application crash in reverse engineering of database
+* Fixed minor errors in GUI
+
+
+Version 4.72 (Release date: 2010-11-14) -------------------
++ Added file filter in open file dialog for custom presentation image
++ Improved selection tool (when you hold ALT key, selection has the top priority - so you can select nested elements within package)
+* Items in menu File which need an opened project are disabled when no project is loaded
+* Fixed application crash when clicking on Print and no project is loaded
+* Fixed application crash while generating documentation
+* Fixed selection of two tools when Usage tool is selected
+* Fixed critical error of project saving when project is closed, other project is created or opened and then saved
+* Fixed updating of element browser
+* Fixed linking between diagram element and its model
+* Fixed undo for adding existing element to another diagram
+
+
+Version 4.71 (Release date: 2010-11-10) -------------------
++ Added Finnish localization (thanks to Arsi Virta)
+* Fixed application crash after loading of project related to straight style of relations
+
+
+Version 4.70 (Release date: 2010-11-09) -------------------
++ Export to XMI 2.1 (class diagrams, use case diagrams)
++ Added new elements into sequence diagram:
+	+ Actor Lifeline
+	+ Concurrent
+	+ Self Message
+	+ Recursive Message
++ Added support for editing template parameters in Properties dialog
++ Added context menu for ERD entity attributes and template parameters (Rename, Move Down, Move Up, Remove)
++ Added new parameters to lifeline: Multi-object, Active
++ Added support for asynchronous sequence messages
++ Added button Show Dialog in Properties side bar
++ Added check for version of project file (warning will be displayed when you try open file saved in newer version)
+* Added missing localization items
+* Fixed deleting of template parameters
+* Fixed updating model after deleting relation
+* Fixed loading of template parameters
+* Fixed calculation of layout of diagram description
+* Fixed width of table in generated documentation
+* Fixed undo for changes made from Properties side bar
+
+
+Version 4.60 (Release date: 2010-11-02) -------------------
++ Added Usage relationship
++ Added new elements into composite structure diagram:
+	+ Interface
+	+ Required Interface
++ Added new elements into deployment diagram:
+	+ Artifact
+	+ Deploy
+	+ Manifest
+	+ Generalization
+	+ Dependency
++ Added new elements into communication diagram:
+	+ Actor
+	+ Generalization
+	+ Swimlane
+	+ Dependency
++ Added new context bar command Add Interface (for Port)
++ Added support for ports to parts
++ Added support for resizing of ports
++ Added shortcut keys for documentation editor (CTRL-B for Bold, CTRL-I for Italic, CTRL-U for Underline)
++ Added check for current line style in context menu
++ Added real straight style for lines
+* Original straight style renamed to oblique style
+* Improved refresh of thumbnails in tab bar
+* Fixed undo for moving element with nested elements
+* Fixed swapping of pre-condition and post-condition after confirming properties dialog
+* Fixed loading of classifier for lifeline
+* Fixed loading of localization files (Linux only)
+* Small improvement in SVG rendering (Linux only)
+
+
+Version 4.50 (Release date: 2010-10-26) ------------------
++ New print dialog
++ Batch print of multiple diagrams (print of current diagram moved to menu Diagram)
++ Print diagram on multiple pages
++ Added Page Setup dialog
++ Batch export of diagrams to images (export of current diagram moved to menu Diagram)
++ Added second notation for collaboration element
++ Added template parameters for class
++ Displaying extension points in use cases
++ Added support for actions and state invariant in composite states
++ Added new options for showing/hiding:
+	+ Show/hide template parameters (class)
+	+ Show/hide operation parameters (class)
+	+ Show/hide nullability (ERD entity)
+	+ Show/hide extension points (use case)
+	+ Show/hide texts (relations)
++ Added Polish localization (thanks to Bartosz Gołek)
++ Optimized saving of project (creates smaller files)
++ Changed default style of swimlanes
++ Improved rendering of Accept Event Action element
+* Added missing icons for some elements in project tree
+* Fixed deleting of container element with nested elements
+* Fixed multiple occurrence of static stereotype after several edits
+* Fixed choosing wrong text style for rendering of relationship stereotypes
+* Fixed truncated text of stereotype
+* Fixed adding multi-line text into comment element
+* Fixed exiting edit field after pressing up or down key
+* Fixed showing Comment tab in Properties dialog
+* Fixed removing nested models
+* Fixed adding model from context menu when project is selected
+* Fixed loading of text alignment in properties dialog
+
+
+Version 4.15 (Release date: 2010-10-18) ------------------
++ Added context button for adding association class
++ Improved rendering of communication messages (in communication diagram)
++ Improved editing of communication messages (in communication diagram)
++ Added context buttons for communication messages (in communication diagram)
++ Added context buttons for CRC cards
++ Reworked behaviour of z-order for nested elements
+* Updated Czech localization (thanks to Jiří Šafra)
+* New path to temp directory (now is used system temp)
+* When adding model from menu Project, it is added into the project not into the current model
+* Added missing icons for comments and comment connectors in project tree
+* Fixed problem with missing relations nested in containers (after loading project file)
+* Fixed passing through operations using arrow keys
+* Fixed missing of some element types in project tree
+
+
+Version 4.10 (Release date: 2010-10-15) ------------------
++ New supported programming language in code generation: Python
++ Better support for interfaces in code generation
++ Added support for ERD diagrams in code generation
++ Added support for import to new image file formats: BMP, GIF, JPEG and TIFF
++ Added new shortcut keys (Select all of same type, Copy as image, Copy as metafile, Hide comments, Autosize, Merge layers)
+* Fixed problems with preserving z-order
+* Fixed rendering artifacts for nested elements
+* Fixed application crash after clicking delete button in Class Properties dialog
+* Fixed Collapse all nodes (in project tree)
+* Fixed Realization and Dependency tools in some diagrams
+
+
+Version 4.04 (Release date: 2010-10-11) ------------------
++ Added dialog for choosing the language
+* Fixed problem with source code generation after generalization reverse
+* Fixed saving of main window layout when it is minimized
+* Fixed other minor bugs
+
+
+Version 4.03 (Release date: 2010-10-09) ------------------
++ Position of sidebar splitter is saved as relative value
+* Fixed problem with assigning types
+* Fixed specific case of application crash on close
+* Fixed resetting of positions of other windows after closing a window
+* Fixed layout of element after style change
+* Fixed wrong style of relation name
+
+
+Version 4.02 (Release date: 2010-10-07) ------------------
++ In Import Database dialog, tables are ordered by name
+* Error message for unsuccessful attempt to connect to database replaced with user-friendly message
+* Added missing icon for association in project tree
+* Fixed appliction crash after adding relation in ERD diagram
+* Fixed problem with Destroy element misplacing after changing size of lifeline
+* Fixed saving values edited directly in row of TO-DO list (not in dialog)
+* Fixed other minor bugs
+
+
+Version 4.01 (Release date: 2010-10-06) ------------------
++ Added dialog which allows to show more details about project loading error 
+* Fixed application crash after clicking in the empty boolean column of grid
+* Removed redundant <Custom> item from combobox in attribute and operation grid in Properties dialog
+* Fixed the layout of Setting dialog (and other windows) for another DPI settings
+* Fixed loading diagram description
+* Fixed loading of assigned types from file saved in version 3.x
+* Fixed initially disabled Edit button in Class Properties dialog
+* Fixed start page has not tab after opening project (Linux Mono only)
+* Fixed layout of error message window (Linux Mono only)
+
+
+Version 4.00 (Release date: 2010-10-04) ------------------
++ New diagram types:
+	+ UML Timing Diagram
+	+ Flowchart Diagram
+	+ Robustness Diagram
++ Import of classes from .NET assemblies
++ Import of database model
++ Element Browser
++ TO-DOs panel
++ Task Management
++ Easy hiding of comments, relations and collaborations (menu Diagram->Filter)
++ PDF documentation generation
++ Setting dialog for documenation generation
+	+ Setting for documentation title, subtitle, author, company
++ Source code generation:
+	+ Added setting dialog
+	+ Choice of element set for source code generation: whole diagram/selected elements
+	+ Added support for static, abstract and virtual modifiers
+	+ Added support for namespaces
+	+ Added support for imported namespaces
+	+ Added support for documentation in comments 
+	+ New supported programming languages: C++, Java, VB6, PHP, Ruby
++ Partial support for XMI import
+	+ Option for automatic diagram creation from XMI
++ Diagrams can be imported from another project
++ Improved work with types
+	+ Type sets
+	+ Editor of types and type sets
++ Added new diagram elements:
+	+ Accept Time Event Action
+	+ Interruptible Activity Region
+	+ Flow Final
+	+ Action
+	+ Deep History
+	+ Shallow History
+	+ Terminate Node
+	+ Constraint
+	+ Refine (Dependency)
+	+ Access (Dependency)
+	+ Combo Box (UI diagram)
+	+ Grid (UI diagram)
+	+ List Box (UI diagram)
+	+ Progress Bar (UI diagram)	
+	+ Scrollbar (UI diagram)
++ Added regions for concurrent states (new button in the context bar of state)
++ Added documentation for attributes and operations
++ Added support for static attributes and methods
++ Support for namespaces (can be defined for models and diagrams)
++ Improved editing of sequence diagrams
++ Stereotype editor
++ Default names and IDs settings
++ Tabs with diagram thumbnails
++ Resizable tab bar
++ Scrollable tab bar (using right mouse button and moving)
++ Showing thumbnails in tab bar when dragging element over it
++ Diagrams can be moved between models
++ New view of project tree: Diagram Types
++ Added icons for items in All Entities view of project tree
++ Added new context menu items for attributes and operations (Rename, Change type, Visibility, Move up, Move down, Remove)
++ Elements initial state, final state and entry point are resizable
++ Improved selection rendering for more selected elements
++ End of required interface need not be associated
++ Automatic locking (when end point is moved into the center of element) and unlocking (when end point is moved to the border of element) of end points of relation
++ Added automatic inflation of diagram bounds on the left and top edge of diagram
++ Improved generation of default names (program checks whether the new name actually exists)
++ Open diagrams are highlighted in Model Overview
++ Context menu added into the Model Overview allows open or close window with diagram and delete diagram from model
++ The width of lifeline can be changed
++ Classifier can be assigned to lifeline
++ Relation is automatically connected with defined entities after moving from the project tree
++ View of the diagram can be moved by dragging with pressed right mouse button
++ Added undo support for the command 'Create New Diagram'
++ Diagram element can be copied from one diagram to the other using drag and drop
++ Classifier can be setted to lifeline or object element using drag and drop
++ Added menu item (View/Start Page) to show the Start Page
++ Type can be removed from an attribute also in the Properties dialog
++ The order of attributes and operations can be changed using buttons (Move Up, Move Down) in the Properties dialog
++ Added dialog for the image export
++ New options for image export:
+	+ Background colors of exported image
+	+ Size of exported image
+	+ Option for export only active layer
+	+ Option for export all layers including hidden ones
++ Improved color combo - faster displaying, nicer UI, localizable
++ Improved precision of rendering
++ Improved rendering of borders and lines - zoom is applied to them
++ Improved selecting of elements (most apparent for fragment and interaction operand in sequence diagram)
++ New context bar buttons:
+	+ Add Attribute (for ERD entity)
++ ERD diagram can be converted to UML Class diagram
++ Displaying of tagged values in diagram (command Show Tagged Values in Element menu)
++ Field editing (name, attribute, etc.) can be cancelled using ESC key
++ Group and ungroup commands added into the context menu
++ New faster and nicer project tree control 
++ Project tree supports multiple selection (using CTRL, SHIFT)
++ Selection in project tree is applied to elements in diagram and vice versa
++ Added button for showing advanced information
++ Added buttons for auto layouts in the Layout bar
++ Added icons for auto layouts
++ Added new style set Simple Bold
++ Name of the current project is displayed in the window title bar
++ Added menu item Closed Project into the menu File
++ Window position, size and layout are saved when closing and restored when starting
++ New menu Element/Add allows to add attributes and operations (also with shortcut keys)
++ Lots of added shortcut keys for menu items
++ Added shortcut key (F2) for renaming elements in the project tree
++ New shortcuts for diagram window:
+	+ Zoom in (+), zoom out (-)
+	+ Inflate element (CTRL++), deflate element (CTRL+-)
++ Attributes and operations support immediate editing (after adding)
++ Support for custom element images (Element/Presentation/Custom)
++ Smaller steps of wheel zooming in for zoom larger than 100%
++ Mouse cursor position is taken into account during wheel zooming to adjust view position
++ Project properties dialog replaced with MDI child window, which is automatically displayed after creating project
++ New model properties dialog
++ Element groups are displayed in the project tree
++ Project tree can be filtered by element type (entities, relations, comments, groups)
++ Displaying points of selected paths (relations)
++ New dialog window for unhandled errors
++ Option for turn on silent mode for unhandled errors
++ New setting: Display relations always on top
++ New setting: Auto scrolling
++ New context menu item for relation: Add Point
++ Relations can be reversed
++ Support for nested models
++ Showing icon for elements with assigned diagrams
++ Showing icon for elements with multiple usage
++ Dynamic loading of language menu
++ Added search box in standard bar
++ Copy diagram to clipboard as metafile
++ Inserting relations using drag & drop (auto/dialog)
++ Full screen mode
++ Element can be deleted also with associated relations (CTRL+DEL)
++ New style option: Text alignment
++ Added support for default value of operation parameter
++ Added name of model in title of model overview window
++ Thumbnails of diagrams in Model Overview window can be zoomed
++ Added Diagram Overview window for diagram types
++ Asynchronous rendering of diagram thumbnails in Model Overview window
++ Elements are slightly shifted right down after pasting
++ Improved auto size
++ After pressing ENTER next attribute/operation is edited or if it is the last, new one is created
++ Attribute/operation can be deleted by deleting its definition in inline editing field
++ Auto size is applied to element when double-clicking to right bottom sizing grip
+* Added missing undo support for some commands
+* Initial state is replaced with intial node in Activity diagram and Interaction overview diagram (to conform to the UML specification)
+* Final state is replaced with activity final node in activity diagram (to conform to the UML specification)
+* Fixed adding trailing nul symbols at the end of the project file
+* Fixed pasting phantom items from clipboards, when nested items are copied
+* Fixed updating of zoom information when switching between windows with diagrams
+* Fixed PDF rendering
+* Fixed changed date information for diagram
+* Fixed rendering of Signal Receipt element
+* Fixed active buttons on context bar when it is hidden
+* Fixed overflow of element text
+* Stability fixes
+
+
+Version 3.42 (Release date: 2010-09-24) ------------------
+* Fixed problem with loading project file
+* Stability fixes
+
+
+Version 3.41 (Release date: 2010-08-20) ------------------
+* Fixed project file compatibility issue
+
+
+Version 3.40 (Release date: 2010-08-18) ------------------
+* Fixed state actions saving
+* Fixed setting custom type for parameter
+* Fixed drawing role names of relations (last character was missing)
+* Fixed context menu commands 'Delete from Diagram' and 'Delete from Project' for relations
+
+
+Version 3.39 (Release date: 2010-07-27) ------------------
+* Fixed aligning elements to the grid (after inserting a new element)
+* Fixed inserting new elements on existing elements
+* Fixed changing the z-order of elements placed in a container
+
+
+Version 3.38 (Release date: 2010-07-14) ------------------
+* Fixed pasting items from clipboard
+
+
+Version 3.37 (Release date: 2010-07-13) ------------------
+* Linux/Mono: Fixed application crash when displaying menu Project/Add Diagram
+
+
+Version 3.36 (Release date: 2010-07-12) ------------------
+* Fixed copying groups into the clipboard
+* Fixed copying containers with nested elements
+* Fixed incorrect creation of relation in the abstract model (causes problem in generation of generalizations)
+
+
+Version 3.35 (Release date: 2010-07-05) ------------------
+* Fixed loading of project file with undefined style set
+
+
+Version 3.34 (Release date: 2010-07-02) ------------------
+* Fixed saving style class for element
+* Fixed binding of shadow visibility in style editor
+
+
+Version 3.33 (Release date: 2010-06-30) ------------------
+* Fixed loading of custom style names
+* Fixed updating of style list in Style panel after loading project
+
+
+Version 3.32 (Release date: 2010-06-25) ------------------
++ Added Czech localization (thanks to Jiří Šafra)
++ Small improvement in SQL DDL generation
+* Fixed loading state machine diagram as activity diagram
+* Fixed application crash when copying element with associated diagram
+
+
+Version 3.31 (Release date: 2010-06-17) ------------------
+* Fixed removing element from its container after double-click
+* Fixed application crash after choosing File/Export and no diagram window is active
+* Fixed saving default values of attributes
+* Fixed saving stereotypes of attributes and operations
+* Fixed About dialog
+
+
+Version 3.30 (Release date: 2010-06-09) ------------------
+* Fixed application crash when saving a project
+
+
+Version 3.29 (Release date: 2010-05-22) ------------------
+* Fixed removing of associations between diagram and diagram element when deleting diagram from project
+* Fixed loading of project files with associations to deleted diagrams
+
+
+Version 3.28 (Release date: 2010-05-12) ------------------
++ Immediate naming supported by Text element
+* Fixed pasting nested elements
+* Fixed saving ERD entities with undefined type size
+* Fixed moving locked element, when moving more elements together
+* Other minor stability fixes
+
+
+Version 3.27 (Release date: 2010-04-30) ------------------
+* Fixed shortcut keys for undo and select all in textboxes in the main window
+* Fixed loading of project files with user interface diagram
+
+
+Version 3.26 (Release date: 2010-04-25) ------------------
++ Added shortcut key (F2) for renaming
++ Name of edited element is displayed in the title bar of Properties window
+* Fixed application crash when inserting fragment into the empty diagram
+* Fixed deleting of Destroy element (Sequence diagram)
+* Fixed work with clipboard (Copy, Cut, Paste) in Fast editor and in Documentation editor
+* Fixed undo for style change from Style pane
+* Fixed rendering of Communication messages (Communication diagram)
+* Fixed rendering of Extend relation (Use case diagram)
+
+
+Version 3.25 (Release date: 2010-04-20) ------------------
++ Fragment element is sent to the back after its adding
++ Actor's width is no longer fixed
++ View navigates to pasted items
++ Immediately naming supported also for other ways of item creating than drag&drop
++ New context command for the class: Add Interface
+* Added missing tooltips to buttons in the layout bar
+* Fixed renaming via the context menu item 'Rename'
+* Fixed placing items outside the visible area
+* Fixed parameters duplication after editing in the dialog
+
+
+Version 3.24 (Release date: 2010-04-19) ------------------
++ Element name can be edited immediately after insert the element
++ Added Chinese localization (thanks to Naiyin Tan)
+* Fixed loading of text in text element
+* Fixed diagram change date
+* Fixed other minor bugs
+
+
+Version 3.23 (Release date: 2010-04-04) ------------------
+* Fixed project file loading problem
+
+
+Version 3.22 (Release date: 2010-04-02) ------------------
+* Updated localization files
+* Fixed application crash when dropping comment connector on the lifeline
+* Fixed incorrect change of the mouse cursor in the diagram editor
+
+
+Version 3.21 (Release date: 2010-03-28) ------------------
++ New version of Russian localization (thanks to Dmitry Anchakov)
+* Fixed localization-related bugs
+* Fixed refreshing of project tree when pasting items from clipboard
+* Fixed undo action for paste command
+* Fixed hiding of menu items during menu browsing with keys
+
+
+Version 3.20 (Release date: 2010-03-22) ------------------
++ Improved code generation:
+	+ Generation of structures
+	+ Generation of enumeration
+	+ Generation of default values for fields
+	+ Generation of method parameters
++ Better optimized for Mono (Linux)
++ Inline editing of data flow names (DFD) and action messages (Sequence Diagram)
+* Fixed application crash when clicking on deleted item in project tree
+* Fixed incorrect saving of diacritics in PDF export (PDF export uses unicode encoding now)
+* Fixed wrapping of text in PDF and SVG export
+* Fixed displaying of deleted diagram in Model Overview window
+* Fixed setting of maximum value of toolbox scrollbar
+* Fixed application crash when trying to export into the file which is blocked with another process
+
+
+Version 3.12 (Release date: 2010-03-04) ------------------
++ Added Package button into the common group of toolbox (for all UML diagrams)
++ Improved inline editing of attributes and operations - editing enabled also for visibility, stereotypes, types, parameters and default values
+* Fixed application crash when clicking on item in project tree and 'All entities' view is active
+* Fixed application crash when double-clicking in the free space in the diagram window
+* Fixed loading of saved connections between elements and subdiagrams
+* Fixed navigation to nested diagram from the project tree
+* Fixed editing of stereotypes for operations from the dialog window
+
+
+Version 3.11 (Release date: 2010-02-27) ------------------
++ Flat style of zoom buttons in the status bar
++ Menu item 'Generate ERD diagram' renamed and moved to menu 'Diagram/Convert To'
++ Added missing diagram types into the 'Start with...' section
++ Opening a new window for new converted diagram
+* Fixed updating of Fast Editor content when diagram element is changed via dialog, inline editing or context bar
+* Fixed binding and setting documentation of element from the dialog
+* Fixed showing of context bar after double-click
+* Fixed corrupted application layout for non-standard DPIs
+* Fixed saving and loading of class properties ShowAttributes and ShowOperations 
+* Fixed working of tool which is selected when the inline edit box is visible
+* Fixed some not working key shortcuts after inline editing
+* Fixed rendering of text on transparent background for PNG export
+* Stability fixes
+
+
+Version 3.10 (Release date: 2010-02-20) ------------------
++ More types of auto layout: rows, rectangle, circle, cascade, smart
++ More diagrams can be associated to one element
++ Associated diagrams can be removed from element using context menu in the project tree
++ Diagram preview pane added
++ File association for Software Ideas Modeler added
+* Fixes and small improvements in source code generating
+* Missing undo option for auto layout added
+* Fixed application crash caused by double clicking on the free space in toolbox
+* Fixed application crash when no element is selected and trying to generate ERD diagram
+* Fixed saving of window layout settings
+* Fixed adding of associated diagrams
+* Fixed editing of operation parameters in Class properties window
+* Other stability fixes
+
+
+Version 3.00 (Release date: 2010-02-13) ------------------
++ New diagram type: Interaction Overview Diagram
++ New diagram type: Composite Structure Diagram
++ New diagram type: Component Diagram
++ New diagram type: Data Flow Diagram
++ New diagram type: Mixed Diagram
++ Containment relation added
++ N-ary association added (Class Diagram)
++ Entry Point element added (State Machine Diagram)
++ Exit Point element added (State Machine Diagram)
++ Export to new vector format SVG
++ Tagged values
++ Support for layers added to diagrams
++ Importing of diagram tables into the ERD diagram
++ Navigability added to UML relationships
++ Visibility added to UML relationships
++ Improved representation of UML relationship roles
++ Existing diagrams can be assigned to elements
++ Print of diagrams
++ New menu Diagram
++ Option to copy diagram to the clipboard
++ Resizing grips for element added
++ New context bar buttons for attributes and operations adding to class
++ Tab key can be used for selecting of the next element in diagram
++ Moving of elements using arrow keys (also combinations with Shift)
++ Elements can be moved precisely using menu commands for moving (Custom, Left, Right, Down, Up)
++ Elements can be resized precisely using menu commands for resizing (Custom, Inflate, Deflate, Wider, Narrower, Higher, Lower)
++ New tools for faster adding of relations with specific start and end multiplicities in ERD diagrams
++ New '1..n' multiplicity for ERD relations added
++ New curve style of relation line added
++ Improved moving and resizing of relations with more points
++ Improved resizing of group of selected elements
++ Inline editing of relation texts
++ Relation texts can be moved
++ Grouping of elements
++ Icons added for elements in project tree in side bar
++ Expand all button added in the tab Project in side bar
++ Generating of ERD diagrams from UML class diagrams
++ Displaying of button names in the context toolbar
++ Improved positioning of the context toolbar
++ New Edit menu items: Invert Selection and Select All of Same Type
++ Key shortcuts added for some menu items
++ Small improvements in editing of activity diagram
++ Improved calculation of size of the text box for inline editing 
++ Text search in project
++ View is navigated to the selected element when it is selected in the project tree
++ Default value property added to attributes of class
++ Support of abstract and virtual modifiers added to attributes and operations of class
++ Parameters added to operations of class
++ Dialog for class operation editing
++ Trailing colon is hidden when no type is defined for class attribute
++ Improved editing of UML Objects in Fast editor
++ Improved rendering of ERD Entities, UML Objects and actions in State element
++ Inline editing of ERD Entities, UML Objects and States
++ Default values for attributes of ERD Entity
++ Displaying of visibility symbols for UML relationship roles
++ Optimized rendering of thumbnails in model overview
++ Optimized redrawing of the style list in the side bar
++ Opening of project files through command line (or Windows command Open With)
++ Tools can be locked/unlocked (when is tool unlocked, Selection tool is activated after using it)
++ Line of relation is better connected to the border of Use Case, Collaboriation, Decision, Intial State and Final State
++ Link to Online Help added into the Help menu
++ Synchronized zoom control, zoom combobox and zooming using the mouse wheel
++ New icons for diagrams and some new toolbar icons
++ Improved default style set
+* Fixed styling of state name, which was styled as other text
+* Fixed resizing of elements through mouse wheeling - size cannot go into negative numbers now
+* Fixed swapped start and end multiplicities in ERD relations
+* Fixed saving of documentation
+* Fixed incorrect rendering of the grid at zoom other than 100%
+* Fixed saving of visibility of attributes and operations when editing using dialog
+* Fixed application crash which causes a specific undo-redo sequence
+* Other stability fixes
+
+
+Version 2.62 (Release date: 2010-01-28) ------------------
++ Attributes with values can be added to objects with unspecified classifier
+* Fixed duplication of object attributes after multiple editing
+
+
+Version 2.61 (Release date: 2010-01-11) ------------------
+* Fixed overflow error when resizing polygon
+* Fixed strange behaviour of polygon resizing
+* Fixed drawing of gloss effect for polygons when zooming and scrolling
+
+
+Version 2.60 (Release date: 2010-01-06) ------------------
++ Meta data added to diagram
++ New diagram element: Diagram Description
++ Extension point property added to extend relation
++ New shapes: Arrows
++ New dialog Settings
++ New dialog Diagram Properites
++ Improved interaction with selected diagram element - it has the highest priority now
++ Improved resizing of interaction operands in fragment element
++ Checkbox for the abstract modifier added into the element properties window
++ Checkbox for the static modifier added into the element properties window
++ New buttons for editing and deleting styles in the Styles side bar
++ The vertical orientation added for swimlane
++ New style options: name color, name font, stereotype color, stereotype font, shadow radius, shadow color
++ Comment connector is added to the point rather than to the element when Alt key is pressed
++ Inline editing of comment text
++ New style set Elegant
++ Icons added to some items in context menus
++ More precise inserting of new points to line of relation
++ Reordered tabs in item properties window
++ Comment connector line can be edited in the same way as the line of relation
++ Actions in sequence diagrams, comments, fork/join support styling
++ Option to enable/disable the Start Page
++ Option to set vertical and horizontal spacing for grid
++ Option to change background colors of diagram
++ Option to set count of recent projects displaying in menu and on start page
+* Missing localization of some fields added
+* Fixed binding of saved values to combo box in style editor
+* Fixed removing of the style following the default style in Style Set Editor
+* Fixed drawing of interaction operand lines to fulfil the UML specification
+* Fixed application crash when trying to apply the style to the empty set of selected items
+* Fixed application crash when generating documentation
+* Fixed application crash when both points of comment connector are removed from elements
+* Fixed application crash when trying to add the style class with the existing name
+* Fixed copying, cuting, pasting in text boxes
+
+
+Version 2.50 (Release date: 2009-12-19) ------------------
++ New CRC Card Diagram
++ The line of relation can be edited (new points can be added)
++ New side bar Styles
++ Style set editor
++ Properties editor for selected diagram element in the side bar
++ The option for saving of styles of diagram elements
++ Support for style classes which can be applicable to more elements
++ Different default styles can be defined for different types of diagram elements
++ Style editor control is scrollable when does not fit to window
++ Custom styles can be removed from all elements in project with one command
++ New menu Element
++ New options for diagram elements: Show ID, Show Parent Name, Show Stereotypes, Show Attributes, Show Operations
++ Added element modifiers: Private, Protected, Package, Public, Abstract
++ Project Properties window
++ Added meta data to the project: Project Name, Authors, Description
++ Added File Not Found message for the case of opening a nonexistent file
++ The diagram element can be resized on mouse wheeling when is the left mouse button pressed
++ Diagram elements can be moved from the chosen point on mouse wheeling when is the left mouse button pressed
++ The Grid Button on the Standard Bar turns on also snapping to grid
++ The comment can be added at any point of diagram
++ Added the tool for fast renumbering of custom IDs (Tools -> Renumber Element IDs)
++ Actions in sequence diagram can be created between activation bars on the same lifeline
++ All elements of the same type in the diagram can be simply selected double-clicking on one of them
++ New Layout bar
++ Toolbars can be moved (also in the bottom part of window)
++ The position of diagram elements can be locked
++ Item Editor renamed to Fast Editor
++ Tools Object, Signal Send, Signal Receive were added to the tool group for the activity diagram
++ The application remembers the last directory for export
++ Added the new submenu for the menu item Project/Add Diagram
++ Added the new submenu Recent Projects into the menu File
++ Better redrawing of invalidated parts of diagram
++ Added scrollbars for the textboxes in the Generation side bar and in the Fast Editor side bar
++ Added buttons for adding and removing attributes and operations to class in the properties dialog form
++ Added group of all items in the classifier choice dialog form
++ Names are displayed for Signal Sending and Signal Receipt
++ Enabled inline editing of name for Composite State and Component
++ Stereotypes are displayed also for Composite State, Component, Signal Sending and Signal Receipt
+* The diagram element is added to the container when is dropped onto the non-container element which is placed in the container
+* Fixed rendering of elements nested in a container - elements cannot be rendered under the container now
+* Fixed updating of the window title after the name of the diagram is changed
+* Fixed unwanted removing elements from container when moving more elements at once
+* Fixed the special case of the application crash when inserting new elements (generated the same unique ID)
+* Fixed the issue when the same messages were added to the relation in communication diagram after editing messages
+* Fixed expanding of button groups in the toolbox
+* Fixed application crash when the symbol '-' is typed in the Item Editor text box into the new line which is surrounded with lines describing attributes
+* Fixed application crash during PDF export
+* Fixed application crash when the "Add Diagram To Element" dialog canceled
+* Fixed application crash when deleting	a model from the project
+
+
+Version 2.00 (Release date: 2009-12-02) ------------------
++ Diagram can be assigned to diagram element
++ Model Overview window - the window with thumbnails of all diagrams in the model
++ Drawing tools added
++ Package Diagram added
++ Object Diagram added
++ Communication Diagram added
++ Profile Diagram added
++ New element Composite State added
++ New element Object added
++ New element System Boundary added
++ The interaction operator added to the fragment element
++ Interaction operands added to the fragment element
++ Tools for easy creating of standard fragments: opt, alt, loop, ref, sd, par, neg
++ Tools for creating associations: package merge, package import, package use
++ Tool for manual adding of comment connectors
++ New properties added (pre-condition, post-condition and operation) for the transition
++ New properties added (state-invariant, do, entry, exit, custom events) for the state
++ Start Page with common options how to get started
++ Application saves the list of recent projects
++ Inline editing of element properties
++ Optimized speed of redrawing
++ Rendering quality settings: Draft, Normal, Best
++ New style effects - smooth shadow, gloss, 3D gloss
++ New background types - vertical gradient, forward diagonal gradient, backward diagonal gradient
++ New shadow options - shadow offset, shadow style
++ Wrapping of long names of diagram elements
++ More diagram elements support stereotypes displaying (Actor, Activity, Collaboration, Lifeline, Node, Package)
++ Special icons replace generic icons for lots of tools
++ New context tools for use cases (include, extend) and swimlanes (add new swimlane)
++ New splash screen and new icon
+* Fixed application crash when inserting some diagram elements
+* Fixed application crash when trying to remove stereotype from empty list
+* Fixed application crash when generating source code from diagram with generalization
+* Fixed application crash when drawing the package element with very small size
+* Fixed application crash when copying some elements in clipboard
+* Fixed corrupted file error
+* Fixed checking for new version
+* Fixed other minor bugs
+
+
+Version 1.52 (Release date: 2009-10-29) ------------------
++ The close button added to tabs
+* View navigates to the active tab in the tab bar when selecting a diagram in the project tree or creating a new diagram
+* Fixed the special case of application crash when renaming items in the project tree
+* Fixed the case when tabs of deleted diagrams do not close
+
+
+Version 1.51 (Release date: 2009-10-28) ------------------
++ Custom user ID of an element
++ Relation can be defined between two relations and between relation and entity
++ New items into the context menu for diagram element: Delete and Delete from Project
++ New items into the context menu for item in the project tree: Delete from Project
++ New buttons on toolbar of Project side bar: Add Model, Add Diagram
++ Changed the default size of these elements: Signal Receipt, Signal Send
+* Fixed applying styles on some elements
+* Fixed application crash when exporting a special type of diagram to PDF
+* Fixed application crash when trying to edit the documentation of comment connector element
+* Fixed renaming of diagram elements through the project tree
+* Fixed deleting of diagram elements, diagrams and models from project
+* Fixed drawing of perpendicular lines of entity relations
+* Fixed editing of ERD entity using Item Editor
+* Fixed other minor bugs
+
+
+Version 1.50 (Release date: 2009-09-30) ------------------
++ Custom styles of diagram elements
++ Generating SQL DDL
++ Generating VB.NET source code
++ Tabbed window layout
++ New menu: Project
++ Dialog to insert a new diagram
++ New diagram: User interface
++ New diagram: Requirements diagram
++ New diagram: Entity-relationship diagram
++ Element is moved to front when changes its container
++ New button in standard toolbar: Show grid
++ Diagram element documentation
++ Generating of documentation in RTF
++ Zoom controler in the status bar
++ Context menu for the diagram and diagram elements
++ Option for locking start and end point of interconnection lines
++ Export diagrams to WMF
++ Export diagrams to PDF
++ New type of interconnection lines: perpendicular
++ Showing the type of diagram elements in the Project tab in side bar
++ Project tree is refreshed when adding new elements to diagram
++ Entities can be shared between diagrams
++ New view on project structure: All entities
++ Only appropriate toolbars to current diagram are displayed
++ Asking before closing the window with unsaved project
++ Selecting element using CTRL key
++ Check for new version of application
++ Section What's New added in the About dialog
++ New icon of application
++ New splash screen
+* Removed flicker when switching maximized windows
+* Fixed copying/pasting in Item Editor
+* Fixed copying element into the same diagram
+* Fixed application exit when the first window is closed
+* Fixed instability when editing the element using Element Editor
+* Fixed minor bug in refreshing of the selected element at zoom other than 100%
+* Fixed application crash after using functions which are not available at the moment
+
+
+Version 1.00 (Release date: 2009-08-06) ------------------
++ First version	

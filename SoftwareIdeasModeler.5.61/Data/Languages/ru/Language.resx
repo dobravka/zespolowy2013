@@ -1,0 +1,3529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="languageId">
+    <value>ru</value>
+  </metadata>
+  <metadata name="languageName">
+    <value>Russian</value>
+  </metadata>
+  <metadata name="languageLocalName">
+    <value>Русский</value>
+  </metadata>
+  <metadata name="author">
+    <value>Дмитрий Анчаков</value>
+  </metadata>
+  <metadata name="creationDate">
+    <value>11.12.2010</value>
+  </metadata>
+  <metadata name="info">
+    <value>Для версии 4.81 и выше</value>
+  </metadata>
+  <data name="Global.Strings.SimProject" xml:space="preserve">
+    <value>Проект SIM</value>
+  </data>
+  <data name="Global.Strings.AllFiles" xml:space="preserve">
+    <value>Все файлы</value>
+  </data>
+  <data name="Global.Strings.Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Global.Messages.ItemCannotBeAddedToDiagram" xml:space="preserve">
+    <value>Этот элемент не может быть добавлен на диаграмму.</value>
+  </data>
+  <data name="Global.Messages.SaveBeforeExist" xml:space="preserve">
+    <value>Вы хотите сохранить изменения в проекте ('&lt;filename&gt;')?</value>
+  </data>
+  <data name="Global.Messages.NewVersionFound" xml:space="preserve">
+    <value>Новая версия ('&lt;version&gt;') Software Ideas Modeler была найдена. Вы хотите перейти на страницу загрузки новой версии?</value>
+  </data>
+  <data name="Global.Messages.UptodateVersion" xml:space="preserve">
+    <value>Текущая версия ('&lt;version&gt;') - самая новая версия Software Ideas Modeler.</value>
+  </data>
+  <data name="Global.Messages.ProjectFileNotFound" xml:space="preserve">
+    <value>Файл проекта '&lt;?&gt;' не был найден. Возможно он был удален или перемещен.</value>
+  </data>
+  <data name="Global.Messages.NewStyleWarning" xml:space="preserve">
+    <value>Вы действительно хотите сбросить все сделанные изменения в текущем стиле?</value>
+  </data>
+  <data name="Global.Messages.StyleTypeExists" xml:space="preserve">
+    <value>Тип стиля, который вы пытаетесь добавить, уже существует.</value>
+  </data>
+  <data name="Global.Messages.RenumberingWarning" xml:space="preserve">
+    <value>Некоторые элементы не были перенумерованы. Список с исходными номерами может быть пустой.</value>
+  </data>
+  <data name="Global.Messages.DeleteStyle" xml:space="preserve">
+    <value>Вы действительно хотите удалить стиль '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.StyleClassNameExists" xml:space="preserve">
+    <value>Имя класса стиля уже использутся.</value>
+  </data>
+  <data name="Global.Messages.NotAllowedStyleClassName" xml:space="preserve">
+    <value>Имя '&lt;?&gt;' не разрешено для класса стиля.</value>
+  </data>
+  <data name="Global.Messages.SavingError" xml:space="preserve">
+    <value>Файл не может быть сохранен. Проверьте, не используется ли он другой программой.</value>
+  </data>
+  <data name="Global.Messages.DeleteTask" xml:space="preserve">
+    <value>Вы действительно хотите удалить задачу '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.DeleteToDo" xml:space="preserve">
+    <value>Вы действительно хотите удалить пункт ToDo '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.DeletePerson" xml:space="preserve">
+    <value>Вы действительно хотите удалить участника '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.DeleteStereotype" xml:space="preserve">
+    <value>Вы действительно хотите удалить стереотип '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.NoOutputLanguageSelected" xml:space="preserve">
+    <value>Генерация исходного кода не может быть выполнена. Не выбран язык.</value>
+  </data>
+  <data name="Global.Messages.NoOutputDirectorySelected" xml:space="preserve">
+    <value>Генерация исходного кода не может быть выполнена. Не указан выходной каталог.</value>
+  </data>
+  <data name="Global.Messages.EmptyConnectionString" xml:space="preserve">
+    <value>Не указана строка соединения. Определения таблиц не могут быть загружены из базы данных.</value>
+  </data>
+  <data name="Global.Messages.CannotLoadTables" xml:space="preserve">
+    <value>Определения таблиц не могут быть загружены из базы данных. \n\n &lt;?&gt;</value>
+  </data>
+  <data name="Global.Messages.RegisteredCopy" xml:space="preserve">
+    <value>Эта копия Software Ideas Modeler зарегистрирована. Вы можете использовать ее в коммерческих целях. Спасибо за поддержку проекта.</value>
+  </data>
+  <data name="Global.Messages.NewerVersionWarning" xml:space="preserve">
+    <value>Файл проекта был сохранен в более новой версии Software Ideas Modeler. Это может привести к некорректной загрузке. Вы все равно хотите загрузить этот файл?</value>
+  </data>
+  <data name="Global.Messages.ClearRecentProjectList" xml:space="preserve">
+    <value>Вы действительно хотите очистить список Последних проектов?</value>
+  </data>
+  <data name="Global.DiagramNames.UmlClassDiagram" xml:space="preserve">
+    <value>Диаграмма классов</value>
+  </data>
+  <data name="Global.DiagramNames.UmlUseCaseDiagram" xml:space="preserve">
+    <value>Диаграмма вариантов использования</value>
+  </data>
+  <data name="Global.DiagramNames.UmlSequenceDiagram" xml:space="preserve">
+    <value>Диаграмма последовательности</value>
+  </data>
+  <data name="Global.DiagramNames.UmlActivityDiagram" xml:space="preserve">
+    <value>Диаграмма деятельности</value>
+  </data>
+  <data name="Global.DiagramNames.UmlStateMachineDiagram" xml:space="preserve">
+    <value>Диаграмма состояний</value>
+  </data>
+  <data name="Global.DiagramNames.UmlDeploymentDiagram" xml:space="preserve">
+    <value>Диаграмма развертывания</value>
+  </data>
+  <data name="Global.DiagramNames.UmlProfileDiagram" xml:space="preserve">
+    <value>Диаграмма профиля</value>
+  </data>
+  <data name="Global.DiagramNames.UmlObjectDiagram" xml:space="preserve">
+    <value>Диаграмма объектов</value>
+  </data>
+  <data name="Global.DiagramNames.UmlPackageDiagram" xml:space="preserve">
+    <value>Диаграмма пакетов</value>
+  </data>
+  <data name="Global.DiagramNames.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Диаграмма коммуникаций</value>
+  </data>
+  <data name="Global.DiagramNames.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Диаграмма составной структуры</value>
+  </data>
+  <data name="Global.DiagramNames.UmlComponentDiagram" xml:space="preserve">
+    <value>Диаграмма компонентов</value>
+  </data>
+  <data name="Global.DiagramNames.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>Диаграмма обзора взаимодействий</value>
+  </data>
+  <data name="Global.DiagramNames.UmlMixedDiagram" xml:space="preserve">
+    <value>Смешанная диаграмма</value>
+  </data>
+  <data name="Global.DiagramNames.DataFlowDiagram" xml:space="preserve">
+    <value>Диаграмма потока данных</value>
+  </data>
+  <data name="Global.DiagramNames.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Диаграмма отношений сущностей (ER)</value>
+  </data>
+  <data name="Global.DiagramNames.RequirementDiagram" xml:space="preserve">
+    <value>Диаграмма требований</value>
+  </data>
+  <data name="Global.DiagramNames.UserInterfaceDiagram" xml:space="preserve">
+    <value>Интерфейс пользователя</value>
+  </data>
+  <data name="Global.DiagramNames.CrcCardDiagram" xml:space="preserve">
+    <value>Диаграмма CRC-карточки</value>
+  </data>
+  <data name="Global.DiagramNames.FlowchartDiagram" xml:space="preserve">
+    <value>Блок-схема</value>
+  </data>
+  <data name="Global.DiagramNames.RobustnessDiagram" xml:space="preserve">
+    <value>Диаграмма надежности</value>
+  </data>
+  <data name="Global.DiagramNames.UmlTimingDiagram" xml:space="preserve">
+    <value>Временная диаграмма</value>
+  </data>
+  <data name="Global.Buttons.Ok" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="Global.Buttons.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="Global.Buttons.Yes" xml:space="preserve">
+    <value>&amp;Да</value>
+  </data>
+  <data name="Global.Buttons.No" xml:space="preserve">
+    <value>&amp;Нет</value>
+  </data>
+  <data name="Global.Buttons.Add" xml:space="preserve">
+    <value>&amp;Добавить</value>
+  </data>
+  <data name="Global.Buttons.Edit" xml:space="preserve">
+    <value>&amp;Изменить</value>
+  </data>
+  <data name="Global.Buttons.Remove" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="Global.Buttons.SelectAll" xml:space="preserve">
+    <value>&amp;Выбрать всё</value>
+  </data>
+  <data name="Global.Buttons.SelectNone" xml:space="preserve">
+    <value>&amp;Ничего</value>
+  </data>
+  <data name="Global.Buttons.SelectInvert" xml:space="preserve">
+    <value>&amp;Инвертировать</value>
+  </data>
+  <data name="Global.Buttons.MoreColors" xml:space="preserve">
+    <value>Больше цветов...</value>
+  </data>
+  <data name="Global.Buttons.Previous" xml:space="preserve">
+    <value>&lt; &amp;Назад</value>
+  </data>
+  <data name="Global.Buttons.Next" xml:space="preserve">
+    <value>&amp;Далее &gt;</value>
+  </data>
+  <data name="Global.Buttons.Import" xml:space="preserve">
+    <value>&amp;Импорт</value>
+  </data>
+  <data name="Global.Buttons.Delete" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="Global.Buttons.Save" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="MainForm.General.RegisteredCopy" xml:space="preserve">
+    <value>Зарегистированная копия.</value>
+  </data>
+  <data name="MainForm.General.OnlyForNonCommercialUse" xml:space="preserve">
+    <value>ТОЛЬКО НЕКОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ</value>
+  </data>
+  <data name="MainForm.StandardBar.New" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Open" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Save" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Undo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Redo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Cut" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Copy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Paste" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Print" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.PrintPreview" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.ShowGrid" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.ShowAdvancedInfo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Find" xml:space="preserve">
+    <value>Найти:</value>
+  </data>
+  <data name="MainForm.LayoutBar.BackOne" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.ForwardOne" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.SendToBack" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.BringToFront" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutCascade" xml:space="preserve">
+    <value>Расположить каскадом</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutRectangle" xml:space="preserve">
+    <value>Расположить прямоугольником</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutCircle" xml:space="preserve">
+    <value>Расположить по кругу</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutRows" xml:space="preserve">
+    <value>Расположить в линии</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutSmart" xml:space="preserve">
+    <value>Продуманное расположение</value>
+  </data>
+  <data name="MainForm.Menu.File" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="MainForm.Menu.New" xml:space="preserve">
+    <value>&amp;Создать</value>
+  </data>
+  <data name="MainForm.Menu.Open" xml:space="preserve">
+    <value>&amp;Открыть</value>
+  </data>
+  <data name="MainForm.Menu.Save" xml:space="preserve">
+    <value>Со&amp;хранить</value>
+  </data>
+  <data name="MainForm.Menu.SaveAs" xml:space="preserve">
+    <value>Сохранить &amp;как</value>
+  </data>
+  <data name="MainForm.Menu.CloseProject" xml:space="preserve">
+    <value>&amp;Закрыть проект</value>
+  </data>
+  <data name="MainForm.Menu.Print" xml:space="preserve">
+    <value>&amp;Печать</value>
+  </data>
+  <data name="MainForm.Menu.PrintPreview" xml:space="preserve">
+    <value>Предварительный п&amp;росмотр</value>
+  </data>
+  <data name="MainForm.Menu.PrintSetup" xml:space="preserve">
+    <value>Настройка пе&amp;чати</value>
+  </data>
+  <data name="MainForm.Menu.Export" xml:space="preserve">
+    <value>&amp;Экспорт</value>
+  </data>
+  <data name="MainForm.Menu.ExportToImage" xml:space="preserve">
+    <value>&amp;Изображение</value>
+  </data>
+  <data name="MainForm.Menu.ExportToPDF" xml:space="preserve">
+    <value>&amp;PDF</value>
+  </data>
+  <data name="MainForm.Menu.ExportToXMI" xml:space="preserve">
+    <value>&amp;XMI</value>
+  </data>
+  <data name="MainForm.Menu.Import" xml:space="preserve">
+    <value>&amp;Импорт</value>
+  </data>
+  <data name="MainForm.Menu.ImportFromXMI" xml:space="preserve">
+    <value>&amp;XMI</value>
+  </data>
+  <data name="MainForm.Menu.RecentProjects" xml:space="preserve">
+    <value>Пос&amp;ледние проекты</value>
+  </data>
+  <data name="MainForm.Menu.ClearThisList" xml:space="preserve">
+    <value>О&amp;чистить этот список</value>
+  </data>
+  <data name="MainForm.Menu.Exit" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="MainForm.Menu.Edit" xml:space="preserve">
+    <value>&amp;Правка</value>
+  </data>
+  <data name="MainForm.Menu.Undo" xml:space="preserve">
+    <value>&amp;Отменить</value>
+  </data>
+  <data name="MainForm.Menu.Redo" xml:space="preserve">
+    <value>&amp;Повторить</value>
+  </data>
+  <data name="MainForm.Menu.Cut" xml:space="preserve">
+    <value>В&amp;ырезать</value>
+  </data>
+  <data name="MainForm.Menu.Copy" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="MainForm.Menu.Paste" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="MainForm.Menu.Delete" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="MainForm.Menu.DeleteWithRelations" xml:space="preserve">
+    <value>Удалить с О&amp;тношениями</value>
+  </data>
+  <data name="MainForm.Menu.SelectAll" xml:space="preserve">
+    <value>Вы&amp;делить все</value>
+  </data>
+  <data name="MainForm.Menu.SelectAllOfSameType" xml:space="preserve">
+    <value>Выделить вс&amp;е такого типа</value>
+  </data>
+  <data name="MainForm.Menu.InvertSelection" xml:space="preserve">
+    <value>&amp;Инвертировать выделение</value>
+  </data>
+  <data name="MainForm.Menu.Find" xml:space="preserve">
+    <value>&amp;Найти</value>
+  </data>
+  <data name="MainForm.Menu.View" xml:space="preserve">
+    <value>&amp;Вид</value>
+  </data>
+  <data name="MainForm.Menu.StandardBar" xml:space="preserve">
+    <value>&amp;Стандартная панель</value>
+  </data>
+  <data name="MainForm.Menu.StatusBar" xml:space="preserve">
+    <value>С&amp;трока состояния</value>
+  </data>
+  <data name="MainForm.Menu.LayoutBar" xml:space="preserve">
+    <value>Панель &amp;расположения</value>
+  </data>
+  <data name="MainForm.Menu.Toolbox" xml:space="preserve">
+    <value>Панель &amp;инструментов</value>
+  </data>
+  <data name="MainForm.Menu.SideBar" xml:space="preserve">
+    <value>&amp;Боковая панель</value>
+  </data>
+  <data name="MainForm.Menu.DiagramPreview" xml:space="preserve">
+    <value>Предпросмотр &amp;диаграммы</value>
+  </data>
+  <data name="MainForm.Menu.StartPage" xml:space="preserve">
+    <value>Стартовая Стра&amp;ница</value>
+  </data>
+  <data name="MainForm.Menu.ElementBrowser" xml:space="preserve">
+    <value>&amp;Браузер элементов</value>
+  </data>
+  <data name="MainForm.Menu.ShowMultipleUsageOfElement" xml:space="preserve">
+    <value>Показывать &amp;Многоразовые элементы</value>
+  </data>
+  <data name="MainForm.Menu.ShowAssignedDiagrams" xml:space="preserve">
+    <value>Показывать &amp;Назначенные диаграммы</value>
+  </data>
+  <data name="MainForm.Menu.Grid" xml:space="preserve">
+    <value>С&amp;етка</value>
+  </data>
+  <data name="MainForm.Menu.SnapToGrid" xml:space="preserve">
+    <value>Пр&amp;ивязывать к сетке</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQuality" xml:space="preserve">
+    <value>&amp;Качество рендеринга</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityDraft" xml:space="preserve">
+    <value>&amp;Низкое</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityNormal" xml:space="preserve">
+    <value>&amp;Обычное</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityBest" xml:space="preserve">
+    <value>&amp;Высокое</value>
+  </data>
+  <data name="MainForm.Menu.FullScreen" xml:space="preserve">
+    <value>Во весь &amp;экран</value>
+  </data>
+  <data name="MainForm.Menu.Arrange" xml:space="preserve">
+    <value>&amp;Расположение</value>
+  </data>
+  <data name="MainForm.Menu.AutoLayout" xml:space="preserve">
+    <value>&amp;Автоматическое расположение</value>
+  </data>
+  <data name="MainForm.Menu.RouteRelation" xml:space="preserve">
+    <value>&amp;Распределить отношения</value>
+  </data>
+  <data name="MainForm.Menu.CircleLayout" xml:space="preserve">
+    <value>По &amp;кругу</value>
+  </data>
+  <data name="MainForm.Menu.RowLayout" xml:space="preserve">
+    <value>В &amp;линию</value>
+  </data>
+  <data name="MainForm.Menu.SmartLayout" xml:space="preserve">
+    <value>&amp;Продуманно</value>
+  </data>
+  <data name="MainForm.Menu.CascadeLayout" xml:space="preserve">
+    <value>&amp;Каскадом</value>
+  </data>
+  <data name="MainForm.Menu.AutoSize" xml:space="preserve">
+    <value>А&amp;втоматический размер</value>
+  </data>
+  <data name="MainForm.Menu.Alignment" xml:space="preserve">
+    <value>&amp;Выравнивание</value>
+  </data>
+  <data name="MainForm.Menu.MakeSame" xml:space="preserve">
+    <value>Сделать &amp;одинаковыми</value>
+  </data>
+  <data name="MainForm.Menu.Order" xml:space="preserve">
+    <value>&amp;Порядок</value>
+  </data>
+  <data name="MainForm.Menu.Move" xml:space="preserve">
+    <value>Пере&amp;местить</value>
+  </data>
+  <data name="MainForm.Menu.Size" xml:space="preserve">
+    <value>&amp;Размер</value>
+  </data>
+  <data name="MainForm.Menu.HorizontalSpacing" xml:space="preserve">
+    <value>&amp;Горизонтальный интервал</value>
+  </data>
+  <data name="MainForm.Menu.VerticalSpacing" xml:space="preserve">
+    <value>&amp;Вертикальный интервал</value>
+  </data>
+  <data name="MainForm.Menu.SetLocationAndSize" xml:space="preserve">
+    <value>Установить рас&amp;положение и размер</value>
+  </data>
+  <data name="MainForm.Menu.LockItems" xml:space="preserve">
+    <value>За&amp;блокировать элементы</value>
+  </data>
+  <data name="MainForm.Menu.GroupItems" xml:space="preserve">
+    <value>С&amp;группировать элементы</value>
+  </data>
+  <data name="MainForm.Menu.UngroupItems" xml:space="preserve">
+    <value>Ра&amp;згруппировать элементы</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentLeft" xml:space="preserve">
+    <value>С&amp;лева</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentRight" xml:space="preserve">
+    <value>С&amp;права</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentTop" xml:space="preserve">
+    <value>С&amp;верху</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentBottom" xml:space="preserve">
+    <value>С&amp;низу</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentCenterHorizontally" xml:space="preserve">
+    <value>Центрировать по &amp;горизонтали</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentCenterVertically" xml:space="preserve">
+    <value>Центрировать по &amp;вертикали</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentToGrid" xml:space="preserve">
+    <value>По &amp;сетке</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameWidth" xml:space="preserve">
+    <value>&amp;Ширина</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameHeight" xml:space="preserve">
+    <value>&amp;Высота</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameBoth" xml:space="preserve">
+    <value>Ширина &amp;и высота</value>
+  </data>
+  <data name="MainForm.Menu.OrderBringToFront" xml:space="preserve">
+    <value>На &amp;передний план</value>
+  </data>
+  <data name="MainForm.Menu.OrderBringToBack" xml:space="preserve">
+    <value>На &amp;задний план</value>
+  </data>
+  <data name="MainForm.Menu.OrderForwardOne" xml:space="preserve">
+    <value>На уровень &amp;выше</value>
+  </data>
+  <data name="MainForm.Menu.OrderBackOne" xml:space="preserve">
+    <value>На уровень &amp;ниже</value>
+  </data>
+  <data name="MainForm.Menu.MoveCustom" xml:space="preserve">
+    <value>&amp;Настроить</value>
+  </data>
+  <data name="MainForm.Menu.MoveLeft" xml:space="preserve">
+    <value>В&amp;лево</value>
+  </data>
+  <data name="MainForm.Menu.MoveRight" xml:space="preserve">
+    <value>В&amp;право</value>
+  </data>
+  <data name="MainForm.Menu.MoveUp" xml:space="preserve">
+    <value>В&amp;верх</value>
+  </data>
+  <data name="MainForm.Menu.MoveDown" xml:space="preserve">
+    <value>В&amp;низ</value>
+  </data>
+  <data name="MainForm.Menu.SizeCustom" xml:space="preserve">
+    <value>&amp;Настроить</value>
+  </data>
+  <data name="MainForm.Menu.SizeInflate" xml:space="preserve">
+    <value>У&amp;величить</value>
+  </data>
+  <data name="MainForm.Menu.SizeDeflate" xml:space="preserve">
+    <value>У&amp;меншить</value>
+  </data>
+  <data name="MainForm.Menu.SizeWider" xml:space="preserve">
+    <value>&amp;Шире</value>
+  </data>
+  <data name="MainForm.Menu.SizeNarrower" xml:space="preserve">
+    <value>&amp;Уже</value>
+  </data>
+  <data name="MainForm.Menu.SizeHigher" xml:space="preserve">
+    <value>&amp;Выше</value>
+  </data>
+  <data name="MainForm.Menu.SizeLower" xml:space="preserve">
+    <value>&amp;Ниже</value>
+  </data>
+  <data name="MainForm.Menu.Project" xml:space="preserve">
+    <value>&amp;Проект</value>
+  </data>
+  <data name="MainForm.Menu.AddModel" xml:space="preserve">
+    <value>Добавить &amp;модель</value>
+  </data>
+  <data name="MainForm.Menu.AddDiagram" xml:space="preserve">
+    <value>Добавить &amp;диаграмму</value>
+  </data>
+  <data name="MainForm.Menu.AddExistingDiagram" xml:space="preserve">
+    <value>Добавить &amp;существующую диаграмму</value>
+  </data>
+  <data name="MainForm.Menu.Properties" xml:space="preserve">
+    <value>&amp;Свойства проекта</value>
+  </data>
+  <data name="MainForm.Menu.ModelProperties" xml:space="preserve">
+    <value>С&amp;войства модели</value>
+  </data>
+  <data name="MainForm.Menu.StyleSet" xml:space="preserve">
+    <value>&amp;Стиль</value>
+  </data>
+  <data name="MainForm.Menu.LoadStyleSet" xml:space="preserve">
+    <value>&amp;Загрузить</value>
+  </data>
+  <data name="MainForm.Menu.SaveStyleSet" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="MainForm.Menu.EditStyleSet" xml:space="preserve">
+    <value>&amp;Изменить</value>
+  </data>
+  <data name="MainForm.Menu.RemoveAllCustomStyles" xml:space="preserve">
+    <value>&amp;Удалить все пользовательские стили</value>
+  </data>
+  <data name="MainForm.Menu.Tasks" xml:space="preserve">
+    <value>&amp;Задачи</value>
+  </data>
+  <data name="MainForm.Menu.Persons" xml:space="preserve">
+    <value>&amp;Участники</value>
+  </data>
+  <data name="MainForm.Menu.Diagram" xml:space="preserve">
+    <value>&amp;Диаграмма</value>
+  </data>
+  <data name="MainForm.Menu.AddLayer" xml:space="preserve">
+    <value>&amp;Добавить слой</value>
+  </data>
+  <data name="MainForm.Menu.Layers" xml:space="preserve">
+    <value>&amp;Слои</value>
+  </data>
+  <data name="MainForm.Menu.ConvertDiagram" xml:space="preserve">
+    <value>&amp;Преобразовать в</value>
+  </data>
+  <data name="MainForm.Menu.ConvertToERDDiagram" xml:space="preserve">
+    <value>&amp;Диаграмму отношений сущностей (ER)</value>
+  </data>
+  <data name="MainForm.Menu.ConvertToClassDiagram" xml:space="preserve">
+    <value>Диаграмму &amp;классов</value>
+  </data>
+  <data name="MainForm.Menu.DiagramProperties" xml:space="preserve">
+    <value>Свойства &amp;диаграммы</value>
+  </data>
+  <data name="MainForm.Menu.PrintDiagram" xml:space="preserve">
+    <value>&amp;Печать</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagram" xml:space="preserve">
+    <value>&amp;Экспорт</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagramToImage" xml:space="preserve">
+    <value>&amp;Изображение</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagramToPDF" xml:space="preserve">
+    <value>&amp;PDF</value>
+  </data>
+  <data name="MainForm.Menu.CopyToClipboardAsImage" xml:space="preserve">
+    <value>Скопировать в &amp;буфер обмена как изображение</value>
+  </data>
+  <data name="MainForm.Menu.CopyToClipboardAsMetafile" xml:space="preserve">
+    <value>Скопировать в буфер как&amp; Metafile</value>
+  </data>
+  <data name="MainForm.Menu.LayersMerge" xml:space="preserve">
+    <value>&amp;Объединить</value>
+  </data>
+  <data name="MainForm.Menu.LayersShowAll" xml:space="preserve">
+    <value>Показать &amp;все</value>
+  </data>
+  <data name="MainForm.Menu.LayersHide" xml:space="preserve">
+    <value>С&amp;крыть</value>
+  </data>
+  <data name="MainForm.Menu.LayersDelete" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="MainForm.Menu.Filter" xml:space="preserve">
+    <value>&amp;Фильтр</value>
+  </data>
+  <data name="MainForm.Menu.ShowAllElements" xml:space="preserve">
+    <value>Показать все &amp;элементы</value>
+  </data>
+  <data name="MainForm.Menu.HideComments" xml:space="preserve">
+    <value>Скрыть &amp;комментарии</value>
+  </data>
+  <data name="MainForm.Menu.HideRelations" xml:space="preserve">
+    <value>Скрыть &amp;отношения</value>
+  </data>
+  <data name="MainForm.Menu.HideCollaborations" xml:space="preserve">
+    <value>Скрыть &amp;сотрудничества</value>
+  </data>
+  <data name="MainForm.Menu.Element" xml:space="preserve">
+    <value>&amp;Элемент</value>
+  </data>
+  <data name="MainForm.Menu.Add" xml:space="preserve">
+    <value>&amp;Добавить</value>
+  </data>
+  <data name="MainForm.Menu.Stereotype" xml:space="preserve">
+    <value>&amp;Стереотип</value>
+  </data>
+  <data name="MainForm.Menu.Attribute" xml:space="preserve">
+    <value>&amp;Атрибут</value>
+  </data>
+  <data name="MainForm.Menu.Operation" xml:space="preserve">
+    <value>&amp;Метод</value>
+  </data>
+  <data name="MainForm.Menu.TemplateParameter" xml:space="preserve">
+    <value>&amp;Параметр шаблона</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowID" xml:space="preserve">
+    <value>Показать &amp;ID</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowParentName" xml:space="preserve">
+    <value>Показать имя &amp;предка</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowStereotypes" xml:space="preserve">
+    <value>Показать &amp;стереотипы</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowAttributes" xml:space="preserve">
+    <value>Показать &amp;атрибуты</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowOperations" xml:space="preserve">
+    <value>Показать &amp;методы</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowTaggedValues" xml:space="preserve">
+    <value>Показать &amp;помеченные значения</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowTemplateParameters" xml:space="preserve">
+    <value>Показать параметры &amp;шаблона</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowOperationParameters" xml:space="preserve">
+    <value>Показать параметры &amp;методов</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowExtensionPoints" xml:space="preserve">
+    <value>Показать &amp;точки расширения</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowRelationshipTexts" xml:space="preserve">
+    <value>Показать &amp;текст отношений</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowNullability" xml:space="preserve">
+    <value>Показать &amp;значения NULL</value>
+  </data>
+  <data name="MainForm.Menu.ElementModifiers" xml:space="preserve">
+    <value>&amp;Модификаторы</value>
+  </data>
+  <data name="MainForm.Menu.ElementAbstractModifier" xml:space="preserve">
+    <value>&amp;Abstract</value>
+  </data>
+  <data name="MainForm.Menu.ElementPublicModifier" xml:space="preserve">
+    <value>&amp;Public</value>
+  </data>
+  <data name="MainForm.Menu.ElementPackageModifier" xml:space="preserve">
+    <value>&amp;Package</value>
+  </data>
+  <data name="MainForm.Menu.ElementProtectedModifier" xml:space="preserve">
+    <value>&amp;Protected</value>
+  </data>
+  <data name="MainForm.Menu.ElementPrivateModifier" xml:space="preserve">
+    <value>&amp;Private</value>
+  </data>
+  <data name="MainForm.Menu.ElementPresentation" xml:space="preserve">
+    <value>Представление</value>
+  </data>
+  <data name="MainForm.Menu.DefaultPresentation" xml:space="preserve">
+    <value>&amp;Стандартное</value>
+  </data>
+  <data name="MainForm.Menu.CustomPresentation" xml:space="preserve">
+    <value>&amp;Выбрать</value>
+  </data>
+  <data name="MainForm.Menu.ElementStyle" xml:space="preserve">
+    <value>&amp;Стиль</value>
+  </data>
+  <data name="MainForm.Menu.ElementProperties" xml:space="preserve">
+    <value>С&amp;войства</value>
+  </data>
+  <data name="MainForm.Menu.ElementDocumentation" xml:space="preserve">
+    <value>&amp;Документация</value>
+  </data>
+  <data name="MainForm.Menu.ElementTaggedValues" xml:space="preserve">
+    <value>Поме&amp;ченные значения</value>
+  </data>
+  <data name="MainForm.Menu.Tools" xml:space="preserve">
+    <value>&amp;Инструменты</value>
+  </data>
+  <data name="MainForm.Menu.GenerateDocumentation" xml:space="preserve">
+    <value>Сгенерировать &amp;документацию</value>
+  </data>
+  <data name="MainForm.Menu.GenerateSourceCode" xml:space="preserve">
+    <value>Сгенерировать &amp;исходный код</value>
+  </data>
+  <data name="MainForm.Menu.Lists" xml:space="preserve">
+    <value>&amp;Списки</value>
+  </data>
+  <data name="MainForm.Menu.StereotypesList" xml:space="preserve">
+    <value>&amp;Стереотипы</value>
+  </data>
+  <data name="MainForm.Menu.TypesList" xml:space="preserve">
+    <value>&amp;Типы</value>
+  </data>
+  <data name="MainForm.Menu.ElementNames" xml:space="preserve">
+    <value>&amp;Имена и ID элементов</value>
+  </data>
+  <data name="MainForm.Menu.ReverseEngineering" xml:space="preserve">
+    <value>&amp;Reverse Engineering</value>
+  </data>
+  <data name="MainForm.Menu.NetReverseEngineering" xml:space="preserve">
+    <value>.&amp;NET Framework</value>
+  </data>
+  <data name="MainForm.Menu.DatabaseReverseEngineering" xml:space="preserve">
+    <value>&amp;База данных</value>
+  </data>
+  <data name="MainForm.Menu.RenumberElementIDs" xml:space="preserve">
+    <value>Пере&amp;нумеровать ID элементов</value>
+  </data>
+  <data name="MainForm.Menu.ImportDatabaseModel" xml:space="preserve">
+    <value>Импорт &amp;модели базы данных</value>
+  </data>
+  <data name="MainForm.Menu.ImportObjectModel" xml:space="preserve">
+    <value>Импорт модели &amp;объекта</value>
+  </data>
+  <data name="MainForm.Menu.Languages" xml:space="preserve">
+    <value>&amp;Языки</value>
+  </data>
+  <data name="MainForm.Menu.Options" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="MainForm.Menu.Windows" xml:space="preserve">
+    <value>&amp;Окна</value>
+  </data>
+  <data name="MainForm.Menu.Cascade" xml:space="preserve">
+    <value>&amp;Каскадом</value>
+  </data>
+  <data name="MainForm.Menu.TileVertical" xml:space="preserve">
+    <value>С&amp;лева направо</value>
+  </data>
+  <data name="MainForm.Menu.TileHorizontal" xml:space="preserve">
+    <value>С&amp;верху вниз</value>
+  </data>
+  <data name="MainForm.Menu.ArrangeIcons" xml:space="preserve">
+    <value>Упорядочить &amp;значки</value>
+  </data>
+  <data name="MainForm.Menu.CloseAll" xml:space="preserve">
+    <value>&amp;Закрыть все</value>
+  </data>
+  <data name="MainForm.Menu.Help" xml:space="preserve">
+    <value>&amp;Справка</value>
+  </data>
+  <data name="MainForm.Menu.OnlineHelp" xml:space="preserve">
+    <value>Помощь &amp;Online</value>
+  </data>
+  <data name="MainForm.Menu.Donate" xml:space="preserve">
+    <value>&amp;Поддержать проект</value>
+  </data>
+  <data name="MainForm.Menu.ActivateForCommercialUse" xml:space="preserve">
+    <value>&amp;Активировать для коммерческого использования</value>
+  </data>
+  <data name="MainForm.Menu.WhatsNew" xml:space="preserve">
+    <value>Что &amp;нового</value>
+  </data>
+  <data name="MainForm.Menu.CheckForUpdates" xml:space="preserve">
+    <value>Проверить &amp;обновления</value>
+  </data>
+  <data name="MainForm.Menu.About" xml:space="preserve">
+    <value>О &amp;программе Software Ideas Modeler...</value>
+  </data>
+  <data name="MainForm.Menu.WebSite" xml:space="preserve">
+    <value>&amp;Домашняя страница</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.AddModel" xml:space="preserve">
+    <value>Добавить &amp;модель</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.AddDiagram" xml:space="preserve">
+    <value>Добавить &amp;диаграмму</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.NewDiagram" xml:space="preserve">
+    <value>&amp;Создать диаграмму</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.MoveToModel" xml:space="preserve">
+    <value>Пе&amp;реместить в модель</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.Rename" xml:space="preserve">
+    <value>&amp;Переименовать</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.Delete" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.DeleteFromProject" xml:space="preserve">
+    <value>Удалить из &amp;проекта</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlClassDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма классов</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlUseCaseDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма вариантов использования</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlSequenceDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма последовательности</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlActivityDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма деятельности</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlStateMachineDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма состояний</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlDeploymentDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма развертывания</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlProfileDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма профиля</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlObjectDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма объектов</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlPackageDiagram" xml:space="preserve">
+    <value>Диа&amp;грамма пакетов</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Ди&amp;аграмма коммуникаций</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Диаграмма сос&amp;тавной структуры</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlComponentDiagram" xml:space="preserve">
+    <value>Диаграмма ком&amp;понентов</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>Диаграмма &amp;обзора взаимодействий</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlMixedDiagram" xml:space="preserve">
+    <value>Сме&amp;шанная диаграмма</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.DataFlowDiagram" xml:space="preserve">
+    <value>Диаграмма по&amp;тока данных</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Диаграмма &amp;отношений сущностей (ER)</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.RequirementDiagram" xml:space="preserve">
+    <value>Диаграмма &amp;требований</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UserInterface" xml:space="preserve">
+    <value>&amp;Интерфейс пользователя</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.CrcCardDiagram" xml:space="preserve">
+    <value>Диаграмма C&amp;RC-карточки</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.FlowchartDiagram" xml:space="preserve">
+    <value>&amp;Блок-схема</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.RobustnessDiagram" xml:space="preserve">
+    <value>&amp;Диаграмма надежности</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlTimingDiagram" xml:space="preserve">
+    <value>&amp;Временная диаграмма</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.HierarchicalView" xml:space="preserve">
+    <value>Иерархический вид</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.AllEntitiesView" xml:space="preserve">
+    <value>Все сущности</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.DiagramTypesView" xml:space="preserve">
+    <value>Типы диаграмм</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlClassDiagram" xml:space="preserve">
+    <value>Диаграмма классов</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlUseCaseDiagram" xml:space="preserve">
+    <value>Диаграмма вариантов использования</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlSequenceDiagram" xml:space="preserve">
+    <value>Диаграмма последовательности</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlActivityDiagram" xml:space="preserve">
+    <value>Диаграмма деятельности</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlStateMachineDiagram" xml:space="preserve">
+    <value>Диаграмма состояний</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlDeploymentDiagram" xml:space="preserve">
+    <value>Диаграмма развертывания</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlProfileDiagram" xml:space="preserve">
+    <value>Диаграмма профиля</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlObjectDiagram" xml:space="preserve">
+    <value>Диаграмма объектов</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlPackageDiagram" xml:space="preserve">
+    <value>Диаграмма пакетов</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Диаграмма коммуникаций</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Диаграмма составной структуры</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlComponentDiagram" xml:space="preserve">
+    <value>Диаграмма компонентов</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>Диаграмма обзора взаимодействий</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlMixedDiagram" xml:space="preserve">
+    <value>Смешанная диаграмма</value>
+  </data>
+  <data name="MainForm.Toolbox.DataFlowDiagram" xml:space="preserve">
+    <value>Диаграмма потока данных</value>
+  </data>
+  <data name="MainForm.Toolbox.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Диаграмма отношений сущностей (ER)</value>
+  </data>
+  <data name="MainForm.Toolbox.RequirementDiagram" xml:space="preserve">
+    <value>Диаграмма требований</value>
+  </data>
+  <data name="MainForm.Toolbox.UserInterfaceDiagram" xml:space="preserve">
+    <value>Интерфейс пользователя</value>
+  </data>
+  <data name="MainForm.Toolbox.CrcCardDiagram" xml:space="preserve">
+    <value>Диаграмма CRC-карточки</value>
+  </data>
+  <data name="MainForm.Toolbox.FlowchartDiagram" xml:space="preserve">
+    <value>Блок-схема</value>
+  </data>
+  <data name="MainForm.Toolbox.RobustnessDiagram" xml:space="preserve">
+    <value>Диаграмма надежности</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlTimingDiagram" xml:space="preserve">
+    <value>Временная диаграмма</value>
+  </data>
+  <data name="MainForm.Toolbox.Common" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="MainForm.Toolbox.Drawing" xml:space="preserve">
+    <value>Рисование</value>
+  </data>
+  <data name="MainForm.Toolbox.Selection" xml:space="preserve">
+    <value>Выделение</value>
+  </data>
+  <data name="MainForm.Toolbox.Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="MainForm.Toolbox.Comment Connector" xml:space="preserve">
+    <value>Соединитель комментария</value>
+  </data>
+  <data name="MainForm.Toolbox.Diagram Description" xml:space="preserve">
+    <value>Описание диаграммы</value>
+  </data>
+  <data name="MainForm.Toolbox.Line" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="MainForm.Toolbox.Rectangle" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="MainForm.Toolbox.Ellipse" xml:space="preserve">
+    <value>Эллипс</value>
+  </data>
+  <data name="MainForm.Toolbox.Polygon" xml:space="preserve">
+    <value>Многоугольник</value>
+  </data>
+  <data name="MainForm.Toolbox.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="MainForm.Toolbox.Left Arrow" xml:space="preserve">
+    <value>Стрелка влево</value>
+  </data>
+  <data name="MainForm.Toolbox.Right Arrow" xml:space="preserve">
+    <value>Стрелка вправо</value>
+  </data>
+  <data name="MainForm.Toolbox.Up Arrow" xml:space="preserve">
+    <value>Стрелка вверх</value>
+  </data>
+  <data name="MainForm.Toolbox.Down Arrow" xml:space="preserve">
+    <value>Стрелка вниз</value>
+  </data>
+  <data name="MainForm.Toolbox.Package" xml:space="preserve">
+    <value>Пакет</value>
+  </data>
+  <data name="MainForm.Toolbox.Class" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="MainForm.Toolbox.Table" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal" xml:space="preserve">
+    <value>Сигнал</value>
+  </data>
+  <data name="MainForm.Toolbox.Enumeration" xml:space="preserve">
+    <value>Перечисление</value>
+  </data>
+  <data name="MainForm.Toolbox.Interface" xml:space="preserve">
+    <value>Интерфейс</value>
+  </data>
+  <data name="MainForm.Toolbox.Realization" xml:space="preserve">
+    <value>Реализация</value>
+  </data>
+  <data name="MainForm.Toolbox.Association" xml:space="preserve">
+    <value>Ассоциация</value>
+  </data>
+  <data name="MainForm.Toolbox.Unidir. Association" xml:space="preserve">
+    <value>Однонапр. ассоциация</value>
+  </data>
+  <data name="MainForm.Toolbox.Bidir. Association" xml:space="preserve">
+    <value>Двунапр. ассоциация</value>
+  </data>
+  <data name="MainForm.Toolbox.N-ary Association" xml:space="preserve">
+    <value>N-арная ассоциация</value>
+  </data>
+  <data name="MainForm.Toolbox.Composition" xml:space="preserve">
+    <value>Композиция</value>
+  </data>
+  <data name="MainForm.Toolbox.Aggregation" xml:space="preserve">
+    <value>Аггрегация</value>
+  </data>
+  <data name="MainForm.Toolbox.Generalization" xml:space="preserve">
+    <value>Генералиция</value>
+  </data>
+  <data name="MainForm.Toolbox.Dependency" xml:space="preserve">
+    <value>Зависимость</value>
+  </data>
+  <data name="MainForm.Toolbox.Containment" xml:space="preserve">
+    <value>Вмещение</value>
+  </data>
+  <data name="MainForm.Toolbox.Actor" xml:space="preserve">
+    <value>Актер</value>
+  </data>
+  <data name="MainForm.Toolbox.Use Case" xml:space="preserve">
+    <value>Вариант использования</value>
+  </data>
+  <data name="MainForm.Toolbox.Collaboration" xml:space="preserve">
+    <value>Сотрудничество</value>
+  </data>
+  <data name="MainForm.Toolbox.Include" xml:space="preserve">
+    <value>Включение</value>
+  </data>
+  <data name="MainForm.Toolbox.Extend" xml:space="preserve">
+    <value>Расширение</value>
+  </data>
+  <data name="MainForm.Toolbox.System Boundary" xml:space="preserve">
+    <value>Границы системы</value>
+  </data>
+  <data name="MainForm.Toolbox.Lifeline" xml:space="preserve">
+    <value>Линия жизни</value>
+  </data>
+  <data name="MainForm.Toolbox.Interaction Operand" xml:space="preserve">
+    <value>Операнд взаимодействия</value>
+  </data>
+  <data name="MainForm.Toolbox.Activation Bar" xml:space="preserve">
+    <value>Полоса активации</value>
+  </data>
+  <data name="MainForm.Toolbox.Fragment" xml:space="preserve">
+    <value>Фрагмент</value>
+  </data>
+  <data name="MainForm.Toolbox.Call Action" xml:space="preserve">
+    <value>Действие вызова</value>
+  </data>
+  <data name="MainForm.Toolbox.Return Action" xml:space="preserve">
+    <value>Действие возврата</value>
+  </data>
+  <data name="MainForm.Toolbox.Send Action" xml:space="preserve">
+    <value>Действие пересылки</value>
+  </data>
+  <data name="MainForm.Toolbox.Destroy Action" xml:space="preserve">
+    <value>Действие уничтожения</value>
+  </data>
+  <data name="MainForm.Toolbox.Opt Fragment" xml:space="preserve">
+    <value>Фрагмент Opt</value>
+  </data>
+  <data name="MainForm.Toolbox.Alt Fragment" xml:space="preserve">
+    <value>Фрагмент Alt</value>
+  </data>
+  <data name="MainForm.Toolbox.Loop Fragment" xml:space="preserve">
+    <value>Фрагмент Loop</value>
+  </data>
+  <data name="MainForm.Toolbox.Ref Fragment" xml:space="preserve">
+    <value>Фрагмент Ref</value>
+  </data>
+  <data name="MainForm.Toolbox.Sd Fragment" xml:space="preserve">
+    <value>Фрагмент Sd</value>
+  </data>
+  <data name="MainForm.Toolbox.Par Fragment" xml:space="preserve">
+    <value>Фрагмент Par</value>
+  </data>
+  <data name="MainForm.Toolbox.Neg Fragment" xml:space="preserve">
+    <value>Фрагмент Neg</value>
+  </data>
+  <data name="MainForm.Toolbox.Self Message" xml:space="preserve">
+    <value>Сообщение себе</value>
+  </data>
+  <data name="MainForm.Toolbox.Recursive Message" xml:space="preserve">
+    <value>Рекурсивное сообщение</value>
+  </data>
+  <data name="MainForm.Toolbox.Concurrent" xml:space="preserve">
+    <value>Параллельно</value>
+  </data>
+  <data name="MainForm.Toolbox.Message" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="MainForm.Toolbox.Swimlane" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="MainForm.Toolbox.Activity" xml:space="preserve">
+    <value>Активность</value>
+  </data>
+  <data name="MainForm.Toolbox.Object" xml:space="preserve">
+    <value>Объект</value>
+  </data>
+  <data name="MainForm.Toolbox.Initial State" xml:space="preserve">
+    <value>Начальное состояние</value>
+  </data>
+  <data name="MainForm.Toolbox.Final State" xml:space="preserve">
+    <value>Конечное состояние</value>
+  </data>
+  <data name="MainForm.Toolbox.State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="MainForm.Toolbox.Composite State" xml:space="preserve">
+    <value>Составное состояние</value>
+  </data>
+  <data name="MainForm.Toolbox.Fork/Join" xml:space="preserve">
+    <value>Разбиение/Объединение</value>
+  </data>
+  <data name="MainForm.Toolbox.Decision" xml:space="preserve">
+    <value>Решение</value>
+  </data>
+  <data name="MainForm.Toolbox.Transition" xml:space="preserve">
+    <value>Переход</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal Receipt" xml:space="preserve">
+    <value>Прием сигнала</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal Send" xml:space="preserve">
+    <value>Отправка сигнала</value>
+  </data>
+  <data name="MainForm.Toolbox.Entry Point" xml:space="preserve">
+    <value>Точка входа</value>
+  </data>
+  <data name="MainForm.Toolbox.Exit Point" xml:space="preserve">
+    <value>Точка выхода</value>
+  </data>
+  <data name="MainForm.Toolbox.Node" xml:space="preserve">
+    <value>Узел</value>
+  </data>
+  <data name="MainForm.Toolbox.Component" xml:space="preserve">
+    <value>Компонент</value>
+  </data>
+  <data name="MainForm.Toolbox.Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="MainForm.Toolbox.Merge" xml:space="preserve">
+    <value>Объединение</value>
+  </data>
+  <data name="MainForm.Toolbox.Use" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="MainForm.Toolbox.Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="MainForm.Toolbox.Stereotype" xml:space="preserve">
+    <value>Стереотип</value>
+  </data>
+  <data name="MainForm.Toolbox.Meta Class" xml:space="preserve">
+    <value>Meta-класс</value>
+  </data>
+  <data name="MainForm.Toolbox.Apply" xml:space="preserve">
+    <value>Применение</value>
+  </data>
+  <data name="MainForm.Toolbox.Entity" xml:space="preserve">
+    <value>Сущность</value>
+  </data>
+  <data name="MainForm.Toolbox.Relation" xml:space="preserve">
+    <value>Отношение</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 1" xml:space="preserve">
+    <value>1 к 1</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 0..1" xml:space="preserve">
+    <value>1 к 0..1</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 1..n" xml:space="preserve">
+    <value>1 к 1..n</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 0..n" xml:space="preserve">
+    <value>1 к 0..n</value>
+  </data>
+  <data name="MainForm.Toolbox.0..n to 0..n" xml:space="preserve">
+    <value>0..n к 0..n</value>
+  </data>
+  <data name="MainForm.Toolbox.1..n to 1..n" xml:space="preserve">
+    <value>1..n к 1..n</value>
+  </data>
+  <data name="MainForm.Toolbox.Data Store" xml:space="preserve">
+    <value>Хранилище данных</value>
+  </data>
+  <data name="MainForm.Toolbox.Process" xml:space="preserve">
+    <value>Процесс</value>
+  </data>
+  <data name="MainForm.Toolbox.Gate" xml:space="preserve">
+    <value>Шлюз</value>
+  </data>
+  <data name="MainForm.Toolbox.External" xml:space="preserve">
+    <value>Внешний узел</value>
+  </data>
+  <data name="MainForm.Toolbox.Data Flow" xml:space="preserve">
+    <value>Поток данных</value>
+  </data>
+  <data name="MainForm.Toolbox.Requirement" xml:space="preserve">
+    <value>Требование</value>
+  </data>
+  <data name="MainForm.Toolbox.Model" xml:space="preserve">
+    <value>Модель</value>
+  </data>
+  <data name="MainForm.Toolbox.Test Case" xml:space="preserve">
+    <value>Контрольный пример</value>
+  </data>
+  <data name="MainForm.Toolbox.Port" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="MainForm.Toolbox.Part" xml:space="preserve">
+    <value>Часть</value>
+  </data>
+  <data name="MainForm.Toolbox.Required Interface" xml:space="preserve">
+    <value>Требуемый интерфейс</value>
+  </data>
+  <data name="MainForm.Toolbox.Window" xml:space="preserve">
+    <value>Окно</value>
+  </data>
+  <data name="MainForm.Toolbox.Label" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="MainForm.Toolbox.Button" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="MainForm.Toolbox.Check Box" xml:space="preserve">
+    <value>Чекбокс</value>
+  </data>
+  <data name="MainForm.Toolbox.Radio Button" xml:space="preserve">
+    <value>Радио-кнопка</value>
+  </data>
+  <data name="MainForm.Toolbox.Text Box" xml:space="preserve">
+    <value>Текстбокс</value>
+  </data>
+  <data name="MainForm.Toolbox.CRC Card" xml:space="preserve">
+    <value>CRC-карточка</value>
+  </data>
+  <data name="MainForm.SideBars.Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="MainForm.SideBars.FastEditor" xml:space="preserve">
+    <value>Быстрый редактор</value>
+  </data>
+  <data name="MainForm.SideBars.Styles" xml:space="preserve">
+    <value>Стили</value>
+  </data>
+  <data name="MainForm.SideBars.ItemProperties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="MainForm.SideBars.Generation" xml:space="preserve">
+    <value>Генератор</value>
+  </data>
+  <data name="MainForm.SideBars.Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="MainForm.SideBars.Layers" xml:space="preserve">
+    <value>Слои</value>
+  </data>
+  <data name="MainForm.SideBars.Preview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="MainForm.SideBars.ToDo" xml:space="preserve">
+    <value>TO-DO</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewModel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.ExpandAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.Refresh" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlClassDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlUseCaseDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlSequenceDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlActivityDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlStateMachineDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlDeploymentDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlProfileDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlObjectDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlPackageDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCommunicationDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.EntityRelationshipDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.RequirementDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UserInterface" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.CrcCardDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.FlowchartDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.RobustnessDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlTimingDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.Filter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowEntities" xml:space="preserve">
+    <value>Показать сущности</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowRelations" xml:space="preserve">
+    <value>Показать отношения</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowComments" xml:space="preserve">
+    <value>Показать комментарии</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowGroups" xml:space="preserve">
+    <value>Показать группы</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.Generate" xml:space="preserve">
+    <value>&amp;Генерировать</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.GenerateFrom" xml:space="preserve">
+    <value>Генерировать из: </value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.WholeDiagram" xml:space="preserve">
+    <value>Вся &amp;диаграмма</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.SelectedElements" xml:space="preserve">
+    <value>Выбранные &amp;элементы</value>
+  </data>
+  <data name="MainForm.ItemEditorTabPanel.ItemDefinition" xml:space="preserve">
+    <value>&amp;Определение элемента</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.Apply" xml:space="preserve">
+    <value>&amp;Применить</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.NewStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.OpenStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.SaveStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.AddStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.SetStyleAsDefault" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.EditStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.DeleteStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.Properties.ShowDialog" xml:space="preserve">
+    <value>Показать диалог</value>
+  </data>
+  <data name="MainForm.Properties.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="MainForm.Properties.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="MainForm.Properties.Visibility" xml:space="preserve">
+    <value>Видимость:</value>
+  </data>
+  <data name="MainForm.Properties.X" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="MainForm.Properties.Y" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="MainForm.Properties.Width" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="MainForm.Properties.Height" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="EditorForm.Form.FilterWarning" xml:space="preserve">
+    <value>Фильтр активен, некоторые элементы могут быть скрыты</value>
+  </data>
+  <data name="EditorForm.Form.RemoveFilter" xml:space="preserve">
+    <value>&amp;Удалить фильтр</value>
+  </data>
+  <data name="Elements.DiagramDescription.Authors" xml:space="preserve">
+    <value>Автор(ы):</value>
+  </data>
+  <data name="Elements.DiagramDescription.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="Elements.DiagramDescription.DiagramName" xml:space="preserve">
+    <value>Имя диаграммы:</value>
+  </data>
+  <data name="Elements.DiagramDescription.Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="Elements.DiagramDescription.LastChangeDate" xml:space="preserve">
+    <value>Изменена:</value>
+  </data>
+  <data name="Elements.DiagramDescription.ModelName" xml:space="preserve">
+    <value>Модель:</value>
+  </data>
+  <data name="Elements.DiagramDescription.ProjectName" xml:space="preserve">
+    <value>Проект:</value>
+  </data>
+  <data name="LayerControl.Control.AddLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.DeleteLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.ShowHideLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.MergeAllLayers" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ContextBar.Control.AddAttribute" xml:space="preserve">
+    <value>Добавить атрибут</value>
+  </data>
+  <data name="ContextBar.Control.AddOperation" xml:space="preserve">
+    <value>Добавить метод</value>
+  </data>
+  <data name="ContextBar.Control.AddSubClass" xml:space="preserve">
+    <value>Добавить потомка</value>
+  </data>
+  <data name="ContextBar.Control.AddSuperClass" xml:space="preserve">
+    <value>Добавить предка</value>
+  </data>
+  <data name="ContextBar.Control.AddUseCase" xml:space="preserve">
+    <value>Добавить вариант использования</value>
+  </data>
+  <data name="ContextBar.Control.AddSwimlane" xml:space="preserve">
+    <value>Добавить разделитель</value>
+  </data>
+  <data name="ContextBar.Control.AddInterface" xml:space="preserve">
+    <value>Добавить интерфейс</value>
+  </data>
+  <data name="ContextBar.Control.AddState" xml:space="preserve">
+    <value>Добавить состояние</value>
+  </data>
+  <data name="ContextBar.Control.AddValueLifeline" xml:space="preserve">
+    <value>Добавить значение Линии жизни</value>
+  </data>
+  <data name="ContextBar.Control.AddStateLifeline" xml:space="preserve">
+    <value>Добавить состояние Линии жизни</value>
+  </data>
+  <data name="ContextBar.Control.ConvertToValueLifeline" xml:space="preserve">
+    <value>Преобразовать в значение Линии жизни</value>
+  </data>
+  <data name="ContextBar.Control.ConvertToStateLifeline" xml:space="preserve">
+    <value>Преобразовать в состояние Линии жизни</value>
+  </data>
+  <data name="ContextBar.Control.Extend" xml:space="preserve">
+    <value>Расширить</value>
+  </data>
+  <data name="ContextBar.Control.Include" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="ContextBar.Control.AddComment" xml:space="preserve">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="ContextBar.Control.AddSequenceExpression" xml:space="preserve">
+    <value>Добавить выражение последовательности</value>
+  </data>
+  <data name="ContextBar.Control.AddCollaborator" xml:space="preserve">
+    <value>Добавить сотрудника</value>
+  </data>
+  <data name="ContextBar.Control.AddResponsibility" xml:space="preserve">
+    <value>Add Добавить ответственного</value>
+  </data>
+  <data name="ContextBar.Control.AddAssociationClass" xml:space="preserve">
+    <value>Добавить ассоциацию класса</value>
+  </data>
+  <data name="NewDiagramForm.Form.Title" xml:space="preserve">
+    <value>Новая диаграмма</value>
+  </data>
+  <data name="NewDiagramForm.Form.SelectItemLabel" xml:space="preserve">
+    <value>Выберите тип диаграммы для добавления в проект:</value>
+  </data>
+  <data name="NewDiagramForm.Form.NameLabel" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="NewDiagramForm.Form.OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="NewDiagramForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.UMLDiagrams" xml:space="preserve">
+    <value>UML-диаграммы</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.DatabaseModeling" xml:space="preserve">
+    <value>Моделирование баз данных</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.Requirements" xml:space="preserve">
+    <value>Требования</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.Others" xml:space="preserve">
+    <value>Другие</value>
+  </data>
+  <data name="AboutForm.Form.Title" xml:space="preserve">
+    <value>О программе Software Ideas Modeler</value>
+  </data>
+  <data name="AboutForm.Form.AboutTab" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="AboutForm.Form.WhatsNewTab" xml:space="preserve">
+    <value>Что нового</value>
+  </data>
+  <data name="AboutForm.Form.Author" xml:space="preserve">
+    <value>Автор:</value>
+  </data>
+  <data name="AboutForm.Form.Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="AboutForm.Form.Description" xml:space="preserve">
+    <value>Software Ideas Modeler - инструмент моделирования программного обеспечения с использованием UML-диаграмм.</value>
+  </data>
+  <data name="AboutForm.Form.Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="AboutForm.Form.Donation" xml:space="preserve">
+    <value>Если вам нравится программа, поддержите её, нажав на кнопку "donate" и отправте любую сумму денег.</value>
+  </data>
+  <data name="StartPageForm.Form.Title" xml:space="preserve">
+    <value>Стартовая страница</value>
+  </data>
+  <data name="StartPageForm.Form.StartWith" xml:space="preserve">
+    <value>Начните с...</value>
+  </data>
+  <data name="StartPageForm.Form.RecentProjects" xml:space="preserve">
+    <value>Последние проекты</value>
+  </data>
+  <data name="StartPageForm.Form.OpenProject" xml:space="preserve">
+    <value>Открыть проект...</value>
+  </data>
+  <data name="StartPageForm.Form.NewProject" xml:space="preserve">
+    <value>Создать новый проект...</value>
+  </data>
+  <data name="StartPageForm.Form.DonateNow" xml:space="preserve">
+    <value>Поддержать</value>
+  </data>
+  <data name="ModelOverviewForm.Form.Title" xml:space="preserve">
+    <value>Обзор модели</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.Open" xml:space="preserve">
+    <value>&amp;Открыть</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.DeleteDiagram" xml:space="preserve">
+    <value>&amp;Удалить диаграмму</value>
+  </data>
+  <data name="ClassifierForm.Form.Title" xml:space="preserve">
+    <value>Классификаторы</value>
+  </data>
+  <data name="ClassifierForm.Form.Classifiers" xml:space="preserve">
+    <value>Классификаторы:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Title" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.SequenceNumber" xml:space="preserve">
+    <value>Порядковый номер:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Message" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Direction" xml:space="preserve">
+    <value>Направление:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.NormalDirection" xml:space="preserve">
+    <value>Прямое</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.ReverseDirection" xml:space="preserve">
+    <value>Обратное</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Свойства элемента</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Class" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Relationship" xml:space="preserve">
+    <value>Отношения</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TaggedValues" xml:space="preserve">
+    <value>Помеченные значения</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ErdEntity" xml:space="preserve">
+    <value>Сущность</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ErdRelation" xml:space="preserve">
+    <value>Отношение</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlState" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlFragment" xml:space="preserve">
+    <value>Фрагмент</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlObject" xml:space="preserve">
+    <value>Объект</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlLifeline" xml:space="preserve">
+    <value>Линия жизни</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlInteractionOperand" xml:space="preserve">
+    <value>Опреанд взаимодействия</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlCommunicationLifeline" xml:space="preserve">
+    <value>Линия жизни</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlCommunicationMessage" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlTransition" xml:space="preserve">
+    <value>Переход</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlExtend" xml:space="preserve">
+    <value>Расширение</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlSwimlane" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.SequenceMessage" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TemplateParameters" xml:space="preserve">
+    <value>Параметры шаблона</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingTickMarkValues" xml:space="preserve">
+    <value>Значения разделителей</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingStates" xml:space="preserve">
+    <value>Состояния</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingEvents" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.CrcCardHeader" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.CrcCard" xml:space="preserve">
+    <value>Обязанности</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Stereotypes" xml:space="preserve">
+    <value>&amp;Стереотипы</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AppliedStereotypes" xml:space="preserve">
+    <value>&amp;Примененные стереотипы:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AvailableStereotypes" xml:space="preserve">
+    <value>До&amp;ступные стереотипы:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Add" xml:space="preserve">
+    <value>&lt;&amp;Добавить</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AddCustom" xml:space="preserve">
+    <value>&lt;Созд&amp;ать</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Remove" xml:space="preserve">
+    <value>&amp;Удалить&gt;</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Modifiers" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AbstractModifier" xml:space="preserve">
+    <value>&amp;Abstract</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.StaticModifier" xml:space="preserve">
+    <value>&amp;Static</value>
+  </data>
+  <data name="Style.Control.DefaultStyle" xml:space="preserve">
+    <value>Стандартный стиль</value>
+  </data>
+  <data name="Style.Control.StyleByClass" xml:space="preserve">
+    <value>Стиль по классу:</value>
+  </data>
+  <data name="Style.Control.CustomStyle" xml:space="preserve">
+    <value>Настроить стиль</value>
+  </data>
+  <data name="Style.Control.BorderColor" xml:space="preserve">
+    <value>Цвет границы:</value>
+  </data>
+  <data name="Style.Control.BackgroundType" xml:space="preserve">
+    <value>Тип фона:</value>
+  </data>
+  <data name="Style.Control.BackgroundColor" xml:space="preserve">
+    <value>Цвет фона:</value>
+  </data>
+  <data name="Style.Control.BackgroundColor2" xml:space="preserve">
+    <value>Цвет фона 2:</value>
+  </data>
+  <data name="Style.Control.TextColor" xml:space="preserve">
+    <value>Цвет текста:</value>
+  </data>
+  <data name="Style.Control.TextFont" xml:space="preserve">
+    <value>Шрифт текста:</value>
+  </data>
+  <data name="Style.Control.BorderWidth" xml:space="preserve">
+    <value>Ширина границы:</value>
+  </data>
+  <data name="Style.Control.Gloss" xml:space="preserve">
+    <value>Глянец</value>
+  </data>
+  <data name="Style.Control.Gloss3D" xml:space="preserve">
+    <value>Эффект 3D-глянца</value>
+  </data>
+  <data name="Style.Control.Shadow" xml:space="preserve">
+    <value>Тень:</value>
+  </data>
+  <data name="Style.Control.ShadowOffsetX" xml:space="preserve">
+    <value>Смещение по X:</value>
+  </data>
+  <data name="Style.Control.ShadowOffsetY" xml:space="preserve">
+    <value>Смещение по Y:</value>
+  </data>
+  <data name="Style.Control.ShadowRadius" xml:space="preserve">
+    <value>Радиус:</value>
+  </data>
+  <data name="Style.Control.ShadowColor" xml:space="preserve">
+    <value>Цвет:</value>
+  </data>
+  <data name="Style.Control.NameFont" xml:space="preserve">
+    <value>Шрифт имени:</value>
+  </data>
+  <data name="Style.Control.NameColor" xml:space="preserve">
+    <value>Цвет имени:</value>
+  </data>
+  <data name="Style.Control.StereotypeColor" xml:space="preserve">
+    <value>Цвет стереотипа:</value>
+  </data>
+  <data name="Style.Control.StereotypeFont" xml:space="preserve">
+    <value>Шрифт стереотипа:</value>
+  </data>
+  <data name="Style.Control.Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Style.Control.Stereotype" xml:space="preserve">
+    <value>Стереотип</value>
+  </data>
+  <data name="Style.Control.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Style.Control.Effects" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="Style.Control.Font" xml:space="preserve">
+    <value>Шрифт:</value>
+  </data>
+  <data name="Style.Control.Color" xml:space="preserve">
+    <value>Цвет:</value>
+  </data>
+  <data name="Style.Control.Alignment" xml:space="preserve">
+    <value>Выравнивание:</value>
+  </data>
+  <data name="Documentation.Control.FontSize" xml:space="preserve">
+    <value>Размер шрифта:</value>
+  </data>
+  <data name="Documentation.Control.Bold" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Italic" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Underline" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Strikethrough" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErdRelationDefinition.Control.RelationType" xml:space="preserve">
+    <value>Тип отношения:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.StartMultiplicity" xml:space="preserve">
+    <value>Кратность начала:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.StartRole" xml:space="preserve">
+    <value>Роль начала:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.EndMultiplicity" xml:space="preserve">
+    <value>Кратность конца:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.EndRole" xml:space="preserve">
+    <value>Роль конца:</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Attributes" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.NameColumn" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.TypeColumn" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.TypeSizeColumn" xml:space="preserve">
+    <value>Размер типа</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.NullableColumn" xml:space="preserve">
+    <value>Пустой</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.DescriptionColumn" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="MessageDefinition.Control.Message" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="MessageDefinition.Control.Type" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="MessageDefinition.Control.Asynchronous" xml:space="preserve">
+    <value>Асинхронно</value>
+  </data>
+  <data name="MessageDefinition.Control.Call" xml:space="preserve">
+    <value>Вызов</value>
+  </data>
+  <data name="MessageDefinition.Control.Create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="MessageDefinition.Control.Destroy" xml:space="preserve">
+    <value>Разрушить</value>
+  </data>
+  <data name="MessageDefinition.Control.Return" xml:space="preserve">
+    <value>Вернуть</value>
+  </data>
+  <data name="MessageDefinition.Control.Send" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="MessageDefinition.Control.Terminate" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="CommentDefinition.Control.Comment" xml:space="preserve">
+    <value>Комментарий:</value>
+  </data>
+  <data name="LifelineDefinition.Control.Classifier" xml:space="preserve">
+    <value>Классификатор:</value>
+  </data>
+  <data name="LifelineDefinition.Control.Active" xml:space="preserve">
+    <value>Активность</value>
+  </data>
+  <data name="LifelineDefinition.Control.MultiObject" xml:space="preserve">
+    <value>Multi-объект</value>
+  </data>
+  <data name="CommunicationLifelineDefinition.Control.Classifier" xml:space="preserve">
+    <value>Классификатор:</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Добавить</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Edit" xml:space="preserve">
+    <value>&amp;Изменить</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="FragmentDefinition.Control.InteractionOperator" xml:space="preserve">
+    <value>Оператор взаимодействия:</value>
+  </data>
+  <data name="FragmentDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Добавить</value>
+  </data>
+  <data name="FragmentDefinition.Control.Edit" xml:space="preserve">
+    <value>&amp;Изменить</value>
+  </data>
+  <data name="FragmentDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="InteractionOperandDefinition.Control.GuardCondition" xml:space="preserve">
+    <value>Состояние защиты:</value>
+  </data>
+  <data name="ObjectDefinition.Control.Classifier" xml:space="preserve">
+    <value>Классификатор:</value>
+  </data>
+  <data name="ObjectDefinition.Control.Values" xml:space="preserve">
+    <value>Значения</value>
+  </data>
+  <data name="ObjectDefinition.Control.Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="ObjectDefinition.Control.Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="AddObjectAttributeForm.Form.Title" xml:space="preserve">
+    <value>Добавить атрибуты</value>
+  </data>
+  <data name="AddObjectAttributeForm.Form.Attributes" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Superclass" xml:space="preserve">
+    <value>Родитель:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Subclasses" xml:space="preserve">
+    <value>Потомки:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Subclass" xml:space="preserve">
+    <value>Потомок</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Responsibilities" xml:space="preserve">
+    <value>Обязанности</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Responsibility" xml:space="preserve">
+    <value>Обязанность</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Collaborators" xml:space="preserve">
+    <value>Соавторы</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Collaborator" xml:space="preserve">
+    <value>Соавтор</value>
+  </data>
+  <data name="StateDefinition.Control.StateGroup" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="StateDefinition.Control.StateInvariant" xml:space="preserve">
+    <value>Неизменное:</value>
+  </data>
+  <data name="StateDefinition.Control.StandardActions" xml:space="preserve">
+    <value>Стандартные действия</value>
+  </data>
+  <data name="StateDefinition.Control.Entry" xml:space="preserve">
+    <value>Вход:</value>
+  </data>
+  <data name="StateDefinition.Control.Do" xml:space="preserve">
+    <value>Выполнить:</value>
+  </data>
+  <data name="StateDefinition.Control.Exit" xml:space="preserve">
+    <value>Выход:</value>
+  </data>
+  <data name="StateDefinition.Control.CustomActions" xml:space="preserve">
+    <value>Настроить действия</value>
+  </data>
+  <data name="StateDefinition.Control.ActionName" xml:space="preserve">
+    <value>Имя действия</value>
+  </data>
+  <data name="StateDefinition.Control.Behavior" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="StateDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Добавить</value>
+  </data>
+  <data name="StateDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="TransitionDefinition.Control.PreCondition" xml:space="preserve">
+    <value>Пред-условие:</value>
+  </data>
+  <data name="TransitionDefinition.Control.Operation" xml:space="preserve">
+    <value>Операция:</value>
+  </data>
+  <data name="TransitionDefinition.Control.PostCondition" xml:space="preserve">
+    <value>Пост-условие:</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.NameColumn" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.KindColumn" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.DefaultValueColumn" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Title" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Type" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.TypeSize" xml:space="preserve">
+    <value>Размер типа:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.PrimaryKey" xml:space="preserve">
+    <value>Первичный ключ</value>
+  </data>
+  <data name="ErdAttributeForm.Form.ForeignKey" xml:space="preserve">
+    <value>Внешний ключ</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Nullable" xml:space="preserve">
+    <value>Пустой</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="StereotypeForm.Form.Title" xml:space="preserve">
+    <value>Стереотип</value>
+  </data>
+  <data name="StereotypeForm.Form.OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="StereotypeForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="StereotypeForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Title" xml:space="preserve">
+    <value>Определение класса</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Name" xml:space="preserve">
+    <value>&amp;Имя:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Attributes" xml:space="preserve">
+    <value>&amp;Атрибуты:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Operations" xml:space="preserve">
+    <value>&amp;Методы:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.NameColumn" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.TypeColumn" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.VisibilityColumn" xml:space="preserve">
+    <value>Видимость</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.DefaultValueColumn" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.ParametersColumn" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.RelationType" xml:space="preserve">
+    <value>Тип отношения:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.StartMultiplicity" xml:space="preserve">
+    <value>Кратность начала:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.StartRole" xml:space="preserve">
+    <value>Роль начала:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.EndMultiplicity" xml:space="preserve">
+    <value>Кратность конца:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.EndRole" xml:space="preserve">
+    <value>Роль конца:</value>
+  </data>
+  <data name="ExtendDefinitionControl.Control.ExtensionPoint" xml:space="preserve">
+    <value>Точка расширения:</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.Orientation" xml:space="preserve">
+    <value>Ориентация</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.VerticalOrientation" xml:space="preserve">
+    <value>Вертикально</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.HorizontalOrientation" xml:space="preserve">
+    <value>Горизонтально</value>
+  </data>
+  <data name="DiagramControl.Menu.AssignNewDiagram" xml:space="preserve">
+    <value>Добавить &amp;новую диаграмму</value>
+  </data>
+  <data name="DiagramControl.Menu.AssignExistingDiagram" xml:space="preserve">
+    <value>Добавить &amp;существующую диаграмму</value>
+  </data>
+  <data name="DiagramControl.Menu.Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="DiagramControl.Menu.Properties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="DiagramControl.Menu.AddPoint" xml:space="preserve">
+    <value>&amp;Добавить точку</value>
+  </data>
+  <data name="DiagramControl.Menu.LockStartPoint" xml:space="preserve">
+    <value>Заблокировать начальную точку</value>
+  </data>
+  <data name="DiagramControl.Menu.LockEndPoint" xml:space="preserve">
+    <value>Заблокировать конечную точку</value>
+  </data>
+  <data name="DiagramControl.Menu.LineStyle" xml:space="preserve">
+    <value>Стиль линии</value>
+  </data>
+  <data name="DiagramControl.Menu.StraightLineStyle" xml:space="preserve">
+    <value>Прямая</value>
+  </data>
+  <data name="DiagramControl.Menu.PerpendicularLineStyle" xml:space="preserve">
+    <value>Ломаная</value>
+  </data>
+  <data name="DiagramControl.Menu.CurveLineStyle" xml:space="preserve">
+    <value>Кривая</value>
+  </data>
+  <data name="DiagramControl.Menu.ExportDiagram" xml:space="preserve">
+    <value>Экспорт диаграммы</value>
+  </data>
+  <data name="DiagramControl.Menu.ShowGrid" xml:space="preserve">
+    <value>Показать сетку</value>
+  </data>
+  <data name="DiagramControl.Menu.SnapToGrid" xml:space="preserve">
+    <value>Привязать к сетке</value>
+  </data>
+  <data name="DiagramControl.Menu.DeleteFromDiagram" xml:space="preserve">
+    <value>Удалить из диаграммы</value>
+  </data>
+  <data name="DiagramControl.Menu.DeleteFromProject" xml:space="preserve">
+    <value>Удалить из проекта</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationDeleteFromDiagram" xml:space="preserve">
+    <value>Удалить из диаграммы</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationDeleteFromProject" xml:space="preserve">
+    <value>Удалить из проекта</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationProperties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="DiagramControl.Menu.Reverse" xml:space="preserve">
+    <value>&amp;Обратить</value>
+  </data>
+  <data name="DiagramControl.Menu.RemoveField" xml:space="preserve">
+    <value>&amp;Удалить '{@1}'</value>
+  </data>
+  <data name="DiagramControl.Menu.ChangeType" xml:space="preserve">
+    <value>Изменить &amp;тип</value>
+  </data>
+  <data name="DiagramControl.Menu.Visibility" xml:space="preserve">
+    <value>&amp;Видимость</value>
+  </data>
+  <data name="DiagramControl.Menu.Public" xml:space="preserve">
+    <value>&amp;Public</value>
+  </data>
+  <data name="DiagramControl.Menu.Package" xml:space="preserve">
+    <value>&amp;Пакет</value>
+  </data>
+  <data name="DiagramControl.Menu.Protected" xml:space="preserve">
+    <value>P&amp;rotected</value>
+  </data>
+  <data name="DiagramControl.Menu.Private" xml:space="preserve">
+    <value>Pr&amp;ivate</value>
+  </data>
+  <data name="DiagramControl.Menu.Rename" xml:space="preserve">
+    <value>Пере&amp;именовать</value>
+  </data>
+  <data name="DiagramControl.Menu.MoveUp" xml:space="preserve">
+    <value>Переместить &amp;вверх</value>
+  </data>
+  <data name="DiagramControl.Menu.MoveDown" xml:space="preserve">
+    <value>Переместить в&amp;низ</value>
+  </data>
+  <data name="DiagramControl.Menu.Group" xml:space="preserve">
+    <value>&amp;Сгруппировать</value>
+  </data>
+  <data name="DiagramControl.Menu.Ungroup" xml:space="preserve">
+    <value>&amp;Разгруппировать</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Title" xml:space="preserve">
+    <value>Редактор стиля</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.StyleSetName" xml:space="preserve">
+    <value>Имя стиля:</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.DefaultStyle" xml:space="preserve">
+    <value>Стиль по умолчанию</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.New" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="NewStyleForm.Form.Title" xml:space="preserve">
+    <value>Новый стиль</value>
+  </data>
+  <data name="NewStyleForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="NewStyleForm.Form.ForSpecificElement" xml:space="preserve">
+    <value>Для конкретного элемента</value>
+  </data>
+  <data name="NewStyleForm.Form.StyleClassName" xml:space="preserve">
+    <value>Имя класса стиля:</value>
+  </data>
+  <data name="NewStyleForm.Form.ElementType" xml:space="preserve">
+    <value>Тип элемента:</value>
+  </data>
+  <data name="NewStyleForm.Form.Stereotype" xml:space="preserve">
+    <value>Стереотип:</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Title" xml:space="preserve">
+    <value>Перенумерование ID</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Options" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.OriginalNumbering" xml:space="preserve">
+    <value>Исходная нумерация</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.NewNumbering" xml:space="preserve">
+    <value>Новая нумерация</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.StartNumberingFrom" xml:space="preserve">
+    <value>Начать нумерацию с:</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.OrderByAlphabet" xml:space="preserve">
+    <value>По алфавиту</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.SameWithoutGaps" xml:space="preserve">
+    <value>Удалить пробелы</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="OptionsForm.Form.Title" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="OptionsForm.Form.GeneralTab" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorTab" xml:space="preserve">
+    <value>Редактор диаграмм</value>
+  </data>
+  <data name="OptionsForm.Form.Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="OptionsForm.Form.ShowStartPage" xml:space="preserve">
+    <value>Показать Стартовую страницу</value>
+  </data>
+  <data name="OptionsForm.Form.RecentFiles" xml:space="preserve">
+    <value>Последние файлы</value>
+  </data>
+  <data name="OptionsForm.Form.ClearRecentProjects" xml:space="preserve">
+    <value>&amp;Очистить список Последних проектов</value>
+  </data>
+  <data name="OptionsForm.Form.ItemsInMenu" xml:space="preserve">
+    <value>пунктов в меню</value>
+  </data>
+  <data name="OptionsForm.Form.ItemsInStartPage" xml:space="preserve">
+    <value>пунктов на Стартовой странице</value>
+  </data>
+  <data name="OptionsForm.Form.Toolbars" xml:space="preserve">
+    <value>Панели инструментов</value>
+  </data>
+  <data name="OptionsForm.Form.StandardBar" xml:space="preserve">
+    <value>Стандартная</value>
+  </data>
+  <data name="OptionsForm.Form.SideBar" xml:space="preserve">
+    <value>Боковая панель</value>
+  </data>
+  <data name="OptionsForm.Form.LayoutBar" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="OptionsForm.Form.StatusBar" xml:space="preserve">
+    <value>Строка состояния</value>
+  </data>
+  <data name="OptionsForm.Form.Toolbox" xml:space="preserve">
+    <value>Панель инструментов</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorGeneral" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorBackgroundColor" xml:space="preserve">
+    <value>Цвет фона:</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorBackgroundColor2" xml:space="preserve">
+    <value>Цвет фона 2:</value>
+  </data>
+  <data name="OptionsForm.Form.AutoScrolling" xml:space="preserve">
+    <value>Автопрокрутка</value>
+  </data>
+  <data name="OptionsForm.Form.Grid" xml:space="preserve">
+    <value>Сетка</value>
+  </data>
+  <data name="OptionsForm.Form.SnapToGrid" xml:space="preserve">
+    <value>Привязать к сетке</value>
+  </data>
+  <data name="OptionsForm.Form.ShowGrid" xml:space="preserve">
+    <value>Показать сетку</value>
+  </data>
+  <data name="OptionsForm.Form.GridVerticalSpacing" xml:space="preserve">
+    <value>По вертикали:</value>
+  </data>
+  <data name="OptionsForm.Form.GridHorizontalSpacing" xml:space="preserve">
+    <value>По горизонтали:</value>
+  </data>
+  <data name="OptionsForm.Form.RelationsAlwaysOnTop" xml:space="preserve">
+    <value>Показывать отношения всегда поверх всего</value>
+  </data>
+  <data name="StyleEditorForm.Form.Title" xml:space="preserve">
+    <value>Редактор стиля</value>
+  </data>
+  <data name="StyleEditorForm.Form.NewStyle" xml:space="preserve">
+    <value>Новый стиль</value>
+  </data>
+  <data name="StyleEditorForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Свойства проекта</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Authors" xml:space="preserve">
+    <value>Авторы:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.AddNewDiagram" xml:space="preserve">
+    <value>Добавить новую диаграмму...</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Properties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Свойства диаграммы</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Authors" xml:space="preserve">
+    <value>Авторы:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Created" xml:space="preserve">
+    <value>Создана:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.LastChange" xml:space="preserve">
+    <value>Изменена:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+    <value>Пространство имен:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.Title" xml:space="preserve">
+    <value>Помеченные значения</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.TagName" xml:space="preserve">
+    <value>Имя метки:</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.TaggedValue" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Title" xml:space="preserve">
+    <value>Настройка перемещения</value>
+  </data>
+  <data name="CustomMoveForm.Form.Right" xml:space="preserve">
+    <value>Вправо:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Down" xml:space="preserve">
+    <value>Вниз:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Left" xml:space="preserve">
+    <value>Влево:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Up" xml:space="preserve">
+    <value>Вверх:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Title" xml:space="preserve">
+    <value>Настройка размера</value>
+  </data>
+  <data name="CustomSizeForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="CustomSizeForm.Form.Sides" xml:space="preserve">
+    <value>Стороны</value>
+  </data>
+  <data name="CustomSizeForm.Form.WidthHeight" xml:space="preserve">
+    <value>Ширина/Высота</value>
+  </data>
+  <data name="CustomSizeForm.Form.Inflate" xml:space="preserve">
+    <value>Увеличить:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Deflate" xml:space="preserve">
+    <value>Уменьшить:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Left" xml:space="preserve">
+    <value>Левая:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Right" xml:space="preserve">
+    <value>Правая:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Top" xml:space="preserve">
+    <value>Верх:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Bottom" xml:space="preserve">
+    <value>Низ:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Width" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Height" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="TaggedValueControl.Control.Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="TaggedValueControl.Control.Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Title" xml:space="preserve">
+    <value>Редактор методов</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Parameters" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Type" xml:space="preserve">
+    <value>Тип значения:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Visibility" xml:space="preserve">
+    <value>Видимость:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Modifiers" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Virtual" xml:space="preserve">
+    <value>Virtual</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Static" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.NameColumn" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.TypeColumn" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Title" xml:space="preserve">
+    <value>Редактор атрибутов</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Type" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Visibility" xml:space="preserve">
+    <value>Видимость:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.DefaultValue" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Modifiers" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Virtual" xml:space="preserve">
+    <value>Virtual</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Static" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="FindForm.Form.Title" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="FindForm.Form.Find" xml:space="preserve">
+    <value>&amp;Найти далее</value>
+  </data>
+  <data name="FindForm.Form.FindWhat" xml:space="preserve">
+    <value>Что найти:</value>
+  </data>
+  <data name="ToDoControl.Control.AddToDo" xml:space="preserve">
+    <value>Добавить TO-DO</value>
+  </data>
+  <data name="ToDoControl.Control.EditToDo" xml:space="preserve">
+    <value>Изменить TO-DO</value>
+  </data>
+  <data name="ToDoControl.Control.DeleteToDo" xml:space="preserve">
+    <value>Удалить TO-DO</value>
+  </data>
+  <data name="ToDoControl.Control.Completed" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="ToDoControl.Control.Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="ToDoControl.Control.ToDoText" xml:space="preserve">
+    <value>TO-DO</value>
+  </data>
+  <data name="ToDoControl.Control.EndDate" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="ToDoControl.Control.Created" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Title" xml:space="preserve">
+    <value>Настройки экспорта</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportContent" xml:space="preserve">
+    <value>Содержимое экспорта</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+    <value>Экспортировать только активный слой</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportHiddenLayers" xml:space="preserve">
+    <value>Экспортировать скрытые слои</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Width" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Height" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Transparent" xml:space="preserve">
+    <value>Прозрачный</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Color1" xml:space="preserve">
+    <value>Цвет 1:</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Color2" xml:space="preserve">
+    <value>Цвет 2:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Title" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="TaskEditorForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="TaskEditorForm.Form.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="TaskEditorForm.Form.StartDate" xml:space="preserve">
+    <value>Начало:</value>
+  </data>
+  <data name="TaskEditorForm.Form.EndDate" xml:space="preserve">
+    <value>Окончание:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Priority" xml:space="preserve">
+    <value>Приоритет:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Phase" xml:space="preserve">
+    <value>Фаза:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Progress" xml:space="preserve">
+    <value>Прогресс:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="TaskEditorForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="TaskEditorForm.Form.Persons" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="TaskEditorForm.Form.Lowest" xml:space="preserve">
+    <value>Самый низкий</value>
+  </data>
+  <data name="TaskEditorForm.Form.Low" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="TaskEditorForm.Form.Normal" xml:space="preserve">
+    <value>Нормальный</value>
+  </data>
+  <data name="TaskEditorForm.Form.Hight" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="TaskEditorForm.Form.Highest" xml:space="preserve">
+    <value>Самый высокий</value>
+  </data>
+  <data name="XmiImportResultForm.Form.Title" xml:space="preserve">
+    <value>Результат импорта из XMI</value>
+  </data>
+  <data name="XmiImportResultForm.Form.CreateDiagrams" xml:space="preserve">
+    <value>Создать диаграммы</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Title" xml:space="preserve">
+    <value>Выбор базы данных</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.DataSource" xml:space="preserve">
+    <value>Источник данных:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.ServerName" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Authentication" xml:space="preserve">
+    <value>Аутентификация</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.AuthenticationType" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.UserName" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Password" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.DatabaseName" xml:space="preserve">
+    <value>Имя базы данных:</value>
+  </data>
+  <data name="DatabaseImportForm.Form.Title" xml:space="preserve">
+    <value>Импорт базы данных</value>
+  </data>
+  <data name="DatabaseImportForm.Form.ConnectionString" xml:space="preserve">
+    <value>Строка соединения:</value>
+  </data>
+  <data name="DatabaseImportForm.Form.LoadTables" xml:space="preserve">
+    <value>Загрузить таблицы</value>
+  </data>
+  <data name="DatabaseImportForm.Form.Tables" xml:space="preserve">
+    <value>Таблицы</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Title" xml:space="preserve">
+    <value>Импорт объектной модели</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Assemblies" xml:space="preserve">
+    <value>Сборки</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Namespaces" xml:space="preserve">
+    <value>Пространства/Пакеты</value>
+  </data>
+  <data name="DiagramElementsSelectionForm.Form.Title" xml:space="preserve">
+    <value>Элементы диаграммы</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Title" xml:space="preserve">
+    <value>Генерация исходного кода</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Imports" xml:space="preserve">
+    <value>Импорты</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Language" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.OutputDirectory" xml:space="preserve">
+    <value>Папка вывода:</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Generate" xml:space="preserve">
+    <value>Выполнить</value>
+  </data>
+  <data name="RelationInsertForm.Form.Title" xml:space="preserve">
+    <value>Новое отношение</value>
+  </data>
+  <data name="RelationInsertForm.Form.FromElement" xml:space="preserve">
+    <value>От элемента:</value>
+  </data>
+  <data name="RelationInsertForm.Form.ToElement" xml:space="preserve">
+    <value>К элементу:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.Title" xml:space="preserve">
+    <value>Имена и ID по умолчанию</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DiagramType" xml:space="preserve">
+    <value>Тип диаграммы:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.ElementType" xml:space="preserve">
+    <value>Тип элемента</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DefaultName" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DefaultID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="TypesForm.Form.Title" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="TypesForm.Form.NewTypeSet" xml:space="preserve">
+    <value>&amp;Новый набор типов</value>
+  </data>
+  <data name="TypesForm.Form.ImportTypeSet" xml:space="preserve">
+    <value>&amp;Импорт набора типов</value>
+  </data>
+  <data name="TypesForm.Form.TypeSets" xml:space="preserve">
+    <value>Наборы типов</value>
+  </data>
+  <data name="TypesForm.Form.CustomTypes" xml:space="preserve">
+    <value>Свои типы</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.TypeDefinition" xml:space="preserve">
+    <value>Определение типа</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="TypeSetEditorForm.Form.Title" xml:space="preserve">
+    <value>Редактор набора типов</value>
+  </data>
+  <data name="StereotypesForm.Form.Title" xml:space="preserve">
+    <value>Стереотипы</value>
+  </data>
+  <data name="StereotypesForm.Form.ElementType" xml:space="preserve">
+    <value>Тип элемента:</value>
+  </data>
+  <data name="StereotypesForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="StereotypesForm.Form.AppliesTo" xml:space="preserve">
+    <value>Назначение</value>
+  </data>
+  <data name="StereotypesForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="StereotypesForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="NewTypeSetForm.Form.Title" xml:space="preserve">
+    <value>Новый набор типов</value>
+  </data>
+  <data name="NewTypeSetForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Title" xml:space="preserve">
+    <value>To Do</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Lowest" xml:space="preserve">
+    <value>Самый низкий</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Low" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Normal" xml:space="preserve">
+    <value>Нормальный</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Hight" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Highest" xml:space="preserve">
+    <value>Самый высокий</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Text" xml:space="preserve">
+    <value>Текст:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Priority" xml:space="preserve">
+    <value>Приоритет:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.EndDate" xml:space="preserve">
+    <value>Окончить:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="TaskManagementForm.Form.Title" xml:space="preserve">
+    <value>Управление задачами</value>
+  </data>
+  <data name="TaskManagementForm.Form.ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="TaskManagementForm.Form.Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="TaskManagementForm.Form.Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="TaskManagementForm.Form.Progress" xml:space="preserve">
+    <value>Прогресс</value>
+  </data>
+  <data name="TaskManagementForm.Form.StartDate" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="TaskManagementForm.Form.EndDate" xml:space="preserve">
+    <value>Закончить</value>
+  </data>
+  <data name="TaskManagementForm.Form.Persons" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="TaskManagementForm.Form.AddTask" xml:space="preserve">
+    <value>Добавить задачу</value>
+  </data>
+  <data name="TaskManagementForm.Form.EditTask" xml:space="preserve">
+    <value>Изменить задачу</value>
+  </data>
+  <data name="TaskManagementForm.Form.DeleteTask" xml:space="preserve">
+    <value>Удалить задачу</value>
+  </data>
+  <data name="TaskManagementForm.Form.AssignPerson" xml:space="preserve">
+    <value>Назначить участника</value>
+  </data>
+  <data name="PersonsForm.Form.Title" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="PersonsForm.Form.FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="PersonsForm.Form.LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="PersonsForm.Form.Role" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="PersonsForm.Form.EMail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="PersonsForm.Form.PhoneNumber" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="PersonsForm.Form.AddPerson" xml:space="preserve">
+    <value>Добавить участника</value>
+  </data>
+  <data name="PersonsForm.Form.EditPerson" xml:space="preserve">
+    <value>Изменить участника</value>
+  </data>
+  <data name="PersonsForm.Form.DeletePerson" xml:space="preserve">
+    <value>Удалить участника</value>
+  </data>
+  <data name="PersonEditorForm.Form.Title" xml:space="preserve">
+    <value>Участник</value>
+  </data>
+  <data name="PersonEditorForm.Form.FirstName" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="PersonEditorForm.Form.LastName" xml:space="preserve">
+    <value>Фамилия:</value>
+  </data>
+  <data name="PersonEditorForm.Form.Role" xml:space="preserve">
+    <value>Роль:</value>
+  </data>
+  <data name="PersonEditorForm.Form.EMail" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="PersonEditorForm.Form.PhoneNumber" xml:space="preserve">
+    <value>Телефон:</value>
+  </data>
+  <data name="PersonEditorForm.Form.Description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Свойства модели</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+    <value>Пространство имен:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Title" xml:space="preserve">
+    <value>Сгенерировать документацию</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.HTML" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.RTF" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Texts" xml:space="preserve">
+    <value>Тексты</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.DocumentTitle" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.DocumentSubtitle" xml:space="preserve">
+    <value>Подзаголовок:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Company" xml:space="preserve">
+    <value>Компания:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Authors" xml:space="preserve">
+    <value>Авторы:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.OutputFile" xml:space="preserve">
+    <value>Выходной файл:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Generate" xml:space="preserve">
+    <value>Выполнить</value>
+  </data>
+  <data name="TimingEvents.Control.State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="TimingEvents.Control.Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="TimingEvents.Control.Stimulus" xml:space="preserve">
+    <value>Влияние</value>
+  </data>
+  <data name="TimingEvents.Control.DurationConstraint" xml:space="preserve">
+    <value>Ограничение длительности</value>
+  </data>
+  <data name="TimingTickMarkValues.Control.Position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="TimingTickMarkValues.Control.Label" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="TimingStatesControl.Control.State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Title" xml:space="preserve">
+    <value>Браузер элементов</value>
+  </data>
+  <data name="ElementBrowserForm.Form.OpenDiagram" xml:space="preserve">
+    <value>Открыть диаграмму</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Rename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Properties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ElementBrowserForm.Form.ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ActivationForm.Form.Title" xml:space="preserve">
+    <value>Активация</value>
+  </data>
+  <data name="ActivationForm.Form.Text" xml:space="preserve">
+    <value>Если вы хотите использовать Software Ideas Modeler в коммерческих целях, вы должны зарегистрироваться и оплатить регистрационный взнос.</value>
+  </data>
+  <data name="ActivationForm.Form.Step1" xml:space="preserve">
+    <value>Шаг 1:</value>
+  </data>
+  <data name="ActivationForm.Form.Step2" xml:space="preserve">
+    <value>Шаг 2:</value>
+  </data>
+  <data name="ActivationForm.Form.Step3" xml:space="preserve">
+    <value>Шаг 3:</value>
+  </data>
+  <data name="ActivationForm.Form.Step1Text" xml:space="preserve">
+    <value>Оплатите взнос</value>
+  </data>
+  <data name="ActivationForm.Form.Step2Text" xml:space="preserve">
+    <value>Дождитесь получения ключа активации (будет отправлен вам по e-mail).</value>
+  </data>
+  <data name="ActivationForm.Form.Step3Text" xml:space="preserve">
+    <value>Введите ключ в поле ниже и подтвердите, нажав кнопку Активировать.</value>
+  </data>
+  <data name="ActivationForm.Form.ActivationKey" xml:space="preserve">
+    <value>Ключ активации:</value>
+  </data>
+  <data name="ActivationForm.Form.Activate" xml:space="preserve">
+    <value>Активировать</value>
+  </data>
+  <data name="ActivationForm.Form.Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ActivationForm.Form.ActivationMessage" xml:space="preserve">
+    <value>Активация выполнена успешно. Эта копия Software Ideas Modeler может использоваться в коммерческих целях.</value>
+  </data>
+  <data name="ActivationForm.Form.WrongActivationCodeMessage" xml:space="preserve">
+    <value>Код активации неверный.</value>
+  </data>
+  <data name="BatchExportForm.Form.Title" xml:space="preserve">
+    <value>Пакетный экспорт</value>
+  </data>
+  <data name="BatchExportForm.Form.Exporting" xml:space="preserve">
+    <value>Экспортирование...</value>
+  </data>
+  <data name="BatchExportForm.Form.Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="BatchExportForm.Form.ImageFormat" xml:space="preserve">
+    <value>Формат изображения:</value>
+  </data>
+  <data name="BatchExportForm.Form.Output" xml:space="preserve">
+    <value>Вывод</value>
+  </data>
+  <data name="BatchExportForm.Form.Content" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="BatchExportForm.Form.Diagrams" xml:space="preserve">
+    <value>Диаграммы</value>
+  </data>
+  <data name="BatchExportForm.Form.Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="BatchExportForm.Form.FileNames" xml:space="preserve">
+    <value>Имена файлов:</value>
+  </data>
+  <data name="BatchExportForm.Form.DiagramName" xml:space="preserve">
+    <value>Имя диаграммы:</value>
+  </data>
+  <data name="BatchExportForm.Form.Custom" xml:space="preserve">
+    <value>Задать:</value>
+  </data>
+  <data name="BatchExportForm.Form.OutputDirectory" xml:space="preserve">
+    <value>Каталог вывода:</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportContent" xml:space="preserve">
+    <value>Содержимое экспорта</value>
+  </data>
+  <data name="BatchExportForm.Form.Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="BatchExportForm.Form.Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+    <value>Экспортировать только активный слой</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportHiddenLayers" xml:space="preserve">
+    <value>Экспортировать скрытые слои</value>
+  </data>
+  <data name="BatchExportForm.Form.Absolute" xml:space="preserve">
+    <value>Абсолютный</value>
+  </data>
+  <data name="BatchExportForm.Form.Relative" xml:space="preserve">
+    <value>Относительный</value>
+  </data>
+  <data name="BatchExportForm.Form.Width" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="BatchExportForm.Form.Height" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="BatchExportForm.Form.Transparent" xml:space="preserve">
+    <value>Прозрачный</value>
+  </data>
+  <data name="BatchExportForm.Form.Color1" xml:space="preserve">
+    <value>Цвет 1:</value>
+  </data>
+  <data name="BatchExportForm.Form.Color2" xml:space="preserve">
+    <value>Цвет 2:</value>
+  </data>
+  <data name="PrintForm.Form.Title" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="PrintForm.Form.Print" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="PrintForm.Form.PageSetup" xml:space="preserve">
+    <value>Свойства страницы</value>
+  </data>
+  <data name="PrintForm.Form.Preview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="PrintForm.Form.Diagrams" xml:space="preserve">
+    <value>Диаграммы</value>
+  </data>
+  <data name="PrintForm.Form.Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="PrintForm.Form.Zoom" xml:space="preserve">
+    <value>Масштаб:</value>
+  </data>
+  <data name="PrintForm.Form.PreviousPage" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="PrintForm.Form.NextPage" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="PrintForm.Form.RefreshPreview" xml:space="preserve">
+    <value>Обновить предпросмотр</value>
+  </data>
+  <data name="PrintForm.Form.PagesPerDiagram" xml:space="preserve">
+    <value>Страниц на диаграмму</value>
+  </data>
+  <data name="PrintForm.Form.SinglePage" xml:space="preserve">
+    <value>1 страница</value>
+  </data>
+  <data name="PrintForm.Form.MultiplePages" xml:space="preserve">
+    <value>Несколько страниц</value>
+  </data>
+  <data name="PrintForm.Form.Horizontal" xml:space="preserve">
+    <value>По гориз.:</value>
+  </data>
+  <data name="PrintForm.Form.Vertical" xml:space="preserve">
+    <value>По верт.:</value>
+  </data>
+  <data name="DiagramsForm.Form.Title" xml:space="preserve">
+    <value>Диаграммы</value>
+  </data>
+  <data name="DonateBuyForm.Form.Title" xml:space="preserve">
+    <value>Software Ideas Modeler</value>
+  </data>
+  <data name="DonateBuyForm.Form.HeadingText" xml:space="preserve">
+    <value>Спасибо за использование Software Ideas Modeler!</value>
+  </data>
+  <data name="DonateBuyForm.Form.MainText" xml:space="preserve">
+    <value>Если вам нравится эта программа и вы хотите поддержать ее разработку, вы можете:</value>
+  </data>
+  <data name="DonateBuyForm.Form.Buy" xml:space="preserve">
+    <value>Купить (для коммерческого использования)</value>
+  </data>
+  <data name="DonateBuyForm.Form.BuyText1" xml:space="preserve">
+    <value>Эта копия Software Ideas Modeler может быть легально использованя для коммерческих проектов только после активации. Вы можете получить ключ активации выбрав эту опцию.</value>
+  </data>
+  <data name="DonateBuyForm.Form.BuyText2" xml:space="preserve">
+    <value>После покупки, ваши отчеты об ошибках и пожелания будут иметь наивысший приоритет. Этот диалог не будет показываться при выходе.</value>
+  </data>
+  <data name="DonateBuyForm.Form.Donate" xml:space="preserve">
+    <value>Поддержать</value>
+  </data>
+  <data name="DonateBuyForm.Form.DonateText1" xml:space="preserve">
+    <value>Если вы некоммерческий пользователь, вы можете свободно использовать эту программу. По желанию, вы можете поддержать проект, перечислив любую сумму.</value>
+  </data>
+  <data name="DonateBuyForm.Form.DonateText2" xml:space="preserve">
+    <value>После поддержки, вы будете занесены в список дарителей на сайте. (Если вы не хотите быть в этом списке, сообщите мне об этом.)</value>
+  </data>
+  <data name="DonateBuyForm.Form.MaybeLater" xml:space="preserve">
+    <value>Может позже</value>
+  </data>
+  <data name="DonateBuyForm.Form.MaybeLaterText" xml:space="preserve">
+    <value>Если у вас нет лишних денег для поддержки проекта, вы можете поддержать другим путем: стать поклонником на Facebook, добавить ссылку на проект на вашем сайте, написать о программе в своем блоге, рассказать о программе другим...</value>
+  </data>
+  <data name="Global.Messages.ProjectFileNotFound.title" xml:space="preserve">
+    <value>Файл проекта не найден.</value>
+  </data>
+  <data name="Global.Messages.NewStyleWarning.title" xml:space="preserve">
+    <value>Новый стиль</value>
+  </data>
+  <data name="Global.Messages.StyleTypeExists.title" xml:space="preserve">
+    <value>Существующий тип стиля</value>
+  </data>
+  <data name="Global.Messages.RenumberingWarning.title" xml:space="preserve">
+    <value>Перенумерация</value>
+  </data>
+  <data name="Global.Messages.DeleteStyle.title" xml:space="preserve">
+    <value>Удаление стиля</value>
+  </data>
+  <data name="Global.Messages.StyleClassNameExists.title" xml:space="preserve">
+    <value>Существующее имя класса стиля</value>
+  </data>
+  <data name="Global.Messages.NotAllowedStyleClassName.title" xml:space="preserve">
+    <value>Неправильное имя</value>
+  </data>
+  <data name="Global.Messages.SavingError.title" xml:space="preserve">
+    <value>Ошибка сохранения</value>
+  </data>
+  <data name="Global.Messages.DeleteTask.title" xml:space="preserve">
+    <value>Удалить задачу</value>
+  </data>
+  <data name="Global.Messages.DeleteToDo.title" xml:space="preserve">
+    <value>Удалить ToDo</value>
+  </data>
+  <data name="Global.Messages.DeletePerson.title" xml:space="preserve">
+    <value>Удалить участника</value>
+  </data>
+  <data name="Global.Messages.DeleteStereotype.title" xml:space="preserve">
+    <value>Удалить стереотип</value>
+  </data>
+  <data name="Global.Messages.NoOutputLanguageSelected.title" xml:space="preserve">
+    <value>Генерация исходного кода</value>
+  </data>
+  <data name="Global.Messages.NoOutputDirectorySelected.title" xml:space="preserve">
+    <value>Генерация исходного кода</value>
+  </data>
+  <data name="Global.Messages.EmptyConnectionString.title" xml:space="preserve">
+    <value>Импорт базы данных</value>
+  </data>
+  <data name="Global.Messages.CannotLoadTables.title" xml:space="preserve">
+    <value>Импорт базы данных</value>
+  </data>
+  <data name="Global.Messages.RegisteredCopy.title" xml:space="preserve">
+    <value>Зарегистрированная копия</value>
+  </data>
+  <data name="Global.Messages.NewerVersionWarning.title" xml:space="preserve">
+    <value>Более новый файл проекта</value>
+  </data>
+  <data name="Global.Messages.ClearRecentProjectList.title" xml:space="preserve">
+    <value>Очистка списка Последних проектов</value>
+  </data>
+  <data name="MainForm.StandardBar.New.tooltip" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="MainForm.StandardBar.Open.tooltip" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="MainForm.StandardBar.Save.tooltip" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="MainForm.StandardBar.Undo.tooltip" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="MainForm.StandardBar.Redo.tooltip" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="MainForm.StandardBar.Cut.tooltip" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="MainForm.StandardBar.Copy.tooltip" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="MainForm.StandardBar.Paste.tooltip" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="MainForm.StandardBar.Print.tooltip" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="MainForm.StandardBar.PrintPreview.tooltip" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="MainForm.StandardBar.ShowGrid.tooltip" xml:space="preserve">
+    <value>Показать сетку</value>
+  </data>
+  <data name="MainForm.StandardBar.ShowAdvancedInfo.tooltip" xml:space="preserve">
+    <value>Показать дополнительную информацию</value>
+  </data>
+  <data name="MainForm.LayoutBar.BackOne.tooltip" xml:space="preserve">
+    <value>На уровень ниже</value>
+  </data>
+  <data name="MainForm.LayoutBar.ForwardOne.tooltip" xml:space="preserve">
+    <value>На уровень выше</value>
+  </data>
+  <data name="MainForm.LayoutBar.SendToBack.tooltip" xml:space="preserve">
+    <value>На задний план</value>
+  </data>
+  <data name="MainForm.LayoutBar.BringToFront.tooltip" xml:space="preserve">
+    <value>На передний план</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewModel.tooltip" xml:space="preserve">
+    <value>Новая модель</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewDiagram.tooltip" xml:space="preserve">
+    <value>Новая диаграмма</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ExpandAll.tooltip" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.Refresh.tooltip" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlClassDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма классов</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlUseCaseDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма вариантов использования</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlSequenceDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма последовательности</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlActivityDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма деятельности</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlStateMachineDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма состояний</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlDeploymentDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма развертывания</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlProfileDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма профиля</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlObjectDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма объектов</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlPackageDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма пакетов</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCommunicationDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма коммуникаций</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.EntityRelationshipDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма отношений сущностей (ER)</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.RequirementDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма требований</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UserInterface.tooltip" xml:space="preserve">
+    <value>Интерфейс пользователя</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.CrcCardDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма CRC-карточки</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.FlowchartDiagram.tooltip" xml:space="preserve">
+    <value>Блок-схема</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.RobustnessDiagram.tooltip" xml:space="preserve">
+    <value>Диаграмма надежности</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlTimingDiagram.tooltip" xml:space="preserve">
+    <value>Временная диаграмма</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.Filter.tooltip" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.NewStyleSet.tooltip" xml:space="preserve">
+    <value>Создать стиль</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.OpenStyleSet.tooltip" xml:space="preserve">
+    <value>Открыть стиль</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.SaveStyleSet.tooltip" xml:space="preserve">
+    <value>Сохранить стиль</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.AddStyle.tooltip" xml:space="preserve">
+    <value>Добавить стиль</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.SetStyleAsDefault.tooltip" xml:space="preserve">
+    <value>Установить стиль по умолчанию</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.EditStyle.tooltip" xml:space="preserve">
+    <value>Изменить стиль</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.DeleteStyle.tooltip" xml:space="preserve">
+    <value>Удалить стиль</value>
+  </data>
+  <data name="LayerControl.Control.AddLayer.tooltip" xml:space="preserve">
+    <value>Добавить новый слой</value>
+  </data>
+  <data name="LayerControl.Control.DeleteLayer.tooltip" xml:space="preserve">
+    <value>Удалить слой</value>
+  </data>
+  <data name="LayerControl.Control.ShowHideLayer.tooltip" xml:space="preserve">
+    <value>Показать/Скрыть слой</value>
+  </data>
+  <data name="LayerControl.Control.MergeAllLayers.tooltip" xml:space="preserve">
+    <value>Объединить все слои</value>
+  </data>
+  <data name="Documentation.Control.Bold.tooltip" xml:space="preserve">
+    <value>Полужирный</value>
+  </data>
+  <data name="Documentation.Control.Italic.tooltip" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="Documentation.Control.Underline.tooltip" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="Documentation.Control.Strikethrough.tooltip" xml:space="preserve">
+    <value>Зачеркнутый</value>
+  </data>
+</root>

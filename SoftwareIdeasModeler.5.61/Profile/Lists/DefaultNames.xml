@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultNames>
+  <element type="accept-time-event-action" defaultName="AcceptEventAction" defaultId="AEA###" />
+  <element type="action" defaultName="Action" defaultId="ACT###" />
+  <element type="activation-bar" defaultName="ActivationBar" defaultId="AB###" />
+  <element type="activity" defaultName="Activity" defaultId="A###" />
+  <element type="activity-final-node" defaultName="ActivityFinalNode" defaultId="AFN###" />
+  <element type="actor" defaultName="Actor" defaultId="AC###" />
+  <element type="artifact" defaultName="Artifact" defaultId="AF###" />
+  <element type="attribute" defaultName="Attribute" defaultId="AT###" />
+  <element type="boundary" defaultName="Boundary" defaultId="BDR###" />
+  <element type="class" defaultName="Class" defaultId="C###" />
+  <element type="collaboration" defaultName="Collaboration" defaultId="CL###" />
+  <element type="comment" defaultName="Comment" defaultId="CMT###" />
+  <element type="comment-connector" defaultName="CommentConnector" defaultId="CN###" />
+  <element type="communication-lifeline" defaultName="Lifeline" defaultId="CLL###" />
+  <element type="communication-message" defaultName="Message" defaultId="CMSG###" />
+  <element type="component" defaultName="Component" defaultId="CPT###" />
+  <element type="composite-state" defaultName="CompositeState" defaultId="CS###" />
+  <element type="constraint" defaultName="Constraint" defaultId="CON###" />
+  <element type="containment" defaultName="Containment" defaultId="CNT###" />
+  <element type="uml-control" defaultName="Control" defaultId="CTRL###" />
+  <element type="decision" defaultName="Decision" defaultId="DC###" />
+  <element type="dependency" defaultName="Dependency" defaultId="DEP###" />
+  <element type="destroy" defaultName="Destroy" defaultId="DES###" />
+  <element type="uml-entity" defaultName="Entity" defaultId="ENT###" />
+  <element type="entry-point" defaultName="EntryPoint" defaultId="ENP###" />
+  <element type="exit-point" defaultName="ExitPoint" defaultId="EXP###" />
+  <element type="extend" defaultName="Extend" defaultId="EX###" />
+  <element type="final-state" defaultName="FinalState" defaultId="FS###" />
+  <element type="flow-final" defaultName="FlowFinal" defaultId="FLF###" />
+  <element type="fork-join" defaultName="ForkJoin" defaultId="FJ###" />
+  <element type="fragment" defaultName="Fragment" defaultId="FR###" />
+  <element type="generalization" defaultName="Generalization" defaultId="GNR###" />
+  <element type="history" defaultName="History" defaultId="HIS###" />
+  <element type="include" defaultName="Include" defaultId="INC###" />
+  <element type="initial-node" defaultName="InitialNode" defaultId="IN###" />
+  <element type="initial-state" defaultName="InitialState" defaultId="IS###" />
+  <element type="interaction-operand" defaultName="InteractionOperand" defaultId="IOP###" />
+  <element type="uml-interface" defaultName="Interface" defaultId="IFC###" />
+  <element type="interruptible-activity-region" defaultName="InterruptibleActivityRegion" defaultId="IAR###" />
+  <element type="lifeline" defaultName="Lifeline" defaultId="LL###" />
+  <element type="uml-n-ary-association" defaultName="Association" defaultId="NAS###" />
+  <element type="node" defaultName="Node" defaultId="NOD###" />
+  <element type="object" defaultName="Object" defaultId="OBJ###" />
+  <element type="operation" defaultName="Operation" defaultId="OP###" />  
+  <element type="package" defaultName="Package" defaultId="PKG###" />
+  <element type="part" defaultName="Part" defaultId="PAR###" />
+  <element type="port" defaultName="Port" defaultId="PORT###" />
+  <element type="realization" defaultName="Realization" defaultId="REA###" />
+  <element type="relationship" defaultName="Relationship" defaultId="REL###" />
+  <element type="uml-required-interface" defaultName="RequiredInterface" defaultId="RIF###" />
+  <element type="sequence-action" defaultName="Action" defaultId="AN###" />
+  <element type="use-case" defaultName="UseCase" defaultId="UC###" />
+  <element type="transition" defaultName="Transition" defaultId="TR###" />
+  <element type="timing-frame" defaultName="TimingFrame" defaultId="TF###" />
+  <element type="terminate-node" defaultName="Terminate" defaultId="TN###" />
+  <element type="system-boundary" defaultName="System" defaultId="SYS###" />
+  <element type="swimlane" defaultName="Swimlane" defaultId="SL###" />
+  <element type="state-region" defaultName="StateRegion" defaultId="STRG###" />
+  <element type="state" defaultName="State" defaultId="ST###" />
+  <element type="signal-sending" defaultName="SignalReceipt" defaultId="SS###" />
+  <element type="signal-receipt" defaultName="SignalSend" defaultId="SR###" />
+
+  <element type="erd-entity" defaultName="Entity" defaultId="ENT###" />
+  <element type="erd-relationship" defaultName="Relation" defaultId="REL###" />
+
+  <element type="simple-ui-object" defaultName="UIObject" defaultId="OBJ###" />
+  <element type="container-ui-object" defaultName="UIObject" defaultId="COBJ###" />
+
+  <element type="crc-card" defaultName="CrcCard" defaultId="CRC###" />
+
+  <element type="group" defaultName="Group" defaultId="GROUP###" />
+
+  <element type="dfd-process" defaultName="Process" defaultId="DFP###" />
+  <element type="dfd-data-flow" defaultName="DataFlow" defaultId="DFF###" />
+  <element type="dfd-data-store" defaultName="DataStore" defaultId="DFS###" />
+  <element type="dfd-external" defaultName="External" defaultId="DFE###" />
+  <element type="dfd-gate" defaultName="Gate" defaultId="DFG###" />
+
+  <element type="flowchart-data" defaultName="Data" defaultId="FCDT###" />
+  <element type="flowchart-decision" defaultName="Decision" defaultId="FCDC###" />
+  <element type="flowchart-direct-data" defaultName="DirectData" defaultId="FCDD###" />
+  <element type="flowchart-document" defaultName="Document" defaultId="FCDO###" />
+  <element type="flowchart-internal-storage" defaultName="InternalStorage" defaultId="FCIS###" />
+  <element type="flowchart-predefined-process" defaultName="PredefinedProcess" defaultId="FCPP###" />
+  <element type="flowchart-process" defaultName="Process" defaultId="FCP###" />
+  <element type="flowchart-start-end-symbol" defaultName="StartEndSymbol" defaultId="FCSE###" />
+  <element type="flowchart-stored-data" defaultName="StoredData" defaultId="FCSD###" />
+  <element type="flowchart-user-input" defaultName="UserInput" defaultId="FCUI###" />
+  <element type="flowchart-flow" defaultName="Flow" defaultId="FCF###" />  
+</defaultNames>

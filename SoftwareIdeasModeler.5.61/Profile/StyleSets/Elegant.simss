@@ -1,0 +1,9 @@
+﻿<sim-style-set version="1.0" name="">
+  <default-style>
+    <style-definition background-type="vertical-linear" background-color="#FFD3D3D3" background-color2="#FFFFFFFF" border-color="#FF2A2A2A" border-width="2" shadow-type="smooth" shadow-offset="-2,-5" shadow-size="15,15" shadow-visible="false" shadow-color="#50000000" shadow-radius="7" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" name-color="#FF000000" name-font="Arial;10;" stereotype-color="#FF1E1E1E" stereotype-font="Arial;10;" text-color="#FF000000" text-font="Arial;10;" />
+  </default-style>
+  <style>
+    <item-type type="UmlComment" stereotype="" />
+    <style-definition background-type="backward-diagonal" background-color="#FFFFAA55" background-color2="#FFFFFF80" border-color="#FFFF952B" border-width="2" shadow-type="smooth" shadow-offset="-2,-5" shadow-size="15,15" shadow-visible="false" shadow-color="#50000000" shadow-radius="7" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" name-color="#FF000000" name-font="Arial;10;" stereotype-color="#FF1E1E1E" stereotype-font="Arial;10;" text-color="#FF000000" text-font="Arial;10;" />
+  </style>
+</sim-style-set>

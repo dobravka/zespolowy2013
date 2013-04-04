@@ -1,0 +1,3886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <metadata name="languageId">
+    <value>br</value>
+  </metadata>
+  <metadata name="languageName">
+    <value>Portuguese</value>
+  </metadata>
+  <metadata name="languageLocalName">
+    <value>Português</value>
+  </metadata>
+  <metadata name="author">
+    <value>Franz E. Arnold</value>
+  </metadata>
+  <metadata name="creationDate">
+    <value />
+  </metadata>
+  <metadata name="info">
+    <value />
+  </metadata>
+  <data name="Global.Strings.SimProject" xml:space="preserve">
+    <value>Projeto SIM</value>
+  </data>
+  <data name="Global.Strings.AllFiles" xml:space="preserve">
+    <value>Todos os arquivos</value>
+  </data>
+  <data name="Global.Strings.Version" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="Global.Messages.ItemCannotBeAddedToDiagram" xml:space="preserve">
+    <value>Elemento não pode ser adicionado ao diagrama.</value>
+  </data>
+  <data name="Global.Messages.SaveBeforeExist" xml:space="preserve">
+    <value>Deseja salvar as mudanças do projeto ('&lt;filename&gt;')?</value>
+  </data>
+  <data name="Global.Messages.NewVersionFound" xml:space="preserve">
+    <value>Nova versão ('&lt;version&gt;') do programa disponível. Deseja baixar a nova versão?</value>
+  </data>
+  <data name="Global.Messages.UptodateVersion" xml:space="preserve">
+    <value>Esta versão ('&lt;version&gt;') é a mais atual.</value>
+  </data>
+  <data name="Global.Messages.ProjectFileNotFound" xml:space="preserve">
+    <value>Arquivo do projeto '&lt;?&gt;' não foi encontrado. Pode ter sido deletado ou movido.</value>
+  </data>
+  <data name="Global.Messages.NewStyleWarning" xml:space="preserve">
+    <value>Tem certeza que deseja descartar todas as mudanças no estilo atual?</value>
+  </data>
+  <data name="Global.Messages.StyleTypeExists" xml:space="preserve">
+    <value>O estilo que deseja adicionar já existe.</value>
+  </data>
+  <data name="Global.Messages.RenumberingWarning" xml:space="preserve">
+    <value>Algunos elementos não foram numerados. A lista com a numeração original provavelmente está vazia.</value>
+  </data>
+  <data name="Global.Messages.DeleteStyle" xml:space="preserve">
+    <value>Deseja realmente deleter o estilo '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.StyleClassNameExists" xml:space="preserve">
+    <value>O nome da classe de estilo já está em uso.</value>
+  </data>
+  <data name="Global.Messages.NotAllowedStyleClassName" xml:space="preserve">
+    <value>O nome '&lt;?&gt;' é inválido.</value>
+  </data>
+  <data name="Global.Messages.SavingError" xml:space="preserve">
+    <value>Arquivo não pode ser salvo. Verifique se não foi aberto por outra aplicação.</value>
+  </data>
+  <data name="Global.Messages.DeleteTask" xml:space="preserve">
+    <value>Deseja deletar a tarefa '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.DeleteToDo" xml:space="preserve">
+    <value>Deseja deletar o elemento '&lt;?&gt;' da lista de pendências?</value>
+  </data>
+  <data name="Global.Messages.DeletePerson" xml:space="preserve">
+    <value>Deseja deletar a pessoa '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.DeleteStereotype" xml:space="preserve">
+    <value>Deseja deletar o estereótipo '&lt;?&gt;'?</value>
+  </data>
+  <data name="Global.Messages.NoOutputLanguageSelected" xml:space="preserve">
+    <value>Impossível gerar o código fonte. Escolha uma linguagem de saída.</value>
+  </data>
+  <data name="Global.Messages.NoOutputDirectorySelected" xml:space="preserve">
+    <value>Impossível gerar o código fonte. Escolha uma pasta de saída.</value>
+  </data>
+  <data name="Global.Messages.EmptyConnectionString" xml:space="preserve">
+    <value>Nenhuma string de conexão foi definida. Impossível carregar definição de tabelas da base de dados.</value>
+  </data>
+  <data name="Global.Messages.CannotLoadTables" xml:space="preserve">
+    <value>As tabelas da base de dados nãoo podem ser carregadas. \n\n &lt;?&gt;</value>
+  </data>
+  <data name="Global.Messages.RegisteredCopy" xml:space="preserve">
+    <value>Esta cópia do Software Ideas Modeler é registrada. Uso comercial permitido. Gratos pelo suporte ao projeto.</value>
+  </data>
+  <data name="Global.Messages.NewerVersionWarning" xml:space="preserve">
+    <value>O arquivo de projeto foi salvo por uma versão mais nova e pode ser carregado incorretamente. Deseja carregá-lo assim mesmo?</value>
+  </data>
+  <data name="Global.Messages.ClearRecentProjectList" xml:space="preserve">
+    <value>Deseja esvaziar a lista de projetos recentes?</value>
+  </data>
+  <data name="Global.Messages.InflateContainer" xml:space="preserve">
+    <value>Deseja aumentar o container para cobrir todos os elementos?</value>
+  </data>
+  <data name="Global.Messages.WrongOutputDirectory" xml:space="preserve">
+    <value>Pasta de saída '&lt;?&gt;' não existe ou não permite gravação.</value>
+  </data>
+  <data name="Global.Messages.InstallUpdate" xml:space="preserve">
+    <value>Deseja instalar a atualização? Levará somente alguns segundos.</value>
+  </data>
+  <data name="Global.DiagramNames.UmlClassDiagram" xml:space="preserve">
+    <value>Diagrama de Classes</value>
+  </data>
+  <data name="Global.DiagramNames.UmlUseCaseDiagram" xml:space="preserve">
+    <value>Diagrama de Casos de Uso</value>
+  </data>
+  <data name="Global.DiagramNames.UmlSequenceDiagram" xml:space="preserve">
+    <value>Diagrama de Sequência</value>
+  </data>
+  <data name="Global.DiagramNames.UmlActivityDiagram" xml:space="preserve">
+    <value>Diagrama de Atividades</value>
+  </data>
+  <data name="Global.DiagramNames.UmlStateMachineDiagram" xml:space="preserve">
+    <value>Diagrama de Estados</value>
+  </data>
+  <data name="Global.DiagramNames.UmlDeploymentDiagram" xml:space="preserve">
+    <value>Diagrama de Desenvolvimento</value>
+  </data>
+  <data name="Global.DiagramNames.UmlProfileDiagram" xml:space="preserve">
+    <value>Diagrama de Perfil</value>
+  </data>
+  <data name="Global.DiagramNames.UmlObjectDiagram" xml:space="preserve">
+    <value>Diagrama de Objetos</value>
+  </data>
+  <data name="Global.DiagramNames.UmlPackageDiagram" xml:space="preserve">
+    <value>Diagrama de Pacotes</value>
+  </data>
+  <data name="Global.DiagramNames.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Diagrama de Comunicação</value>
+  </data>
+  <data name="Global.DiagramNames.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Diagrama de Composição</value>
+  </data>
+  <data name="Global.DiagramNames.UmlComponentDiagram" xml:space="preserve">
+    <value>Diagrama de Componentes</value>
+  </data>
+  <data name="Global.DiagramNames.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>Diagrama de Interações</value>
+  </data>
+  <data name="Global.DiagramNames.UmlTimingDiagram" xml:space="preserve">
+    <value>Diagrama de Tempo</value>
+  </data>
+  <data name="Global.DiagramNames.UmlMixedDiagram" xml:space="preserve">
+    <value>Diagrama Misto</value>
+  </data>
+  <data name="Global.DiagramNames.DataFlowDiagram" xml:space="preserve">
+    <value>Diagrama de Fluxo de Dados</value>
+  </data>
+  <data name="Global.DiagramNames.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Diagrama de Relação de Entidades</value>
+  </data>
+  <data name="Global.DiagramNames.RequirementDiagram" xml:space="preserve">
+    <value>Diagrama de Requisitos</value>
+  </data>
+  <data name="Global.DiagramNames.UserInterfaceDiagram" xml:space="preserve">
+    <value>Diagrama de Interface de Usuário</value>
+  </data>
+  <data name="Global.DiagramNames.CrcCardDiagram" xml:space="preserve">
+    <value>Diagrama - CRC</value>
+  </data>
+  <data name="Global.DiagramNames.FlowchartDiagram" xml:space="preserve">
+    <value>Fluxograma</value>
+  </data>
+  <data name="Global.DiagramNames.RobustnessDiagram" xml:space="preserve">
+    <value>Diagrama de Robustez</value>
+  </data>
+  <data name="Global.Buttons.Ok" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="Global.Buttons.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="Global.Buttons.Yes" xml:space="preserve">
+    <value>&amp;Sim</value>
+  </data>
+  <data name="Global.Buttons.No" xml:space="preserve">
+    <value>&amp;Não</value>
+  </data>
+  <data name="Global.Buttons.Add" xml:space="preserve">
+    <value>&amp;Adicionar</value>
+  </data>
+  <data name="Global.Buttons.Edit" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="Global.Buttons.Remove" xml:space="preserve">
+    <value>&amp;Remover</value>
+  </data>
+  <data name="Global.Buttons.SelectAll" xml:space="preserve">
+    <value>&amp;Selecionar tudo</value>
+  </data>
+  <data name="Global.Buttons.SelectNone" xml:space="preserve">
+    <value>&amp;Selecionar nada</value>
+  </data>
+  <data name="Global.Buttons.SelectInvert" xml:space="preserve">
+    <value>&amp;Inverter</value>
+  </data>
+  <data name="Global.Buttons.MoreColors" xml:space="preserve">
+    <value>Mais cores...</value>
+  </data>
+  <data name="Global.Buttons.Previous" xml:space="preserve">
+    <value>&lt; &amp;Anterior</value>
+  </data>
+  <data name="Global.Buttons.Next" xml:space="preserve">
+    <value>&amp;Seguinte &gt;</value>
+  </data>
+  <data name="Global.Buttons.Import" xml:space="preserve">
+    <value>&amp;Importar</value>
+  </data>
+  <data name="Global.Buttons.Delete" xml:space="preserve">
+    <value>&amp;Deletar</value>
+  </data>
+  <data name="Global.Buttons.Save" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="MainForm.General.RegisteredCopy" xml:space="preserve">
+    <value>Cópia registrada.</value>
+  </data>
+  <data name="MainForm.General.OnlyForNonCommercialUse" xml:space="preserve">
+    <value>SOMENTE PARA USO NÃO-COMERCIAL</value>
+  </data>
+  <data name="MainForm.StandardBar.New" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Open" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Save" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Undo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Redo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Cut" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Copy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Paste" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Print" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.PrintPreview" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.ShowGrid" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.ShowAdvancedInfo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StandardBar.Find" xml:space="preserve">
+    <value>Localizar:</value>
+  </data>
+  <data name="MainForm.LayoutBar.BackOne" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.ForwardOne" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.SendToBack" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.BringToFront" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutCascade" xml:space="preserve">
+    <value>Desenho Cascata</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutRectangle" xml:space="preserve">
+    <value>Desenho Retângulo</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutCircle" xml:space="preserve">
+    <value>Desenho Circular</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutRows" xml:space="preserve">
+    <value>Desenho por Fila</value>
+  </data>
+  <data name="MainForm.LayoutBar.AutoLayoutSmart" xml:space="preserve">
+    <value>Desenho Inteligente</value>
+  </data>
+  <data name="MainForm.Menu.File" xml:space="preserve">
+    <value>&amp;Arquivo</value>
+  </data>
+  <data name="MainForm.Menu.New" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="MainForm.Menu.Open" xml:space="preserve">
+    <value>&amp;Abrir</value>
+  </data>
+  <data name="MainForm.Menu.Save" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="MainForm.Menu.SaveAs" xml:space="preserve">
+    <value>Salvar &amp;como</value>
+  </data>
+  <data name="MainForm.Menu.CloseProject" xml:space="preserve">
+    <value>&amp;Fechar Projeto</value>
+  </data>
+  <data name="MainForm.Menu.Print" xml:space="preserve">
+    <value>&amp;Imprimir</value>
+  </data>
+  <data name="MainForm.Menu.PrintPreview" xml:space="preserve">
+    <value>&amp;Visualizar Impressão</value>
+  </data>
+  <data name="MainForm.Menu.PrintSetup" xml:space="preserve">
+    <value>Co&amp;nfigurar Impressão</value>
+  </data>
+  <data name="MainForm.Menu.Export" xml:space="preserve">
+    <value>&amp;Exportar</value>
+  </data>
+  <data name="MainForm.Menu.ExportToImage" xml:space="preserve">
+    <value>&amp;Imagem</value>
+  </data>
+  <data name="MainForm.Menu.ExportToPDF" xml:space="preserve">
+    <value>&amp;PDF</value>
+  </data>
+  <data name="MainForm.Menu.ExportToXMI" xml:space="preserve">
+    <value>&amp;XMI</value>
+  </data>
+  <data name="MainForm.Menu.Import" xml:space="preserve">
+    <value>&amp;Importar</value>
+  </data>
+  <data name="MainForm.Menu.ImportFromXMI" xml:space="preserve">
+    <value>&amp;XMI</value>
+  </data>
+  <data name="MainForm.Menu.RecentProjects" xml:space="preserve">
+    <value>Projetos &amp;Recentes</value>
+  </data>
+  <data name="MainForm.Menu.ClearThisList" xml:space="preserve">
+    <value>&amp;Limpar a lista</value>
+  </data>
+  <data name="MainForm.Menu.Exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MainForm.Menu.Edit" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="MainForm.Menu.Undo" xml:space="preserve">
+    <value>&amp;Desfazer</value>
+  </data>
+  <data name="MainForm.Menu.Redo" xml:space="preserve">
+    <value>Re&amp;fazer</value>
+  </data>
+  <data name="MainForm.Menu.Cut" xml:space="preserve">
+    <value>&amp;Recortar</value>
+  </data>
+  <data name="MainForm.Menu.Copy" xml:space="preserve">
+    <value>&amp;Copiar</value>
+  </data>
+  <data name="MainForm.Menu.Paste" xml:space="preserve">
+    <value>Co&amp;lar</value>
+  </data>
+  <data name="MainForm.Menu.Delete" xml:space="preserve">
+    <value>Eli&amp;minar</value>
+  </data>
+  <data name="MainForm.Menu.DeleteWithRelations" xml:space="preserve">
+    <value>Eliminar com &amp;Relacionamentos</value>
+  </data>
+  <data name="MainForm.Menu.SelectAll" xml:space="preserve">
+    <value>&amp;Selecionar tudo</value>
+  </data>
+  <data name="MainForm.Menu.SelectAllOfSameType" xml:space="preserve">
+    <value>Selecionar todos do mesmo tipo</value>
+  </data>
+  <data name="MainForm.Menu.InvertSelection" xml:space="preserve">
+    <value>&amp;Inverter seleção</value>
+  </data>
+  <data name="MainForm.Menu.Find" xml:space="preserve">
+    <value>&amp;Localizar</value>
+  </data>
+  <data name="MainForm.Menu.View" xml:space="preserve">
+    <value>&amp;Exibir</value>
+  </data>
+  <data name="MainForm.Menu.StandardBar" xml:space="preserve">
+    <value>&amp;Barra padrão</value>
+  </data>
+  <data name="MainForm.Menu.StatusBar" xml:space="preserve">
+    <value>Barra de estado</value>
+  </data>
+  <data name="MainForm.Menu.LayoutBar" xml:space="preserve">
+    <value>&amp;Barra de desenho</value>
+  </data>
+  <data name="MainForm.Menu.Toolbox" xml:space="preserve">
+    <value>&amp;Caixa de ferramentas</value>
+  </data>
+  <data name="MainForm.Menu.SideBar" xml:space="preserve">
+    <value>Barra lateral</value>
+  </data>
+  <data name="MainForm.Menu.DiagramPreview" xml:space="preserve">
+    <value>&amp;Visualizar diagrama</value>
+  </data>
+  <data name="MainForm.Menu.StartPage" xml:space="preserve">
+    <value>Página &amp;inicial</value>
+  </data>
+  <data name="MainForm.Menu.ElementBrowser" xml:space="preserve">
+    <value>&amp;Navegador de elementos</value>
+  </data>
+  <data name="MainForm.Menu.ShowMultipleUsageOfElement" xml:space="preserve">
+    <value>Mostrar uso múltiplo de elementos</value>
+  </data>
+  <data name="MainForm.Menu.ShowAssignedDiagrams" xml:space="preserve">
+    <value>Mostrar diagramas designados</value>
+  </data>
+  <data name="MainForm.Menu.Grid" xml:space="preserve">
+    <value>&amp;Grade</value>
+  </data>
+  <data name="MainForm.Menu.SnapToGrid" xml:space="preserve">
+    <value>Alinhar à grade</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQuality" xml:space="preserve">
+    <value>&amp;Qualidade de visualização</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityDraft" xml:space="preserve">
+    <value>&amp;Rascunho</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityNormal" xml:space="preserve">
+    <value>&amp;Normal</value>
+  </data>
+  <data name="MainForm.Menu.RenderingQualityBest" xml:space="preserve">
+    <value>&amp;Melhor</value>
+  </data>
+  <data name="MainForm.Menu.FullScreen" xml:space="preserve">
+    <value>&amp;Tela Cheia</value>
+  </data>
+  <data name="MainForm.Menu.Arrange" xml:space="preserve">
+    <value>&amp;Organizar</value>
+  </data>
+  <data name="MainForm.Menu.AutoLayout" xml:space="preserve">
+    <value>&amp;Desenho automático</value>
+  </data>
+  <data name="MainForm.Menu.RouteRelation" xml:space="preserve">
+    <value>&amp;Rota de relações</value>
+  </data>
+  <data name="MainForm.Menu.CircleLayout" xml:space="preserve">
+    <value>&amp;Desenho circular</value>
+  </data>
+  <data name="MainForm.Menu.RowLayout" xml:space="preserve">
+    <value>&amp;Desenho em fila</value>
+  </data>
+  <data name="MainForm.Menu.SmartLayout" xml:space="preserve">
+    <value>&amp;Desenho inteligente</value>
+  </data>
+  <data name="MainForm.Menu.CascadeLayout" xml:space="preserve">
+    <value>Desenho em cascata</value>
+  </data>
+  <data name="MainForm.Menu.AutoSize" xml:space="preserve">
+    <value>Tamanho automático</value>
+  </data>
+  <data name="MainForm.Menu.Alignment" xml:space="preserve">
+    <value>&amp;Alinhamento</value>
+  </data>
+  <data name="MainForm.Menu.MakeSame" xml:space="preserve">
+    <value>&amp;Fazer igual</value>
+  </data>
+  <data name="MainForm.Menu.Order" xml:space="preserve">
+    <value>&amp;Organizar</value>
+  </data>
+  <data name="MainForm.Menu.Move" xml:space="preserve">
+    <value>&amp;Mover</value>
+  </data>
+  <data name="MainForm.Menu.Size" xml:space="preserve">
+    <value>&amp;Tamanho</value>
+  </data>
+  <data name="MainForm.Menu.HorizontalSpacing" xml:space="preserve">
+    <value>Espaçamento &amp;horizontal</value>
+  </data>
+  <data name="MainForm.Menu.VerticalSpacing" xml:space="preserve">
+    <value>Espaçamento &amp;vertical</value>
+  </data>
+  <data name="MainForm.Menu.SetLocationAndSize" xml:space="preserve">
+    <value>Definir localização e tamanho</value>
+  </data>
+  <data name="MainForm.Menu.LockItems" xml:space="preserve">
+    <value>Travar ítens</value>
+  </data>
+  <data name="MainForm.Menu.GroupItems" xml:space="preserve">
+    <value>&amp;Agrupar ítens</value>
+  </data>
+  <data name="MainForm.Menu.UngroupItems" xml:space="preserve">
+    <value>&amp;Desagrupar ítens</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentLeft" xml:space="preserve">
+    <value>&amp;Esquerda</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentRight" xml:space="preserve">
+    <value>&amp;Direita</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentTop" xml:space="preserve">
+    <value>&amp;Acima</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentBottom" xml:space="preserve">
+    <value>&amp;Abaixo</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentCenterHorizontally" xml:space="preserve">
+    <value>Centralizar horizontalmente</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentCenterVertically" xml:space="preserve">
+    <value>Centralizar verticalmente</value>
+  </data>
+  <data name="MainForm.Menu.AlignmentToGrid" xml:space="preserve">
+    <value>Pela &amp;Grade</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameWidth" xml:space="preserve">
+    <value>&amp;Largura</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameHeight" xml:space="preserve">
+    <value>&amp;Altura</value>
+  </data>
+  <data name="MainForm.Menu.MakeSameBoth" xml:space="preserve">
+    <value>&amp;Ambos</value>
+  </data>
+  <data name="MainForm.Menu.OrderBringToFront" xml:space="preserve">
+    <value>Trazer para frente</value>
+  </data>
+  <data name="MainForm.Menu.OrderBringToBack" xml:space="preserve">
+    <value>Enviar para o fundo</value>
+  </data>
+  <data name="MainForm.Menu.OrderForwardOne" xml:space="preserve">
+    <value>Avançar uma</value>
+  </data>
+  <data name="MainForm.Menu.OrderBackOne" xml:space="preserve">
+    <value>Enviar para trás</value>
+  </data>
+  <data name="MainForm.Menu.MoveCustom" xml:space="preserve">
+    <value>&amp;Personalizado</value>
+  </data>
+  <data name="MainForm.Menu.MoveLeft" xml:space="preserve">
+    <value>&amp;Esquerda</value>
+  </data>
+  <data name="MainForm.Menu.MoveRight" xml:space="preserve">
+    <value>&amp;Direita</value>
+  </data>
+  <data name="MainForm.Menu.MoveUp" xml:space="preserve">
+    <value>&amp;Acima</value>
+  </data>
+  <data name="MainForm.Menu.MoveDown" xml:space="preserve">
+    <value>&amp;Abaixo</value>
+  </data>
+  <data name="MainForm.Menu.SizeCustom" xml:space="preserve">
+    <value>&amp;Personalizado</value>
+  </data>
+  <data name="MainForm.Menu.SizeInflate" xml:space="preserve">
+    <value>&amp;Inflar</value>
+  </data>
+  <data name="MainForm.Menu.SizeDeflate" xml:space="preserve">
+    <value>&amp;Desinflar</value>
+  </data>
+  <data name="MainForm.Menu.SizeWider" xml:space="preserve">
+    <value>&amp;Mais amplo</value>
+  </data>
+  <data name="MainForm.Menu.SizeNarrower" xml:space="preserve">
+    <value>&amp;Mais estreito</value>
+  </data>
+  <data name="MainForm.Menu.SizeHigher" xml:space="preserve">
+    <value>&amp;Mais alto</value>
+  </data>
+  <data name="MainForm.Menu.SizeLower" xml:space="preserve">
+    <value>&amp;Mais baixo</value>
+  </data>
+  <data name="MainForm.Menu.Project" xml:space="preserve">
+    <value>&amp;Projeto</value>
+  </data>
+  <data name="MainForm.Menu.AddModel" xml:space="preserve">
+    <value>Adicionar &amp;Modelo</value>
+  </data>
+  <data name="MainForm.Menu.AddDiagram" xml:space="preserve">
+    <value>Adicionar &amp;Diagrama</value>
+  </data>
+  <data name="MainForm.Menu.AddExistingDiagram" xml:space="preserve">
+    <value>Adicionar diagrama existente</value>
+  </data>
+  <data name="MainForm.Menu.Properties" xml:space="preserve">
+    <value>Propriedades do projeto</value>
+  </data>
+  <data name="MainForm.Menu.ModelProperties" xml:space="preserve">
+    <value>&amp;Propriedades do modelo</value>
+  </data>
+  <data name="MainForm.Menu.StyleSet" xml:space="preserve">
+    <value>Definir estilo</value>
+  </data>
+  <data name="MainForm.Menu.LoadStyleSet" xml:space="preserve">
+    <value>&amp;Carregar</value>
+  </data>
+  <data name="MainForm.Menu.SaveStyleSet" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="MainForm.Menu.EditStyleSet" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="MainForm.Menu.RemoveAllCustomStyles" xml:space="preserve">
+    <value>&amp;Remover estilos personalizados</value>
+  </data>
+  <data name="MainForm.Menu.Tasks" xml:space="preserve">
+    <value>&amp;Tarefas</value>
+  </data>
+  <data name="MainForm.Menu.Persons" xml:space="preserve">
+    <value>&amp;Pessoas</value>
+  </data>
+  <data name="MainForm.Menu.Diagram" xml:space="preserve">
+    <value>&amp;Diagrama</value>
+  </data>
+  <data name="MainForm.Menu.AddLayer" xml:space="preserve">
+    <value>&amp;Adicionar camadas</value>
+  </data>
+  <data name="MainForm.Menu.Layers" xml:space="preserve">
+    <value>&amp;Camadas</value>
+  </data>
+  <data name="MainForm.Menu.ConvertDiagram" xml:space="preserve">
+    <value>&amp;Converter para</value>
+  </data>
+  <data name="MainForm.Menu.ConvertToERDDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de relação de entidades</value>
+  </data>
+  <data name="MainForm.Menu.ConvertToClassDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de classes</value>
+  </data>
+  <data name="MainForm.Menu.DiagramProperties" xml:space="preserve">
+    <value>&amp;Propriedades do diagrama</value>
+  </data>
+  <data name="MainForm.Menu.PrintDiagram" xml:space="preserve">
+    <value>&amp;Imprimir</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagram" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagramToImage" xml:space="preserve">
+    <value>&amp;Imagem</value>
+  </data>
+  <data name="MainForm.Menu.ExportDiagramToPDF" xml:space="preserve">
+    <value>&amp;PDF</value>
+  </data>
+  <data name="MainForm.Menu.CopyToClipboardAsImage" xml:space="preserve">
+    <value>Copiar como imagem</value>
+  </data>
+  <data name="MainForm.Menu.CopyToClipboardAsMetafile" xml:space="preserve">
+    <value>Copiar como arquivo fonte</value>
+  </data>
+  <data name="MainForm.Menu.LayersMerge" xml:space="preserve">
+    <value>&amp;Agrupar</value>
+  </data>
+  <data name="MainForm.Menu.LayersShowAll" xml:space="preserve">
+    <value>Mostrar todos</value>
+  </data>
+  <data name="MainForm.Menu.LayersHide" xml:space="preserve">
+    <value>&amp;Ocultar</value>
+  </data>
+  <data name="MainForm.Menu.LayersDelete" xml:space="preserve">
+    <value>&amp;Deletar</value>
+  </data>
+  <data name="MainForm.Menu.Filter" xml:space="preserve">
+    <value>&amp;Filtrar</value>
+  </data>
+  <data name="MainForm.Menu.ShowAllElements" xml:space="preserve">
+    <value>Mostrar todos os elementos</value>
+  </data>
+  <data name="MainForm.Menu.HideComments" xml:space="preserve">
+    <value>Ocultar comentários</value>
+  </data>
+  <data name="MainForm.Menu.HideRelations" xml:space="preserve">
+    <value>Ocultar relações</value>
+  </data>
+  <data name="MainForm.Menu.HideCollaborations" xml:space="preserve">
+    <value>Ocultar colaborações</value>
+  </data>
+  <data name="MainForm.Menu.Element" xml:space="preserve">
+    <value>&amp;Elementos</value>
+  </data>
+  <data name="MainForm.Menu.Add" xml:space="preserve">
+    <value>&amp;Adicionar</value>
+  </data>
+  <data name="MainForm.Menu.Stereotype" xml:space="preserve">
+    <value>&amp;Estereótipo</value>
+  </data>
+  <data name="MainForm.Menu.Attribute" xml:space="preserve">
+    <value>&amp;Atributos</value>
+  </data>
+  <data name="MainForm.Menu.Operation" xml:space="preserve">
+    <value>&amp;Operação</value>
+  </data>
+  <data name="MainForm.Menu.TemplateParameter" xml:space="preserve">
+    <value>&amp;Parâmetros do Template</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowID" xml:space="preserve">
+    <value>Mostrar &amp;ID</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowParentName" xml:space="preserve">
+    <value>Mostrar nome-pai</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowStereotypes" xml:space="preserve">
+    <value>Mostrar estereótipo</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowAttributes" xml:space="preserve">
+    <value>Mostrar atributos</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowOperations" xml:space="preserve">
+    <value>Mostrar operações</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowTaggedValues" xml:space="preserve">
+    <value>Mostrar etiquetas</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowTemplateParameters" xml:space="preserve">
+    <value>Mostrar parâmetros do Template</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowOperationParameters" xml:space="preserve">
+    <value>Mostrar parâmetros de operação</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowExtensionPoints" xml:space="preserve">
+    <value>Mostrar pontos de extensão</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowRelationshipTexts" xml:space="preserve">
+    <value>Mostrar texto de relacionamento</value>
+  </data>
+  <data name="MainForm.Menu.ElementShowNullability" xml:space="preserve">
+    <value>Mostrar valor NULL</value>
+  </data>
+  <data name="MainForm.Menu.ElementModifiers" xml:space="preserve">
+    <value>&amp;Modificador</value>
+  </data>
+  <data name="MainForm.Menu.ElementAbstractModifier" xml:space="preserve">
+    <value>&amp;Abstrato</value>
+  </data>
+  <data name="MainForm.Menu.ElementPublicModifier" xml:space="preserve">
+    <value>&amp;Público</value>
+  </data>
+  <data name="MainForm.Menu.ElementPackageModifier" xml:space="preserve">
+    <value>Pacote</value>
+  </data>
+  <data name="MainForm.Menu.ElementProtectedModifier" xml:space="preserve">
+    <value>Protegido</value>
+  </data>
+  <data name="MainForm.Menu.ElementPrivateModifier" xml:space="preserve">
+    <value>Privado</value>
+  </data>
+  <data name="MainForm.Menu.ElementPresentation" xml:space="preserve">
+    <value>Apresentação</value>
+  </data>
+  <data name="MainForm.Menu.DefaultPresentation" xml:space="preserve">
+    <value>&amp;Padrão</value>
+  </data>
+  <data name="MainForm.Menu.CustomPresentation" xml:space="preserve">
+    <value>&amp;Personalizado</value>
+  </data>
+  <data name="MainForm.Menu.ElementStyle" xml:space="preserve">
+    <value>&amp;Estilo</value>
+  </data>
+  <data name="MainForm.Menu.ElementProperties" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="MainForm.Menu.ElementDocumentation" xml:space="preserve">
+    <value>&amp;Documentação</value>
+  </data>
+  <data name="MainForm.Menu.ElementTaggedValues" xml:space="preserve">
+    <value>&amp;Etiquetas</value>
+  </data>
+  <data name="MainForm.Menu.Tools" xml:space="preserve">
+    <value>&amp;Ferramentas</value>
+  </data>
+  <data name="MainForm.Menu.GenerateDocumentation" xml:space="preserve">
+    <value>Gerar documentação</value>
+  </data>
+  <data name="MainForm.Menu.GenerateSourceCode" xml:space="preserve">
+    <value>Gerar código fonte</value>
+  </data>
+  <data name="MainForm.Menu.Lists" xml:space="preserve">
+    <value>&amp;Listas</value>
+  </data>
+  <data name="MainForm.Menu.StereotypesList" xml:space="preserve">
+    <value>&amp;Estereótipos</value>
+  </data>
+  <data name="MainForm.Menu.TypesList" xml:space="preserve">
+    <value>&amp;Tipos</value>
+  </data>
+  <data name="MainForm.Menu.ElementNames" xml:space="preserve">
+    <value>&amp;Nomes dos elementos</value>
+  </data>
+  <data name="MainForm.Menu.ReverseEngineering" xml:space="preserve">
+    <value>&amp;Engenharia reversa</value>
+  </data>
+  <data name="MainForm.Menu.NetReverseEngineering" xml:space="preserve">
+    <value>.&amp;NET Framework</value>
+  </data>
+  <data name="MainForm.Menu.DatabaseReverseEngineering" xml:space="preserve">
+    <value>&amp;Base de dados</value>
+  </data>
+  <data name="MainForm.Menu.RenumberElementIDs" xml:space="preserve">
+    <value>&amp;Renumerar códigos dos elementos</value>
+  </data>
+  <data name="MainForm.Menu.ImportDatabaseModel" xml:space="preserve">
+    <value>&amp;Importar modelo de base de dados</value>
+  </data>
+  <data name="MainForm.Menu.ImportObjectModel" xml:space="preserve">
+    <value>Importar modelo de objetos</value>
+  </data>
+  <data name="MainForm.Menu.Languages" xml:space="preserve">
+    <value>&amp;Línguas</value>
+  </data>
+  <data name="MainForm.Menu.Options" xml:space="preserve">
+    <value>&amp;Opções</value>
+  </data>
+  <data name="MainForm.Menu.Windows" xml:space="preserve">
+    <value>&amp;Janelas</value>
+  </data>
+  <data name="MainForm.Menu.Cascade" xml:space="preserve">
+    <value>&amp;Cascata</value>
+  </data>
+  <data name="MainForm.Menu.TileVertical" xml:space="preserve">
+    <value>Organizar verticalmente</value>
+  </data>
+  <data name="MainForm.Menu.TileHorizontal" xml:space="preserve">
+    <value>Organizar horizontalmente</value>
+  </data>
+  <data name="MainForm.Menu.ArrangeIcons" xml:space="preserve">
+    <value>Organizar ícones</value>
+  </data>
+  <data name="MainForm.Menu.CloseAll" xml:space="preserve">
+    <value>&amp;Fechar todas</value>
+  </data>
+  <data name="MainForm.Menu.Help" xml:space="preserve">
+    <value>&amp;Ajuda</value>
+  </data>
+  <data name="MainForm.Menu.OnlineHelp" xml:space="preserve">
+    <value>&amp;Ajuda online</value>
+  </data>
+  <data name="MainForm.Menu.Donate" xml:space="preserve">
+    <value>&amp;Doar</value>
+  </data>
+  <data name="MainForm.Menu.ActivateForCommercialUse" xml:space="preserve">
+    <value>&amp;Ativar para uso comercial</value>
+  </data>
+  <data name="MainForm.Menu.WhatsNew" xml:space="preserve">
+    <value>O que há de &amp;novo</value>
+  </data>
+  <data name="MainForm.Menu.CheckForUpdates" xml:space="preserve">
+    <value>Buscar &amp;atualizações</value>
+  </data>
+  <data name="MainForm.Menu.SendRequest" xml:space="preserve">
+    <value>Requisição de &amp;Envio</value>
+  </data>
+  <data name="MainForm.Menu.About" xml:space="preserve">
+    <value>&amp;Sobre o Software Ideas Modeler...</value>
+  </data>
+  <data name="MainForm.Menu.WebSite" xml:space="preserve">
+    <value>&amp;Sítio na Web</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.AddModel" xml:space="preserve">
+    <value>Adicionar &amp;Modelo</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.AddDiagram" xml:space="preserve">
+    <value>Adicionar &amp;Diagrama</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.NewDiagram" xml:space="preserve">
+    <value>&amp;Novo diagrama</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.MoveToModel" xml:space="preserve">
+    <value>Mover para modelo</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.Rename" xml:space="preserve">
+    <value>&amp;Renomear</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.Delete" xml:space="preserve">
+    <value>&amp;Deletar</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.DeleteFromProject" xml:space="preserve">
+    <value>Deletar do projeto</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlClassDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Clases</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlUseCaseDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Casos de Uso</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlSequenceDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Sequência</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlActivityDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Atividades</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlStateMachineDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Estados</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlDeploymentDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Despliegue</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlProfileDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Perfis</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlObjectDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Objetos</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlPackageDiagram" xml:space="preserve">
+    <value>Diagrama de Pacotes</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Diagrama de Comunicação</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Diagrama de Estrutura Composta</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlComponentDiagram" xml:space="preserve">
+    <value>Diagrama de Componentes</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Interações</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlMixedDiagram" xml:space="preserve">
+    <value>Diagrama Mixto</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.DataFlowDiagram" xml:space="preserve">
+    <value>Diagrama de Fluxo de Dados</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Diagrama de Relação de Entidades</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.RequirementDiagram" xml:space="preserve">
+    <value>Diagrama de Requisitos</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UserInterface" xml:space="preserve">
+    <value>&amp;Diagrama de Interface de Usuário</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.CrcCardDiagram" xml:space="preserve">
+    <value>Diagrama CRC</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.FlowchartDiagram" xml:space="preserve">
+    <value>&amp;Fluxograma</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.RobustnessDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Robustez</value>
+  </data>
+  <data name="MainForm.ProjectCMenu.UmlTimingDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Tempos</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.HierarchicalView" xml:space="preserve">
+    <value>Vista Hierárquica</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.AllEntitiesView" xml:space="preserve">
+    <value>Todas as Entidades</value>
+  </data>
+  <data name="MainForm.ProjectTreeViews.DiagramTypesView" xml:space="preserve">
+    <value>Tipos de Diagramas</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlClassDiagram" xml:space="preserve">
+    <value>Diagrama de Clases</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlUseCaseDiagram" xml:space="preserve">
+    <value>Diagrama de Casos de Uso</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlSequenceDiagram" xml:space="preserve">
+    <value>Diagrama de Sequência</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlActivityDiagram" xml:space="preserve">
+    <value>Diagrama de Atividades</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlStateMachineDiagram" xml:space="preserve">
+    <value>Diagrama de Estados</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlDeploymentDiagram" xml:space="preserve">
+    <value>Diagrama de Despliegue</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlProfileDiagram" xml:space="preserve">
+    <value>Diagrama de Perfil</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlObjectDiagram" xml:space="preserve">
+    <value>Diagrama de Objetos</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlPackageDiagram" xml:space="preserve">
+    <value>Diagrama de Pacotes</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlCommunicationDiagram" xml:space="preserve">
+    <value>Diagrama de Comunicação</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value>Diagrama de Composição</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlComponentDiagram" xml:space="preserve">
+    <value>Diagrama de Componentes</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value>&amp;Diagrama de Interações</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlMixedDiagram" xml:space="preserve">
+    <value>Diagrama Mixto</value>
+  </data>
+  <data name="MainForm.Toolbox.DataFlowDiagram" xml:space="preserve">
+    <value>Diagrama Fluxo de Dados</value>
+  </data>
+  <data name="MainForm.Toolbox.EntityRelationshipDiagram" xml:space="preserve">
+    <value>Diagrama de Relação de Entidades</value>
+  </data>
+  <data name="MainForm.Toolbox.RequirementDiagram" xml:space="preserve">
+    <value>Diagrama de Requisitos</value>
+  </data>
+  <data name="MainForm.Toolbox.UserInterfaceDiagram" xml:space="preserve">
+    <value>Diagrama de Interface de Usuário</value>
+  </data>
+  <data name="MainForm.Toolbox.CrcCardDiagram" xml:space="preserve">
+    <value>Diagrama CRC</value>
+  </data>
+  <data name="MainForm.Toolbox.FlowchartDiagram" xml:space="preserve">
+    <value>Fluxograma</value>
+  </data>
+  <data name="MainForm.Toolbox.RobustnessDiagram" xml:space="preserve">
+    <value>Diagrama de Robustez</value>
+  </data>
+  <data name="MainForm.Toolbox.UmlTimingDiagram" xml:space="preserve">
+    <value>Diagrama de Tempo</value>
+  </data>
+  <data name="MainForm.Toolbox.Common" xml:space="preserve">
+    <value>Comum</value>
+  </data>
+  <data name="MainForm.Toolbox.Drawing" xml:space="preserve">
+    <value>Desenho</value>
+  </data>
+  <data name="MainForm.Toolbox.Selection" xml:space="preserve">
+    <value>Seleção</value>
+  </data>
+  <data name="MainForm.Toolbox.Comment" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="MainForm.Toolbox.Comment Connector" xml:space="preserve">
+    <value>Conector de comentário</value>
+  </data>
+  <data name="MainForm.Toolbox.Constraint" xml:space="preserve">
+    <value>Restrição</value>
+  </data>
+  <data name="MainForm.Toolbox.Diagram Description" xml:space="preserve">
+    <value>Descrição do diagrama</value>
+  </data>
+  <data name="MainForm.Toolbox.Line" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="MainForm.Toolbox.Rectangle" xml:space="preserve">
+    <value>Retângulo</value>
+  </data>
+  <data name="MainForm.Toolbox.Ellipse" xml:space="preserve">
+    <value>Elipse</value>
+  </data>
+  <data name="MainForm.Toolbox.Polygon" xml:space="preserve">
+    <value>Polígono</value>
+  </data>
+  <data name="MainForm.Toolbox.Text" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="MainForm.Toolbox.Left Arrow" xml:space="preserve">
+    <value>Seta esquerda</value>
+  </data>
+  <data name="MainForm.Toolbox.Right Arrow" xml:space="preserve">
+    <value>Seta direita</value>
+  </data>
+  <data name="MainForm.Toolbox.Up Arrow" xml:space="preserve">
+    <value>Seta acima</value>
+  </data>
+  <data name="MainForm.Toolbox.Down Arrow" xml:space="preserve">
+    <value>Seta abaixo</value>
+  </data>
+  <data name="MainForm.Toolbox.Package" xml:space="preserve">
+    <value>Pacote</value>
+  </data>
+  <data name="MainForm.Toolbox.Class" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="MainForm.Toolbox.Table" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="MainForm.Toolbox.Structure" xml:space="preserve">
+    <value>Estrutura</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal" xml:space="preserve">
+    <value>Sinal</value>
+  </data>
+  <data name="MainForm.Toolbox.Enumeration" xml:space="preserve">
+    <value>Numeração</value>
+  </data>
+  <data name="MainForm.Toolbox.Interface" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="MainForm.Toolbox.Realization" xml:space="preserve">
+    <value>Realização</value>
+  </data>
+  <data name="MainForm.Toolbox.Association" xml:space="preserve">
+    <value>Associação</value>
+  </data>
+  <data name="MainForm.Toolbox.Unidir. Association" xml:space="preserve">
+    <value>Associação Unidir.</value>
+  </data>
+  <data name="MainForm.Toolbox.Bidir. Association" xml:space="preserve">
+    <value>Associação Bidir.</value>
+  </data>
+  <data name="MainForm.Toolbox.N-ary Association" xml:space="preserve">
+    <value>Associação N-ária</value>
+  </data>
+  <data name="MainForm.Toolbox.Composition" xml:space="preserve">
+    <value>Composição</value>
+  </data>
+  <data name="MainForm.Toolbox.Aggregation" xml:space="preserve">
+    <value>Agregação</value>
+  </data>
+  <data name="MainForm.Toolbox.Generalization" xml:space="preserve">
+    <value>Generalização</value>
+  </data>
+  <data name="MainForm.Toolbox.Dependency" xml:space="preserve">
+    <value>Dependência</value>
+  </data>
+  <data name="MainForm.Toolbox.Containment" xml:space="preserve">
+    <value>De contenção</value>
+  </data>
+  <data name="MainForm.Toolbox.Usage" xml:space="preserve">
+    <value>Uso</value>
+  </data>
+  <data name="MainForm.Toolbox.Access" xml:space="preserve">
+    <value>Acesso</value>
+  </data>
+  <data name="MainForm.Toolbox.Refine" xml:space="preserve">
+    <value>Refinar</value>
+  </data>
+  <data name="MainForm.Toolbox.Actor" xml:space="preserve">
+    <value>Ator</value>
+  </data>
+  <data name="MainForm.Toolbox.Use Case" xml:space="preserve">
+    <value>Caso de Uso</value>
+  </data>
+  <data name="MainForm.Toolbox.Collaboration" xml:space="preserve">
+    <value>Colaboração</value>
+  </data>
+  <data name="MainForm.Toolbox.Include" xml:space="preserve">
+    <value>Inclui</value>
+  </data>
+  <data name="MainForm.Toolbox.Extend" xml:space="preserve">
+    <value>Extende</value>
+  </data>
+  <data name="MainForm.Toolbox.System Boundary" xml:space="preserve">
+    <value>Limite do Sistema</value>
+  </data>
+  <data name="MainForm.Toolbox.Lifeline" xml:space="preserve">
+    <value>Linha de Vida</value>
+  </data>
+  <data name="MainForm.Toolbox.Interaction Operand" xml:space="preserve">
+    <value>Interação operando</value>
+  </data>
+  <data name="MainForm.Toolbox.Activation Bar" xml:space="preserve">
+    <value>Barra de ativação</value>
+  </data>
+  <data name="MainForm.Toolbox.Fragment" xml:space="preserve">
+    <value>Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Frame" xml:space="preserve">
+    <value>Quadro</value>
+  </data>
+  <data name="MainForm.Toolbox.Interaction" xml:space="preserve">
+    <value>Interação</value>
+  </data>
+  <data name="MainForm.Toolbox.Interaction Use" xml:space="preserve">
+    <value>Uso de Interação</value>
+  </data>
+  <data name="MainForm.Toolbox.Call Action" xml:space="preserve">
+    <value>Ação chamada</value>
+  </data>
+  <data name="MainForm.Toolbox.Return Action" xml:space="preserve">
+    <value>Ação retorno</value>
+  </data>
+  <data name="MainForm.Toolbox.Send Action" xml:space="preserve">
+    <value>Ação envio</value>
+  </data>
+  <data name="MainForm.Toolbox.Destroy Action" xml:space="preserve">
+    <value>Ação destruição</value>
+  </data>
+  <data name="MainForm.Toolbox.Opt Fragment" xml:space="preserve">
+    <value>Opt Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Alt Fragment" xml:space="preserve">
+    <value>Alt Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Loop Fragment" xml:space="preserve">
+    <value>Loop Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Ref Fragment" xml:space="preserve">
+    <value>Ref Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Sd Fragment" xml:space="preserve">
+    <value>Sd Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Par Fragment" xml:space="preserve">
+    <value>Par Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Neg Fragment" xml:space="preserve">
+    <value>Neg Fragmento</value>
+  </data>
+  <data name="MainForm.Toolbox.Self Message" xml:space="preserve">
+    <value>Auto mensagem</value>
+  </data>
+  <data name="MainForm.Toolbox.Recursive Message" xml:space="preserve">
+    <value>Mensagem recursivo</value>
+  </data>
+  <data name="MainForm.Toolbox.Concurrent" xml:space="preserve">
+    <value>Concorrente</value>
+  </data>
+  <data name="MainForm.Toolbox.Duration Message" xml:space="preserve">
+    <value>Mensagem duração</value>
+  </data>
+  <data name="MainForm.Toolbox.Lost Message" xml:space="preserve">
+    <value>Mensagem perdido</value>
+  </data>
+  <data name="MainForm.Toolbox.Found Message" xml:space="preserve">
+    <value>Mensagem encontrado</value>
+  </data>
+  <data name="MainForm.Toolbox.State Invariant" xml:space="preserve">
+    <value>Estado Fixo</value>
+  </data>
+  <data name="MainForm.Toolbox.Duration Constraint" xml:space="preserve">
+    <value>Restrição de duração</value>
+  </data>
+  <data name="MainForm.Toolbox.Coregion" xml:space="preserve">
+    <value>Corregão</value>
+  </data>
+  <data name="MainForm.Toolbox.Message" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="MainForm.Toolbox.Swimlane" xml:space="preserve">
+    <value>Trilho</value>
+  </data>
+  <data name="MainForm.Toolbox.Activity" xml:space="preserve">
+    <value>Atividade</value>
+  </data>
+  <data name="MainForm.Toolbox.Object" xml:space="preserve">
+    <value>Objeto</value>
+  </data>
+  <data name="MainForm.Toolbox.Initial State" xml:space="preserve">
+    <value>Estado inicial</value>
+  </data>
+  <data name="MainForm.Toolbox.Final State" xml:space="preserve">
+    <value>Estado final</value>
+  </data>
+  <data name="MainForm.Toolbox.State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="MainForm.Toolbox.Composite State" xml:space="preserve">
+    <value>Estado composto</value>
+  </data>
+  <data name="MainForm.Toolbox.Fork/Join" xml:space="preserve">
+    <value>Divisão/União</value>
+  </data>
+  <data name="MainForm.Toolbox.Decision" xml:space="preserve">
+    <value>Decisão</value>
+  </data>
+  <data name="MainForm.Toolbox.Transition" xml:space="preserve">
+    <value>Transição</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal Receipt" xml:space="preserve">
+    <value>Sinal recepção</value>
+  </data>
+  <data name="MainForm.Toolbox.Signal Send" xml:space="preserve">
+    <value>Sinal envio</value>
+  </data>
+  <data name="MainForm.Toolbox.Deep History" xml:space="preserve">
+    <value>Histórico profundo</value>
+  </data>
+  <data name="MainForm.Toolbox.Shallow History" xml:space="preserve">
+    <value>Histórico superficial</value>
+  </data>
+  <data name="MainForm.Toolbox.Terminate Node" xml:space="preserve">
+    <value>Nó terminação</value>
+  </data>
+  <data name="MainForm.Toolbox.Entry Point" xml:space="preserve">
+    <value>Ponto de entrada</value>
+  </data>
+  <data name="MainForm.Toolbox.Exit Point" xml:space="preserve">
+    <value>Ponto de saída</value>
+  </data>
+  <data name="MainForm.Toolbox.Initial Node" xml:space="preserve">
+    <value>Nó inicial</value>
+  </data>
+  <data name="MainForm.Toolbox.Activity Final Node" xml:space="preserve">
+    <value>Nó de atividade final</value>
+  </data>
+  <data name="MainForm.Toolbox.Flow Node" xml:space="preserve">
+    <value>Nó de Fluxo</value>
+  </data>
+  <data name="MainForm.Toolbox.Activity Parameter Node" xml:space="preserve">
+    <value>Nó de parâmetro de atividade</value>
+  </data>
+  <data name="MainForm.Toolbox.Action" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="MainForm.Toolbox.Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="MainForm.Toolbox.Accept Time Event Action" xml:space="preserve">
+    <value>Evento de tempo aceito</value>
+  </data>
+  <data name="MainForm.Toolbox.Interruptible Activity Region" xml:space="preserve">
+    <value>Região de atividade interrompível</value>
+  </data>
+  <data name="MainForm.Toolbox.Expansion Region" xml:space="preserve">
+    <value>Região de expansão</value>
+  </data>
+  <data name="MainForm.Toolbox.Expansion Node" xml:space="preserve">
+    <value>Nó de expansão</value>
+  </data>
+  <data name="MainForm.Toolbox.Exception Handler" xml:space="preserve">
+    <value>Tratador de exceções</value>
+  </data>
+  <data name="MainForm.Toolbox.Node" xml:space="preserve">
+    <value>Nó</value>
+  </data>
+  <data name="MainForm.Toolbox.Component" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="MainForm.Toolbox.Artifact" xml:space="preserve">
+    <value>Artefato</value>
+  </data>
+  <data name="MainForm.Toolbox.Deploy" xml:space="preserve">
+    <value>Deploy</value>
+  </data>
+  <data name="MainForm.Toolbox.Manifest" xml:space="preserve">
+    <value>Manifesto</value>
+  </data>
+  <data name="MainForm.Toolbox.Import" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="MainForm.Toolbox.Merge" xml:space="preserve">
+    <value>Unir</value>
+  </data>
+  <data name="MainForm.Toolbox.Use" xml:space="preserve">
+    <value>Usar</value>
+  </data>
+  <data name="MainForm.Toolbox.Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="MainForm.Toolbox.Stereotype" xml:space="preserve">
+    <value>Estereótipo</value>
+  </data>
+  <data name="MainForm.Toolbox.Meta Class" xml:space="preserve">
+    <value>Metaclasse</value>
+  </data>
+  <data name="MainForm.Toolbox.Apply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="MainForm.Toolbox.Boundary" xml:space="preserve">
+    <value>Limite</value>
+  </data>
+  <data name="MainForm.Toolbox.Control" xml:space="preserve">
+    <value>Controle</value>
+  </data>
+  <data name="MainForm.Toolbox.Entity" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="MainForm.Toolbox.Relation" xml:space="preserve">
+    <value>Relação</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 1" xml:space="preserve">
+    <value>1 a 1</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 0..1" xml:space="preserve">
+    <value>1 a 0..1</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 1..n" xml:space="preserve">
+    <value>1 a 1..n</value>
+  </data>
+  <data name="MainForm.Toolbox.1 to 0..n" xml:space="preserve">
+    <value>1 a 0..n</value>
+  </data>
+  <data name="MainForm.Toolbox.0..n to 0..n" xml:space="preserve">
+    <value>0..n a 0..n</value>
+  </data>
+  <data name="MainForm.Toolbox.1..n to 1..n" xml:space="preserve">
+    <value>1..n a 1..n</value>
+  </data>
+  <data name="MainForm.Toolbox.Data Store" xml:space="preserve">
+    <value>Almazenagem de Dados</value>
+  </data>
+  <data name="MainForm.Toolbox.Process" xml:space="preserve">
+    <value>Processo</value>
+  </data>
+  <data name="MainForm.Toolbox.Gate" xml:space="preserve">
+    <value>Portão</value>
+  </data>
+  <data name="MainForm.Toolbox.External" xml:space="preserve">
+    <value>Externo</value>
+  </data>
+  <data name="MainForm.Toolbox.Data Flow" xml:space="preserve">
+    <value>Fluxo de dados</value>
+  </data>
+  <data name="MainForm.Toolbox.Requirement" xml:space="preserve">
+    <value>Requisito</value>
+  </data>
+  <data name="MainForm.Toolbox.Model" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="MainForm.Toolbox.Test Case" xml:space="preserve">
+    <value>Caso de Teste</value>
+  </data>
+  <data name="MainForm.Toolbox.Port" xml:space="preserve">
+    <value>Porta</value>
+  </data>
+  <data name="MainForm.Toolbox.Part" xml:space="preserve">
+    <value>Parte</value>
+  </data>
+  <data name="MainForm.Toolbox.Required Interface" xml:space="preserve">
+    <value>Interface requerida</value>
+  </data>
+  <data name="MainForm.Toolbox.Window" xml:space="preserve">
+    <value>Janela</value>
+  </data>
+  <data name="MainForm.Toolbox.Label" xml:space="preserve">
+    <value>Etiqueta</value>
+  </data>
+  <data name="MainForm.Toolbox.Button" xml:space="preserve">
+    <value>Botão</value>
+  </data>
+  <data name="MainForm.Toolbox.Check Box" xml:space="preserve">
+    <value>Botão de verificação</value>
+  </data>
+  <data name="MainForm.Toolbox.Radio Button" xml:space="preserve">
+    <value>Botão de opção</value>
+  </data>
+  <data name="MainForm.Toolbox.Text Box" xml:space="preserve">
+    <value>Caixa de texto</value>
+  </data>
+  <data name="MainForm.Toolbox.Scrollbar" xml:space="preserve">
+    <value>Barra de rolagem</value>
+  </data>
+  <data name="MainForm.Toolbox.List Box" xml:space="preserve">
+    <value>List Box</value>
+  </data>
+  <data name="MainForm.Toolbox.Combo Box" xml:space="preserve">
+    <value>Combo Box</value>
+  </data>
+  <data name="MainForm.Toolbox.Progress Bar" xml:space="preserve">
+    <value>Barra de progresso</value>
+  </data>
+  <data name="MainForm.Toolbox.Grid" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="MainForm.Toolbox.Flow" xml:space="preserve">
+    <value>Fluxo</value>
+  </data>
+  <data name="MainForm.Toolbox.Data" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="MainForm.Toolbox.Direct Data" xml:space="preserve">
+    <value>Dado direto</value>
+  </data>
+  <data name="MainForm.Toolbox.Document" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="MainForm.Toolbox.Internal Storage" xml:space="preserve">
+    <value>Armazenagem interna</value>
+  </data>
+  <data name="MainForm.Toolbox.Predefined Process" xml:space="preserve">
+    <value>Processo predefinido</value>
+  </data>
+  <data name="MainForm.Toolbox.Start End Symbol" xml:space="preserve">
+    <value>Símbolo início final</value>
+  </data>
+  <data name="MainForm.Toolbox.Stored Data" xml:space="preserve">
+    <value>Dados armazenados</value>
+  </data>
+  <data name="MainForm.Toolbox.User Input" xml:space="preserve">
+    <value>Entrada do usuário</value>
+  </data>
+  <data name="MainForm.Toolbox.CRC Card" xml:space="preserve">
+    <value>Cartão CRC</value>
+  </data>
+  <data name="MainForm.SideBars.Project" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="MainForm.SideBars.FastEditor" xml:space="preserve">
+    <value>Editor rápido</value>
+  </data>
+  <data name="MainForm.SideBars.Styles" xml:space="preserve">
+    <value>Estilos</value>
+  </data>
+  <data name="MainForm.SideBars.ItemProperties" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="MainForm.SideBars.Generation" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="MainForm.SideBars.Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="MainForm.SideBars.Layers" xml:space="preserve">
+    <value>Camadas</value>
+  </data>
+  <data name="MainForm.SideBars.Preview" xml:space="preserve">
+    <value>Visualização</value>
+  </data>
+  <data name="MainForm.SideBars.ToDo" xml:space="preserve">
+    <value>Pendências</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewModel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.ExpandAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.Refresh" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlClassDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlUseCaseDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlSequenceDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlActivityDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlStateMachineDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlDeploymentDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCompositeStructureDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlComponentDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlInteractionOverviewDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlTimingDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlProfileDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlObjectDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlPackageDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCommunicationDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.EntityRelationshipDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.RequirementDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.UserInterface" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.CrcCardDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.FlowchartDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.RobustnessDiagram" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.Filter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowEntities" xml:space="preserve">
+    <value>Mostrar entidades</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowRelations" xml:space="preserve">
+    <value>Mostrar relações</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowComments" xml:space="preserve">
+    <value>Mostrar comentários</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ShowGroups" xml:space="preserve">
+    <value>Mostrar grupos</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.Generate" xml:space="preserve">
+    <value>&amp;Gerar</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.GenerateFrom" xml:space="preserve">
+    <value>A partir de</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.WholeDiagram" xml:space="preserve">
+    <value>Diagrama todo</value>
+  </data>
+  <data name="MainForm.GenerationTabPanel.SelectedElements" xml:space="preserve">
+    <value>Elementos selecionados</value>
+  </data>
+  <data name="MainForm.ItemEditorTabPanel.ItemDefinition" xml:space="preserve">
+    <value>&amp;Definição de ítens</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.Apply" xml:space="preserve">
+    <value>&amp;Aplicar</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.NewStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.OpenStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.SaveStyleSet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.AddStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.SetStyleAsDefault" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.EditStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.StylesTabPanel.DeleteStyle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm.Properties.ShowDialog" xml:space="preserve">
+    <value>Mostrar diálogo</value>
+  </data>
+  <data name="MainForm.Properties.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="MainForm.Properties.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="MainForm.Properties.Visibility" xml:space="preserve">
+    <value>Visibilidade:</value>
+  </data>
+  <data name="MainForm.Properties.X" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="MainForm.Properties.Y" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="MainForm.Properties.Width" xml:space="preserve">
+    <value>Largura:</value>
+  </data>
+  <data name="MainForm.Properties.Height" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+  <data name="EditorForm.Form.FilterWarning" xml:space="preserve">
+    <value>Filtro ativo, alguns elementos podem estar ocultos</value>
+  </data>
+  <data name="EditorForm.Form.RemoveFilter" xml:space="preserve">
+    <value>&amp;Remover filtro</value>
+  </data>
+  <data name="Elements.DiagramDescription.Authors" xml:space="preserve">
+    <value>Autor(es):</value>
+  </data>
+  <data name="Elements.DiagramDescription.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="Elements.DiagramDescription.DiagramName" xml:space="preserve">
+    <value>Nome do diagrama:</value>
+  </data>
+  <data name="Elements.DiagramDescription.Version" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="Elements.DiagramDescription.LastChangeDate" xml:space="preserve">
+    <value>Data de modificação:</value>
+  </data>
+  <data name="Elements.DiagramDescription.ModelName" xml:space="preserve">
+    <value>Modelo:</value>
+  </data>
+  <data name="Elements.DiagramDescription.ProjectName" xml:space="preserve">
+    <value>Projeto:</value>
+  </data>
+  <data name="LayerControl.Control.AddLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.DeleteLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.ShowHideLayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.MergeAllLayers" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.MoveUp" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayerControl.Control.MoveDown" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ContextBar.Control.AddAttribute" xml:space="preserve">
+    <value>Adicionar atributo</value>
+  </data>
+  <data name="ContextBar.Control.AddOperation" xml:space="preserve">
+    <value>Adicionar operação</value>
+  </data>
+  <data name="ContextBar.Control.AddSubClass" xml:space="preserve">
+    <value>Adicionar subclasse</value>
+  </data>
+  <data name="ContextBar.Control.AddSuperClass" xml:space="preserve">
+    <value>Adicionar superclasse</value>
+  </data>
+  <data name="ContextBar.Control.AddUseCase" xml:space="preserve">
+    <value>Adicionar caso de uso</value>
+  </data>
+  <data name="ContextBar.Control.AddSwimlane" xml:space="preserve">
+    <value>Adicionar trilho</value>
+  </data>
+  <data name="ContextBar.Control.AddInterface" xml:space="preserve">
+    <value>Adicionar interface</value>
+  </data>
+  <data name="ContextBar.Control.AddState" xml:space="preserve">
+    <value>Adicionar estado</value>
+  </data>
+  <data name="ContextBar.Control.AddValueLifeline" xml:space="preserve">
+    <value>Adicionar valor na linha de vida</value>
+  </data>
+  <data name="ContextBar.Control.AddStateLifeline" xml:space="preserve">
+    <value>Adicionar estado na linha de vida</value>
+  </data>
+  <data name="ContextBar.Control.ConvertToValueLifeline" xml:space="preserve">
+    <value>Converter linha de vida para valor</value>
+  </data>
+  <data name="ContextBar.Control.ConvertToStateLifeline" xml:space="preserve">
+    <value>Converter linha de vida para estado</value>
+  </data>
+  <data name="ContextBar.Control.Extend" xml:space="preserve">
+    <value>Extendido</value>
+  </data>
+  <data name="ContextBar.Control.Include" xml:space="preserve">
+    <value>Incluso</value>
+  </data>
+  <data name="ContextBar.Control.AddComment" xml:space="preserve">
+    <value>Adicionar comentário</value>
+  </data>
+  <data name="ContextBar.Control.AddSequenceExpression" xml:space="preserve">
+    <value>Adicionar expressão sequencial</value>
+  </data>
+  <data name="ContextBar.Control.AddCollaborator" xml:space="preserve">
+    <value>Adicionar colaborador</value>
+  </data>
+  <data name="ContextBar.Control.AddResponsibility" xml:space="preserve">
+    <value>Adicionar responsabilidade</value>
+  </data>
+  <data name="ContextBar.Control.AddAssociationClass" xml:space="preserve">
+    <value>Adicionar classe de associação</value>
+  </data>
+  <data name="NewDiagramForm.Form.Title" xml:space="preserve">
+    <value>Novo diagrama</value>
+  </data>
+  <data name="NewDiagramForm.Form.SelectItemLabel" xml:space="preserve">
+    <value>Selecione o tipo de diagrama que deseja adicionar ao projeto:</value>
+  </data>
+  <data name="NewDiagramForm.Form.NameLabel" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="NewDiagramForm.Form.Ok" xml:space="preserve">
+    <value>&amp;Aceitar</value>
+  </data>
+  <data name="NewDiagramForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.UMLDiagrams" xml:space="preserve">
+    <value>Diagramas UML</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.DatabaseModeling" xml:space="preserve">
+    <value>Modelar Base de dados</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.Requirements" xml:space="preserve">
+    <value>Requisitos</value>
+  </data>
+  <data name="NewDiagramForm.Diagrams.Others" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="AboutForm.Form.Title" xml:space="preserve">
+    <value>Sobre o Software Ideas Modeler</value>
+  </data>
+  <data name="AboutForm.Form.AboutTab" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AboutForm.Form.WhatsNewTab" xml:space="preserve">
+    <value>O que há de novo</value>
+  </data>
+  <data name="AboutForm.Form.Author" xml:space="preserve">
+    <value>Autor:</value>
+  </data>
+  <data name="AboutForm.Form.Version" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="AboutForm.Form.Description" xml:space="preserve">
+    <value>O Software Ideas Modeler é uma ferramenta para modelar software usando diagramas UML.</value>
+  </data>
+  <data name="AboutForm.Form.Close" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="AboutForm.Form.Donation" xml:space="preserve">
+    <value>Gostou deste programa? Então apoie esta iniciativa, clique no botão "Donate" e envie qualquer quantia em dinheiro.</value>
+  </data>
+  <data name="StartPageForm.Form.Title" xml:space="preserve">
+    <value>Página Inicial</value>
+  </data>
+  <data name="StartPageForm.Form.StartWith" xml:space="preserve">
+    <value>Iniciar com...</value>
+  </data>
+  <data name="StartPageForm.Form.RecentProjects" xml:space="preserve">
+    <value>Projetos recentes</value>
+  </data>
+  <data name="StartPageForm.Form.OpenProject" xml:space="preserve">
+    <value>Abrir projeto...</value>
+  </data>
+  <data name="StartPageForm.Form.NewProject" xml:space="preserve">
+    <value>Criar novo projeto...</value>
+  </data>
+  <data name="StartPageForm.Form.DonateNow" xml:space="preserve">
+    <value>Doar / Comprar agora</value>
+  </data>
+  <data name="ModelOverviewForm.Form.Title" xml:space="preserve">
+    <value>Resumo do Modelo</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.Open" xml:space="preserve">
+    <value>&amp;Abrir</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.Close" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="DiagramThumbnailsPanel.Control.DeleteDiagram" xml:space="preserve">
+    <value>&amp;Deletar diagrama</value>
+  </data>
+  <data name="ClassifierForm.Form.Title" xml:space="preserve">
+    <value>Classificador</value>
+  </data>
+  <data name="ClassifierForm.Form.Classifiers" xml:space="preserve">
+    <value>Classificadores:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Title" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.SequenceNumber" xml:space="preserve">
+    <value>Número sequencial:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Message" xml:space="preserve">
+    <value>Mensagem:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.Direction" xml:space="preserve">
+    <value>Direção:</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.NormalDirection" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="CommunicationMessageForm.Form.ReverseDirection" xml:space="preserve">
+    <value>Reversa</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Class" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Relationship" xml:space="preserve">
+    <value>Relação</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Style" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TaggedValues" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ErdEntity" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ErdRelation" xml:space="preserve">
+    <value>Relação</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlState" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlFragment" xml:space="preserve">
+    <value>Fragmento</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlFrame" xml:space="preserve">
+    <value>Quadro</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlInteraction" xml:space="preserve">
+    <value>Interação</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlObject" xml:space="preserve">
+    <value>Objeto</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlLifeline" xml:space="preserve">
+    <value>Linha de vida</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlInteractionOperand" xml:space="preserve">
+    <value>Operando de interação</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlCommunicationLifeline" xml:space="preserve">
+    <value>Linha de vida</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlCommunicationMessage" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlTransition" xml:space="preserve">
+    <value>Transição</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlExtend" xml:space="preserve">
+    <value>Extendido</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.UmlSwimlane" xml:space="preserve">
+    <value>Trilho</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.SequenceMessage" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TemplateParameters" xml:space="preserve">
+    <value>Parâmetro do Template</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingTickMarkValues" xml:space="preserve">
+    <value>Marcas de Tempo</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingStates" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.TimingEvents" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.CrcCardHeader" xml:space="preserve">
+    <value>Cabeçalho</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.CrcCard" xml:space="preserve">
+    <value>Responsabilidades</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Ok" xml:space="preserve">
+    <value>&amp;Aceitar</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Stereotypes" xml:space="preserve">
+    <value>&amp;Estereótipos</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AppliedStereotypes" xml:space="preserve">
+    <value>&amp;Estereótipos aplicados:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AvailableStereotypes" xml:space="preserve">
+    <value>A&amp;Estereótipos disponíveis:</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Add" xml:space="preserve">
+    <value>&lt;&amp;Adicionar</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AddCustom" xml:space="preserve">
+    <value>&lt;Adicionar &amp;personalizado</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Remove" xml:space="preserve">
+    <value>&amp;Remover&gt;</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.Modifiers" xml:space="preserve">
+    <value>Modificadores</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.AbstractModifier" xml:space="preserve">
+    <value>&amp;Abstrato</value>
+  </data>
+  <data name="ItemPropertiesForm.Form.StaticModifier" xml:space="preserve">
+    <value>&amp;Estático</value>
+  </data>
+  <data name="Style.Control.DefaultStyle" xml:space="preserve">
+    <value>Estilo predefinido</value>
+  </data>
+  <data name="Style.Control.StyleByClass" xml:space="preserve">
+    <value>Estilo por classe:</value>
+  </data>
+  <data name="Style.Control.CustomStyle" xml:space="preserve">
+    <value>Estilo personalizado</value>
+  </data>
+  <data name="Style.Control.BorderColor" xml:space="preserve">
+    <value>Cor da borda:</value>
+  </data>
+  <data name="Style.Control.BackgroundType" xml:space="preserve">
+    <value>Tipo de fundo:</value>
+  </data>
+  <data name="Style.Control.BackgroundColor" xml:space="preserve">
+    <value>Cor do fundo:</value>
+  </data>
+  <data name="Style.Control.BackgroundColor2" xml:space="preserve">
+    <value>Cor do fundo 2:</value>
+  </data>
+  <data name="Style.Control.TextColor" xml:space="preserve">
+    <value>Cor do texto:</value>
+  </data>
+  <data name="Style.Control.TextFont" xml:space="preserve">
+    <value>Fonte de texto:</value>
+  </data>
+  <data name="Style.Control.BorderWidth" xml:space="preserve">
+    <value>Largura da borda:</value>
+  </data>
+  <data name="Style.Control.Gloss" xml:space="preserve">
+    <value>Brilho</value>
+  </data>
+  <data name="Style.Control.Gloss3D" xml:space="preserve">
+    <value>Efeito 3D</value>
+  </data>
+  <data name="Style.Control.Shadow" xml:space="preserve">
+    <value>Sombra:</value>
+  </data>
+  <data name="Style.Control.ShadowOffsetX" xml:space="preserve">
+    <value>Deslocamento X:</value>
+  </data>
+  <data name="Style.Control.ShadowOffsetY" xml:space="preserve">
+    <value>Deslocamento Y:</value>
+  </data>
+  <data name="Style.Control.ShadowRadius" xml:space="preserve">
+    <value>Raio:</value>
+  </data>
+  <data name="Style.Control.ShadowColor" xml:space="preserve">
+    <value>Cor:</value>
+  </data>
+  <data name="Style.Control.NameFont" xml:space="preserve">
+    <value>Nome da fonte:</value>
+  </data>
+  <data name="Style.Control.NameColor" xml:space="preserve">
+    <value>Nome da cor:</value>
+  </data>
+  <data name="Style.Control.StereotypeColor" xml:space="preserve">
+    <value>Cor do Estereótipo:</value>
+  </data>
+  <data name="Style.Control.StereotypeFont" xml:space="preserve">
+    <value>Fonte do Estereótipo:</value>
+  </data>
+  <data name="Style.Control.Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Style.Control.Stereotype" xml:space="preserve">
+    <value>Estereótipo</value>
+  </data>
+  <data name="Style.Control.Text" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="Style.Control.Effects" xml:space="preserve">
+    <value>Efeito</value>
+  </data>
+  <data name="Style.Control.Font" xml:space="preserve">
+    <value>Fonte:</value>
+  </data>
+  <data name="Style.Control.Color" xml:space="preserve">
+    <value>Cor:</value>
+  </data>
+  <data name="Style.Control.Alignment" xml:space="preserve">
+    <value>Alinhamento:</value>
+  </data>
+  <data name="Documentation.Control.FontSize" xml:space="preserve">
+    <value>Tamanho da fonte:</value>
+  </data>
+  <data name="Documentation.Control.Bold" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Italic" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Underline" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Documentation.Control.Strikethrough" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErdRelationDefinition.Control.RelationType" xml:space="preserve">
+    <value>Tipo de relação:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.StartMultiplicity" xml:space="preserve">
+    <value>Multiplicidade inicial:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.StartRole" xml:space="preserve">
+    <value>Papel inicial:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.EndMultiplicity" xml:space="preserve">
+    <value>Multiplicidade final:</value>
+  </data>
+  <data name="ErdRelationDefinition.Control.EndRole" xml:space="preserve">
+    <value>Papel final:</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Add" xml:space="preserve">
+    <value>Adicional</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Remove" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.Attributes" xml:space="preserve">
+    <value>Atributos</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.NameColumn" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.TypeColumn" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.TypeSizeColumn" xml:space="preserve">
+    <value>Tamanho do tipo</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.NullableColumn" xml:space="preserve">
+    <value>Anulável</value>
+  </data>
+  <data name="ErdEntityDefinition.Control.DescriptionColumn" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="MessageDefinition.Control.Message" xml:space="preserve">
+    <value>Mensagem:</value>
+  </data>
+  <data name="MessageDefinition.Control.Type" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="MessageDefinition.Control.Asynchronous" xml:space="preserve">
+    <value>Assíncrono</value>
+  </data>
+  <data name="MessageDefinition.Control.Call" xml:space="preserve">
+    <value>Chamada</value>
+  </data>
+  <data name="MessageDefinition.Control.Create" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="MessageDefinition.Control.Destroy" xml:space="preserve">
+    <value>Destruir</value>
+  </data>
+  <data name="MessageDefinition.Control.Return" xml:space="preserve">
+    <value>Retornar</value>
+  </data>
+  <data name="MessageDefinition.Control.Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="MessageDefinition.Control.Terminate" xml:space="preserve">
+    <value>Terminar</value>
+  </data>
+  <data name="CommentDefinition.Control.Comment" xml:space="preserve">
+    <value>Comentário:</value>
+  </data>
+  <data name="LifelineDefinition.Control.Classifier" xml:space="preserve">
+    <value>Classificador:</value>
+  </data>
+  <data name="LifelineDefinition.Control.Active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="LifelineDefinition.Control.MultiObject" xml:space="preserve">
+    <value>Multi-objeto</value>
+  </data>
+  <data name="CommunicationLifelineDefinition.Control.Classifier" xml:space="preserve">
+    <value>Classificador:</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Adicionar</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Edit" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="CommunicationMessageDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Remover</value>
+  </data>
+  <data name="FragmentDefinition.Control.InteractionOperator" xml:space="preserve">
+    <value>Operador de interação:</value>
+  </data>
+  <data name="FragmentDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Adicionar</value>
+  </data>
+  <data name="FragmentDefinition.Control.Edit" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="FragmentDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Remover</value>
+  </data>
+  <data name="FrameDefinition.Control.Type" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="InteractionDefinition.Control.Type" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="InteractionOperandDefinition.Control.GuardCondition" xml:space="preserve">
+    <value>Proteger condição:</value>
+  </data>
+  <data name="ObjectDefinition.Control.Classifier" xml:space="preserve">
+    <value>Classificador:</value>
+  </data>
+  <data name="ObjectDefinition.Control.Values" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="ObjectDefinition.Control.Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ObjectDefinition.Control.Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="AddObjectAttributeForm.Form.Title" xml:space="preserve">
+    <value>Adicionar atributo</value>
+  </data>
+  <data name="AddObjectAttributeForm.Form.Attributes" xml:space="preserve">
+    <value>Atributos</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Superclass" xml:space="preserve">
+    <value>Superclasse:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Subclasses" xml:space="preserve">
+    <value>Subclasses:</value>
+  </data>
+  <data name="CrcCardHeaderDefinition.Control.Subclass" xml:space="preserve">
+    <value>Subclasse</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Responsibilities" xml:space="preserve">
+    <value>Responsabilidades</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Responsibility" xml:space="preserve">
+    <value>Responsabilidades</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Collaborators" xml:space="preserve">
+    <value>Colaboradores</value>
+  </data>
+  <data name="CrcCardDefinition.Control.Collaborator" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="StateDefinition.Control.StateGroup" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="StateDefinition.Control.StateInvariant" xml:space="preserve">
+    <value>Estado invariável:</value>
+  </data>
+  <data name="StateDefinition.Control.StandardActions" xml:space="preserve">
+    <value>Ações padronizadas</value>
+  </data>
+  <data name="StateDefinition.Control.Entry" xml:space="preserve">
+    <value>Entrada:</value>
+  </data>
+  <data name="StateDefinition.Control.Do" xml:space="preserve">
+    <value>fazer:</value>
+  </data>
+  <data name="StateDefinition.Control.Exit" xml:space="preserve">
+    <value>Sair:</value>
+  </data>
+  <data name="StateDefinition.Control.CustomActions" xml:space="preserve">
+    <value>Ações personalizadas</value>
+  </data>
+  <data name="StateDefinition.Control.ActionName" xml:space="preserve">
+    <value>Nome da ação</value>
+  </data>
+  <data name="StateDefinition.Control.Behavior" xml:space="preserve">
+    <value>Comportamento</value>
+  </data>
+  <data name="StateDefinition.Control.Add" xml:space="preserve">
+    <value>&amp;Adicionar</value>
+  </data>
+  <data name="StateDefinition.Control.Remove" xml:space="preserve">
+    <value>&amp;Remover</value>
+  </data>
+  <data name="TransitionDefinition.Control.PreCondition" xml:space="preserve">
+    <value>Pré-condição:</value>
+  </data>
+  <data name="TransitionDefinition.Control.Operation" xml:space="preserve">
+    <value>Operação:</value>
+  </data>
+  <data name="TransitionDefinition.Control.PostCondition" xml:space="preserve">
+    <value>Pós-condição:</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.NameColumn" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.KindColumn" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TemplateParamsDefinitionForm.Control.DefaultValueColumn" xml:space="preserve">
+    <value>Valor predefinido</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Title" xml:space="preserve">
+    <value>Atributo</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Type" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.TypeSize" xml:space="preserve">
+    <value>Tamanho do tipo:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.PrimaryKey" xml:space="preserve">
+    <value>Chave primária</value>
+  </data>
+  <data name="ErdAttributeForm.Form.ForeignKey" xml:space="preserve">
+    <value>Chave externa</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Nullable" xml:space="preserve">
+    <value>Anulável</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Ok" xml:space="preserve">
+    <value>&amp;Aceitar</value>
+  </data>
+  <data name="ErdAttributeForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="StereotypeForm.Form.Title" xml:space="preserve">
+    <value>Estereótipo</value>
+  </data>
+  <data name="StereotypeForm.Form.Ok" xml:space="preserve">
+    <value>&amp;Aceitar</value>
+  </data>
+  <data name="StereotypeForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="StereotypeForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Title" xml:space="preserve">
+    <value>Definição de Classe</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Name" xml:space="preserve">
+    <value>&amp;Nome:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Attributes" xml:space="preserve">
+    <value>&amp;Atributos:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Operations" xml:space="preserve">
+    <value>&amp;Operações:</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Ok" xml:space="preserve">
+    <value>&amp;Aceitar</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.Cancel" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.NameColumn" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.TypeColumn" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.VisibilityColumn" xml:space="preserve">
+    <value>Visibilidade</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.DefaultValueColumn" xml:space="preserve">
+    <value>Valor predefinido</value>
+  </data>
+  <data name="ClassDefinitionForm.Form.ParametersColumn" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.RelationType" xml:space="preserve">
+    <value>Tipo de relação:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.StartMultiplicity" xml:space="preserve">
+    <value>Multiplicidade inicial:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.StartRole" xml:space="preserve">
+    <value>Papel inicial:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.EndMultiplicity" xml:space="preserve">
+    <value>Multiplicidade final:</value>
+  </data>
+  <data name="RelationDefinitionControl.Control.EndRole" xml:space="preserve">
+    <value>Papel final:</value>
+  </data>
+  <data name="ExtendDefinitionControl.Control.ExtensionPoint" xml:space="preserve">
+    <value>Ponto de extensão:</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.Orientation" xml:space="preserve">
+    <value>Orientação</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.VerticalOrientation" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="SwimlaneDefinitionControl.Control.HorizontalOrientation" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="DiagramControl.Menu.AssignNewDiagram" xml:space="preserve">
+    <value>Adicionar novo diagrama</value>
+  </data>
+  <data name="DiagramControl.Menu.AssignExistingDiagram" xml:space="preserve">
+    <value>Adicionar diagrama existente</value>
+  </data>
+  <data name="DiagramControl.Menu.Documentation" xml:space="preserve">
+    <value>&amp;Documentação</value>
+  </data>
+  <data name="DiagramControl.Menu.Properties" xml:space="preserve">
+    <value>&amp;Propriedades</value>
+  </data>
+  <data name="DiagramControl.Menu.AddPoint" xml:space="preserve">
+    <value>&amp;Adicionar ponto</value>
+  </data>
+  <data name="DiagramControl.Menu.LockStartPoint" xml:space="preserve">
+    <value>Bloquear ponto inicial</value>
+  </data>
+  <data name="DiagramControl.Menu.LockEndPoint" xml:space="preserve">
+    <value>Bloquear ponto final</value>
+  </data>
+  <data name="DiagramControl.Menu.LineStyle" xml:space="preserve">
+    <value>Estilo da linha</value>
+  </data>
+  <data name="DiagramControl.Menu.ObliqueLineStyle" xml:space="preserve">
+    <value>&amp;Oblíquo</value>
+  </data>
+  <data name="DiagramControl.Menu.StraightLineStyle" xml:space="preserve">
+    <value>&amp;Reta</value>
+  </data>
+  <data name="DiagramControl.Menu.RectangularLineStyle" xml:space="preserve">
+    <value>&amp;Retangular</value>
+  </data>
+  <data name="DiagramControl.Menu.CurveLineStyle" xml:space="preserve">
+    <value>&amp;Curva</value>
+  </data>
+  <data name="DiagramControl.Menu.ExportDiagram" xml:space="preserve">
+    <value>Exportar diagrama</value>
+  </data>
+  <data name="DiagramControl.Menu.ShowGrid" xml:space="preserve">
+    <value>Ver Grade</value>
+  </data>
+  <data name="DiagramControl.Menu.SnapToGrid" xml:space="preserve">
+    <value>Alinhar pela grade</value>
+  </data>
+  <data name="DiagramControl.Menu.DeleteFromDiagram" xml:space="preserve">
+    <value>Deletar do diagrama</value>
+  </data>
+  <data name="DiagramControl.Menu.DeleteFromProject" xml:space="preserve">
+    <value>Deletar do projeto</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationDeleteFromDiagram" xml:space="preserve">
+    <value>Deletar do diagrama</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationDeleteFromProject" xml:space="preserve">
+    <value>Deletar do projeto</value>
+  </data>
+  <data name="DiagramControl.Menu.RelationProperties" xml:space="preserve">
+    <value>&amp;Propriedades</value>
+  </data>
+  <data name="DiagramControl.Menu.Reverse" xml:space="preserve">
+    <value>&amp;Inversa</value>
+  </data>
+  <data name="DiagramControl.Menu.RemoveField" xml:space="preserve">
+    <value>&amp;Remover '{@1}'</value>
+  </data>
+  <data name="DiagramControl.Menu.ChangeType" xml:space="preserve">
+    <value>Trocar &amp;Tipo</value>
+  </data>
+  <data name="DiagramControl.Menu.Visibility" xml:space="preserve">
+    <value>&amp;Visibilidade</value>
+  </data>
+  <data name="DiagramControl.Menu.Public" xml:space="preserve">
+    <value>&amp;Público</value>
+  </data>
+  <data name="DiagramControl.Menu.Package" xml:space="preserve">
+    <value>Pacote</value>
+  </data>
+  <data name="DiagramControl.Menu.Protected" xml:space="preserve">
+    <value>Protegido</value>
+  </data>
+  <data name="DiagramControl.Menu.Private" xml:space="preserve">
+    <value>Privado</value>
+  </data>
+  <data name="DiagramControl.Menu.Rename" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="DiagramControl.Menu.MoveUp" xml:space="preserve">
+    <value>Mover acima</value>
+  </data>
+  <data name="DiagramControl.Menu.MoveDown" xml:space="preserve">
+    <value>Mover abaixo</value>
+  </data>
+  <data name="DiagramControl.Menu.Group" xml:space="preserve">
+    <value>&amp;Agrupar</value>
+  </data>
+  <data name="DiagramControl.Menu.Ungroup" xml:space="preserve">
+    <value>&amp;Desagrupar</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Title" xml:space="preserve">
+    <value>Editor de estilo</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.StyleSetName" xml:space="preserve">
+    <value>Nome do estilo:</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.DefaultStyle" xml:space="preserve">
+    <value>Estilo predefinido</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.New" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Open" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="StyleSetEditorForm.Form.Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="NewStyleForm.Form.Title" xml:space="preserve">
+    <value>Estilo novo</value>
+  </data>
+  <data name="NewStyleForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="NewStyleForm.Form.ForSpecificElement" xml:space="preserve">
+    <value>Para elemento específico</value>
+  </data>
+  <data name="NewStyleForm.Form.StyleClassName" xml:space="preserve">
+    <value>Nome do estilo de classe:</value>
+  </data>
+  <data name="NewStyleForm.Form.ElementType" xml:space="preserve">
+    <value>Tipo do elemento:</value>
+  </data>
+  <data name="NewStyleForm.Form.Stereotype" xml:space="preserve">
+    <value>Estereótipo</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Title" xml:space="preserve">
+    <value>Renumeração de IDs</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.OriginalNumbering" xml:space="preserve">
+    <value>Numeração original</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.NewNumbering" xml:space="preserve">
+    <value>Numeração nova</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.StartNumberingFrom" xml:space="preserve">
+    <value>Iniciar numeração em:</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.OrderByAlphabet" xml:space="preserve">
+    <value>Orden alfabética</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.SameWithoutGaps" xml:space="preserve">
+    <value>Remover lacunas</value>
+  </data>
+  <data name="IDsRenumberingForm.Form.Clear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="OptionsForm.Form.Title" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="OptionsForm.Form.GeneralTab" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorTab" xml:space="preserve">
+    <value>Editor de diagrama</value>
+  </data>
+  <data name="OptionsForm.Form.Language" xml:space="preserve">
+    <value>Língua</value>
+  </data>
+  <data name="OptionsForm.Form.ShowStartPage" xml:space="preserve">
+    <value>Mostrar página inicial</value>
+  </data>
+  <data name="OptionsForm.Form.RecentFiles" xml:space="preserve">
+    <value>Projetos recentes</value>
+  </data>
+  <data name="OptionsForm.Form.ClearRecentProjects" xml:space="preserve">
+    <value>&amp;Limpar lista de projetos recentes</value>
+  </data>
+  <data name="OptionsForm.Form.ItemsInMenu" xml:space="preserve">
+    <value>Ítens do menu</value>
+  </data>
+  <data name="OptionsForm.Form.ItemsInStartPage" xml:space="preserve">
+    <value>Ítens da página inicial</value>
+  </data>
+  <data name="OptionsForm.Form.Toolbars" xml:space="preserve">
+    <value>Barra de ferramentas</value>
+  </data>
+  <data name="OptionsForm.Form.StandardBar" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="OptionsForm.Form.SideBar" xml:space="preserve">
+    <value>Barra lateral</value>
+  </data>
+  <data name="OptionsForm.Form.LayoutBar" xml:space="preserve">
+    <value>Desenho</value>
+  </data>
+  <data name="OptionsForm.Form.StatusBar" xml:space="preserve">
+    <value>Barra de status</value>
+  </data>
+  <data name="OptionsForm.Form.Toolbox" xml:space="preserve">
+    <value>Caixa ferramentas</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorGeneral" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="OptionsForm.Form.Design" xml:space="preserve">
+    <value>Desenho</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorBackgroundColor" xml:space="preserve">
+    <value>Cor do fundo:</value>
+  </data>
+  <data name="OptionsForm.Form.DiagramEditorBackgroundColor2" xml:space="preserve">
+    <value>Cor do fundo 2:</value>
+  </data>
+  <data name="OptionsForm.Form.AutoScrolling" xml:space="preserve">
+    <value>Auto rolagem</value>
+  </data>
+  <data name="OptionsForm.Form.Grid" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="OptionsForm.Form.SnapToGrid" xml:space="preserve">
+    <value>Alinhar pela grade</value>
+  </data>
+  <data name="OptionsForm.Form.ShowGrid" xml:space="preserve">
+    <value>Mostrar grade</value>
+  </data>
+  <data name="OptionsForm.Form.GridVerticalSpacing" xml:space="preserve">
+    <value>Espaçamento vertical:</value>
+  </data>
+  <data name="OptionsForm.Form.GridHorizontalSpacing" xml:space="preserve">
+    <value>Espaçamento horizontal:</value>
+  </data>
+  <data name="OptionsForm.Form.RelationsAlwaysOnTop" xml:space="preserve">
+    <value>Sempre mostrar relações por cima</value>
+  </data>
+  <data name="OptionsForm.Form.ProjectTree" xml:space="preserve">
+    <value>Árvore do Projeto</value>
+  </data>
+  <data name="OptionsForm.Form.ProjectTreeInitialState" xml:space="preserve">
+    <value>Estado inicial</value>
+  </data>
+  <data name="OptionsForm.Form.FullyExpanded" xml:space="preserve">
+    <value>Expandido totalmente</value>
+  </data>
+  <data name="OptionsForm.Form.ExpandedProject" xml:space="preserve">
+    <value>Projeto expandido</value>
+  </data>
+  <data name="OptionsForm.Form.ExpandedModels" xml:space="preserve">
+    <value>Modelos expandidos</value>
+  </data>
+  <data name="OptionsForm.Form.Collapsed" xml:space="preserve">
+    <value>Recolhido</value>
+  </data>
+  <data name="OptionsForm.Form.DefaultSettingsForElements" xml:space="preserve">
+    <value>Ajustes Padrões para Elementos</value>
+  </data>
+  <data name="OptionsForm.Form.DefaultAttributeVisibility" xml:space="preserve">
+    <value>Atributo de Visibilidade:</value>
+  </data>
+  <data name="OptionsForm.Form.DefaultOperationVisibility" xml:space="preserve">
+    <value>Operação de Visibilidade:</value>
+  </data>
+  <data name="OptionsForm.Form.DefaultShowNullability" xml:space="preserve">
+    <value>Mostrar Nulabilidade</value>
+  </data>
+  <data name="StyleEditorForm.Form.Title" xml:space="preserve">
+    <value>Editor Estilo</value>
+  </data>
+  <data name="StyleEditorForm.Form.NewStyle" xml:space="preserve">
+    <value>Novo estilo</value>
+  </data>
+  <data name="StyleEditorForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Propriedades do projeto</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Authors" xml:space="preserve">
+    <value>Autores:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.AddNewDiagram" xml:space="preserve">
+    <value>Adicionar novo diagrama...</value>
+  </data>
+  <data name="ProjectPropertiesForm.Form.Properties" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Propriedades do diagrama</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Authors" xml:space="preserve">
+    <value>Autores:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Version" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Created" xml:space="preserve">
+    <value>Criado:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.LastChange" xml:space="preserve">
+    <value>Última modificação:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+    <value>Espaço de nomes:</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="DiagramPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.Title" xml:space="preserve">
+    <value>Etiqueta</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.TagName" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="TaggedValueEditorForm.Form.TaggedValue" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Title" xml:space="preserve">
+    <value>Mover personalizado</value>
+  </data>
+  <data name="CustomMoveForm.Form.Right" xml:space="preserve">
+    <value>Direita:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Down" xml:space="preserve">
+    <value>Abaixo:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Left" xml:space="preserve">
+    <value>Isquerda:</value>
+  </data>
+  <data name="CustomMoveForm.Form.Up" xml:space="preserve">
+    <value>Acima:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Title" xml:space="preserve">
+    <value>Tamanho personalizado</value>
+  </data>
+  <data name="CustomSizeForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="CustomSizeForm.Form.Sides" xml:space="preserve">
+    <value>Lados</value>
+  </data>
+  <data name="CustomSizeForm.Form.WidthHeight" xml:space="preserve">
+    <value>Largura/Altura</value>
+  </data>
+  <data name="CustomSizeForm.Form.Inflate" xml:space="preserve">
+    <value>Inflar:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Deflate" xml:space="preserve">
+    <value>Desinflar:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Left" xml:space="preserve">
+    <value>Isquerda:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Right" xml:space="preserve">
+    <value>Direita:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Top" xml:space="preserve">
+    <value>De cima:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Bottom" xml:space="preserve">
+    <value>De baixo:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Width" xml:space="preserve">
+    <value>Largura:</value>
+  </data>
+  <data name="CustomSizeForm.Form.Height" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+  <data name="TaggedValueControl.Control.Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="TaggedValueControl.Control.Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Title" xml:space="preserve">
+    <value>Editor de Operação</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Parameters" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Type" xml:space="preserve">
+    <value>Tipo retorno:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Visibility" xml:space="preserve">
+    <value>Visibilidade:</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Modifiers" xml:space="preserve">
+    <value>Modificador</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Abstract" xml:space="preserve">
+    <value>Abstrato</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Virtual" xml:space="preserve">
+    <value>Virtual</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.Static" xml:space="preserve">
+    <value>Estático</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.NameColumn" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="UmlOperationEditorForm.Form.TypeColumn" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Title" xml:space="preserve">
+    <value>Editor de Atributo</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Type" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Visibility" xml:space="preserve">
+    <value>Visibilidade:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.DefaultValue" xml:space="preserve">
+    <value>Valor predefinido:</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Modifiers" xml:space="preserve">
+    <value>Modificador</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Abstract" xml:space="preserve">
+    <value>Abstrato</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Virtual" xml:space="preserve">
+    <value>Virtual</value>
+  </data>
+  <data name="UmlAttributeEditorForm.Form.Static" xml:space="preserve">
+    <value>Estático</value>
+  </data>
+  <data name="FindForm.Form.Title" xml:space="preserve">
+    <value>Encontrar</value>
+  </data>
+  <data name="FindForm.Form.Find" xml:space="preserve">
+    <value>&amp;Encontrar seguinte</value>
+  </data>
+  <data name="FindForm.Form.FindWhat" xml:space="preserve">
+    <value>Encontrar o que:</value>
+  </data>
+  <data name="ToDoControl.Control.AddToDo" xml:space="preserve">
+    <value>Adicionar pendência</value>
+  </data>
+  <data name="ToDoControl.Control.EditToDo" xml:space="preserve">
+    <value>Editar pendência</value>
+  </data>
+  <data name="ToDoControl.Control.DeleteToDo" xml:space="preserve">
+    <value>Deletar pendência</value>
+  </data>
+  <data name="ToDoControl.Control.Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="ToDoControl.Control.Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="ToDoControl.Control.ToDoText" xml:space="preserve">
+    <value>Pendência</value>
+  </data>
+  <data name="ToDoControl.Control.EndDate" xml:space="preserve">
+    <value>Data final</value>
+  </data>
+  <data name="ToDoControl.Control.Created" xml:space="preserve">
+    <value>Criado</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Title" xml:space="preserve">
+    <value>Configuração de Exportação</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportContent" xml:space="preserve">
+    <value>Exportar conteúdo</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Size" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Background" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+    <value>Exportar só as camadas ativas</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.ExportHiddenLayers" xml:space="preserve">
+    <value>Exportar as camadas ocultas</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Width" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Transparent" xml:space="preserve">
+    <value>Transparente</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Color1" xml:space="preserve">
+    <value>Cor 1:</value>
+  </data>
+  <data name="ImageExportSettingForm.Form.Color2" xml:space="preserve">
+    <value>Cor 2:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Title" xml:space="preserve">
+    <value>Tarefa</value>
+  </data>
+  <data name="TaskEditorForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="TaskEditorForm.Form.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="TaskEditorForm.Form.StartDate" xml:space="preserve">
+    <value>Data de início:</value>
+  </data>
+  <data name="TaskEditorForm.Form.EndDate" xml:space="preserve">
+    <value>Data de fim:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Priority" xml:space="preserve">
+    <value>Prioridade:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Phase" xml:space="preserve">
+    <value>Fase:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Progress" xml:space="preserve">
+    <value>Progresso:</value>
+  </data>
+  <data name="TaskEditorForm.Form.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="TaskEditorForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="TaskEditorForm.Form.Persons" xml:space="preserve">
+    <value>Pessoas</value>
+  </data>
+  <data name="TaskEditorForm.Form.Lowest" xml:space="preserve">
+    <value>Mais baixo</value>
+  </data>
+  <data name="TaskEditorForm.Form.Low" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="TaskEditorForm.Form.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TaskEditorForm.Form.Hight" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="TaskEditorForm.Form.Highest" xml:space="preserve">
+    <value>Mais alto</value>
+  </data>
+  <data name="XmiImportResultForm.Form.Title" xml:space="preserve">
+    <value>Resultado de importação XMI</value>
+  </data>
+  <data name="XmiImportResultForm.Form.CreateDiagrams" xml:space="preserve">
+    <value>Criar diagramas</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Title" xml:space="preserve">
+    <value>Seleção da Base de dados</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.DataSource" xml:space="preserve">
+    <value>Fonte de dados:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.ServerName" xml:space="preserve">
+    <value>Nome do servidor:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Authentication" xml:space="preserve">
+    <value>Autenticação</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.AuthenticationType" xml:space="preserve">
+    <value>Tipo de Autenticação:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.UserName" xml:space="preserve">
+    <value>Nome do usuário:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.Password" xml:space="preserve">
+    <value>Senha:</value>
+  </data>
+  <data name="DatabaseSelectionForm.Form.DatabaseName" xml:space="preserve">
+    <value>Nome da base de dados:</value>
+  </data>
+  <data name="DatabaseImportForm.Form.Title" xml:space="preserve">
+    <value>Importar base de dados</value>
+  </data>
+  <data name="DatabaseImportForm.Form.ConnectionString" xml:space="preserve">
+    <value>String de conexão:</value>
+  </data>
+  <data name="DatabaseImportForm.Form.LoadTables" xml:space="preserve">
+    <value>Carregar tabelas</value>
+  </data>
+  <data name="DatabaseImportForm.Form.Tables" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Title" xml:space="preserve">
+    <value>Importar modelo de objetos</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Assemblies" xml:space="preserve">
+    <value>Assemblies</value>
+  </data>
+  <data name="ObjectModelImportForm.Form.Namespaces" xml:space="preserve">
+    <value>Espaço de nomes/Pacotes</value>
+  </data>
+  <data name="DiagramElementsSelectionForm.Form.Title" xml:space="preserve">
+    <value>Elementos do diagrama</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Title" xml:space="preserve">
+    <value>Geração de código fonte</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Imports" xml:space="preserve">
+    <value>Importações</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Language" xml:space="preserve">
+    <value>Linguagem:</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.OutputDirectory" xml:space="preserve">
+    <value>Pasta de saída:</value>
+  </data>
+  <data name="SourceCodeGenerationSettingsForm.Form.Generate" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="RelationInsertForm.Form.Title" xml:space="preserve">
+    <value>Nova relação</value>
+  </data>
+  <data name="RelationInsertForm.Form.FromElement" xml:space="preserve">
+    <value>Do elemento:</value>
+  </data>
+  <data name="RelationInsertForm.Form.ToElement" xml:space="preserve">
+    <value>Ao elemento:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.Title" xml:space="preserve">
+    <value>Nomes e IDs predefinidos</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DiagramType" xml:space="preserve">
+    <value>Tipo de diagrama:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.ElementType" xml:space="preserve">
+    <value>Tipo de elemento</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DefaultName" xml:space="preserve">
+    <value>Nome predefinido:</value>
+  </data>
+  <data name="DefaultNamesForm.Form.DefaultID" xml:space="preserve">
+    <value>ID predefinido:</value>
+  </data>
+  <data name="TypesForm.Form.Title" xml:space="preserve">
+    <value>Tipos</value>
+  </data>
+  <data name="TypesForm.Form.NewTypeSet" xml:space="preserve">
+    <value>&amp;Novo Tipo</value>
+  </data>
+  <data name="TypesForm.Form.ImportTypeSet" xml:space="preserve">
+    <value>&amp;Importar tipos</value>
+  </data>
+  <data name="TypesForm.Form.TypeSets" xml:space="preserve">
+    <value>Tipos</value>
+  </data>
+  <data name="TypesForm.Form.CustomTypes" xml:space="preserve">
+    <value>Tipos personalizados</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.TypeDefinition" xml:space="preserve">
+    <value>Definição de tipos</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.ID" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="TypeSetEditorControl.Control.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="TypeSetEditorForm.Form.Title" xml:space="preserve">
+    <value>Editor de tipo</value>
+  </data>
+  <data name="StereotypesForm.Form.Title" xml:space="preserve">
+    <value>Estereótipos</value>
+  </data>
+  <data name="StereotypesForm.Form.ElementType" xml:space="preserve">
+    <value>Tipo de elemento:</value>
+  </data>
+  <data name="StereotypesForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="StereotypesForm.Form.AppliesTo" xml:space="preserve">
+    <value>Aplicar em</value>
+  </data>
+  <data name="StereotypesForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="StereotypesForm.Form.Description" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="NewTypeSetForm.Form.Title" xml:space="preserve">
+    <value>Novo tipo</value>
+  </data>
+  <data name="NewTypeSetForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Title" xml:space="preserve">
+    <value>Pendências</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Lowest" xml:space="preserve">
+    <value>Mais baixo</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Low" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Hight" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Highest" xml:space="preserve">
+    <value>Mais alto</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Text" xml:space="preserve">
+    <value>Texto:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Priority" xml:space="preserve">
+    <value>Prioridade:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.EndDate" xml:space="preserve">
+    <value>Data final:</value>
+  </data>
+  <data name="ToDoEditorForm.Form.Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="TaskManagementForm.Form.Title" xml:space="preserve">
+    <value>Gerenciamento de tarefas</value>
+  </data>
+  <data name="TaskManagementForm.Form.ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="TaskManagementForm.Form.Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="TaskManagementForm.Form.Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="TaskManagementForm.Form.Progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="TaskManagementForm.Form.StartDate" xml:space="preserve">
+    <value>Data inicial</value>
+  </data>
+  <data name="TaskManagementForm.Form.EndDate" xml:space="preserve">
+    <value>Data final</value>
+  </data>
+  <data name="TaskManagementForm.Form.Persons" xml:space="preserve">
+    <value>Pessoas</value>
+  </data>
+  <data name="TaskManagementForm.Form.AddTask" xml:space="preserve">
+    <value>Adicionar tarefa</value>
+  </data>
+  <data name="TaskManagementForm.Form.EditTask" xml:space="preserve">
+    <value>Editar tarefa</value>
+  </data>
+  <data name="TaskManagementForm.Form.DeleteTask" xml:space="preserve">
+    <value>Deletar tarefa</value>
+  </data>
+  <data name="TaskManagementForm.Form.AssignPerson" xml:space="preserve">
+    <value>Designar pessoa</value>
+  </data>
+  <data name="PersonsForm.Form.Title" xml:space="preserve">
+    <value>Pessoas</value>
+  </data>
+  <data name="PersonsForm.Form.FirstName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="PersonsForm.Form.LastName" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="PersonsForm.Form.Role" xml:space="preserve">
+    <value>Papel</value>
+  </data>
+  <data name="PersonsForm.Form.EMail" xml:space="preserve">
+    <value>Correio eletrônico</value>
+  </data>
+  <data name="PersonsForm.Form.PhoneNumber" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="PersonsForm.Form.AddPerson" xml:space="preserve">
+    <value>Adicionar pessoa</value>
+  </data>
+  <data name="PersonsForm.Form.EditPerson" xml:space="preserve">
+    <value>Editar pessoa</value>
+  </data>
+  <data name="PersonsForm.Form.DeletePerson" xml:space="preserve">
+    <value>Deletar pessoa</value>
+  </data>
+  <data name="PersonEditorForm.Form.Title" xml:space="preserve">
+    <value>Pessoa</value>
+  </data>
+  <data name="PersonEditorForm.Form.FirstName" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="PersonEditorForm.Form.LastName" xml:space="preserve">
+    <value>Sobrenome:</value>
+  </data>
+  <data name="PersonEditorForm.Form.Role" xml:space="preserve">
+    <value>Papel:</value>
+  </data>
+  <data name="PersonEditorForm.Form.EMail" xml:space="preserve">
+    <value>Correio eletrônico:</value>
+  </data>
+  <data name="PersonEditorForm.Form.PhoneNumber" xml:space="preserve">
+    <value>Telefone:</value>
+  </data>
+  <data name="PersonEditorForm.Form.Description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Title" xml:space="preserve">
+    <value>Propriedades do modelo</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Documentation" xml:space="preserve">
+    <value>Documentação</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="ModelPropertiesForm.Form.CustomNamespace" xml:space="preserve">
+    <value>Namespace próprio:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Title" xml:space="preserve">
+    <value>Gerar documentação</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.HTML" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.RTF" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Texts" xml:space="preserve">
+    <value>Textos</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.DocumentTitle" xml:space="preserve">
+    <value>Título do documento:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.DocumentSubtitle" xml:space="preserve">
+    <value>Subtítulo do documento:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Company" xml:space="preserve">
+    <value>Empresa:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Authors" xml:space="preserve">
+    <value>Autores:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.OutputFile" xml:space="preserve">
+    <value>Arquivo destino:</value>
+  </data>
+  <data name="DocumentationGenerationForm.Form.Generate" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="TimingEvents.Control.State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="TimingEvents.Control.Duration" xml:space="preserve">
+    <value>Duração</value>
+  </data>
+  <data name="TimingEvents.Control.Stimulus" xml:space="preserve">
+    <value>Estímulo</value>
+  </data>
+  <data name="TimingEvents.Control.DurationConstraint" xml:space="preserve">
+    <value>Restrição de duração</value>
+  </data>
+  <data name="TimingTickMarkValues.Control.Position" xml:space="preserve">
+    <value>Posição</value>
+  </data>
+  <data name="TimingTickMarkValues.Control.Label" xml:space="preserve">
+    <value>Etiqueta</value>
+  </data>
+  <data name="TimingStatesControl.Control.State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Title" xml:space="preserve">
+    <value>Navegador de elementos</value>
+  </data>
+  <data name="ElementBrowserForm.Form.OpenDiagram" xml:space="preserve">
+    <value>Abrir diagrama</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Rename" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Delete" xml:space="preserve">
+    <value>Deletar</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Properties" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ElementBrowserForm.Form.ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ElementBrowserForm.Form.Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ActivationForm.Form.Title" xml:space="preserve">
+    <value>Ativação</value>
+  </data>
+  <data name="ActivationForm.Form.Text" xml:space="preserve">
+    <value>Se quiser usar o Software Ideas Modeler para propósito comercial, você precisar adquirir uma licença.</value>
+  </data>
+  <data name="ActivationForm.Form.Step1" xml:space="preserve">
+    <value>Passo 1:</value>
+  </data>
+  <data name="ActivationForm.Form.Step2" xml:space="preserve">
+    <value>Passo 2:</value>
+  </data>
+  <data name="ActivationForm.Form.Step3" xml:space="preserve">
+    <value>Passo 3:</value>
+  </data>
+  <data name="ActivationForm.Form.Step1Text" xml:space="preserve">
+    <value>Pague a taxa de registro.</value>
+  </data>
+  <data name="ActivationForm.Form.Step2Text" xml:space="preserve">
+    <value>Aguarde pela chave de ativação, que será enviada ao seu e-mail.</value>
+  </data>
+  <data name="ActivationForm.Form.Step3Text" xml:space="preserve">
+    <value>Insira a chave de ativação no campo abaixo e confirme com o botão Ativar.</value>
+  </data>
+  <data name="ActivationForm.Form.ActivationKey" xml:space="preserve">
+    <value>Chave de ativação:</value>
+  </data>
+  <data name="ActivationForm.Form.Activate" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="ActivationForm.Form.Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ActivationForm.Form.ActivationMessage" xml:space="preserve">
+    <value>Ativação bem sucedida. Esta cópia do Software Ideas Modeler pode ser usada comercialmente.</value>
+  </data>
+  <data name="ActivationForm.Form.WrongActivationCodeMessage" xml:space="preserve">
+    <value>Código de ativação incorreto.</value>
+  </data>
+  <data name="BatchExportForm.Form.Title" xml:space="preserve">
+    <value>Exportar em lote</value>
+  </data>
+  <data name="BatchExportForm.Form.Exporting" xml:space="preserve">
+    <value>Exportando...</value>
+  </data>
+  <data name="BatchExportForm.Form.Format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="BatchExportForm.Form.ImageFormat" xml:space="preserve">
+    <value>Formato da imagem:</value>
+  </data>
+  <data name="BatchExportForm.Form.Output" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="BatchExportForm.Form.Content" xml:space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="BatchExportForm.Form.Diagrams" xml:space="preserve">
+    <value>Diagramas</value>
+  </data>
+  <data name="BatchExportForm.Form.Files" xml:space="preserve">
+    <value>Arquivos</value>
+  </data>
+  <data name="BatchExportForm.Form.FileNames" xml:space="preserve">
+    <value>Nomees de arquivos:</value>
+  </data>
+  <data name="BatchExportForm.Form.DiagramName" xml:space="preserve">
+    <value>Nome do diagrama:</value>
+  </data>
+  <data name="BatchExportForm.Form.Custom" xml:space="preserve">
+    <value>Personalizado:</value>
+  </data>
+  <data name="BatchExportForm.Form.OutputDirectory" xml:space="preserve">
+    <value>Pasta de saída:</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportContent" xml:space="preserve">
+    <value>Exportar conteúdo</value>
+  </data>
+  <data name="BatchExportForm.Form.Size" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="BatchExportForm.Form.Background" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportOnlyActiveLayer" xml:space="preserve">
+    <value>Exportar só as camadas ativas</value>
+  </data>
+  <data name="BatchExportForm.Form.ExportHiddenLayers" xml:space="preserve">
+    <value>Exportar as camadas ocultas</value>
+  </data>
+  <data name="BatchExportForm.Form.Absolute" xml:space="preserve">
+    <value>Absoluto</value>
+  </data>
+  <data name="BatchExportForm.Form.Relative" xml:space="preserve">
+    <value>Relativo</value>
+  </data>
+  <data name="BatchExportForm.Form.Width" xml:space="preserve">
+    <value>Largura:</value>
+  </data>
+  <data name="BatchExportForm.Form.Height" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+  <data name="BatchExportForm.Form.Transparent" xml:space="preserve">
+    <value>Transparente</value>
+  </data>
+  <data name="BatchExportForm.Form.Color1" xml:space="preserve">
+    <value>Cor 1:</value>
+  </data>
+  <data name="BatchExportForm.Form.Color2" xml:space="preserve">
+    <value>Cor 2:</value>
+  </data>
+  <data name="PrintForm.Form.Title" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="PrintForm.Form.Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="PrintForm.Form.PageSetup" xml:space="preserve">
+    <value>Propriedades da Página</value>
+  </data>
+  <data name="PrintForm.Form.Preview" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="PrintForm.Form.Diagrams" xml:space="preserve">
+    <value>Diagramas</value>
+  </data>
+  <data name="PrintForm.Form.Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="PrintForm.Form.Zoom" xml:space="preserve">
+    <value>Zoom:</value>
+  </data>
+  <data name="PrintForm.Form.PreviousPage" xml:space="preserve">
+    <value>Página anterior</value>
+  </data>
+  <data name="PrintForm.Form.NextPage" xml:space="preserve">
+    <value>Página seguinte</value>
+  </data>
+  <data name="PrintForm.Form.RefreshPreview" xml:space="preserve">
+    <value>Atualizar Visualização</value>
+  </data>
+  <data name="PrintForm.Form.PagesPerDiagram" xml:space="preserve">
+    <value>Páginas por diagrama</value>
+  </data>
+  <data name="PrintForm.Form.SinglePage" xml:space="preserve">
+    <value>Página única</value>
+  </data>
+  <data name="PrintForm.Form.MultiplePages" xml:space="preserve">
+    <value>Páginas múltiplas</value>
+  </data>
+  <data name="PrintForm.Form.Horizontal" xml:space="preserve">
+    <value>Horizontal:</value>
+  </data>
+  <data name="PrintForm.Form.Vertical" xml:space="preserve">
+    <value>Vertical:</value>
+  </data>
+  <data name="DiagramsForm.Form.Title" xml:space="preserve">
+    <value>Diagramas</value>
+  </data>
+  <data name="DonateBuyForm.Form.Title" xml:space="preserve">
+    <value>Software Ideas Modeler</value>
+  </data>
+  <data name="DonateBuyForm.Form.HeadingText" xml:space="preserve">
+    <value>Gratos por usar o Software Ideas Modeler!</value>
+  </data>
+  <data name="DonateBuyForm.Form.MainText" xml:space="preserve">
+    <value>Se gostar deste software e quiser dar apoio ao seu desenvolvimento, você tem estas opções:</value>
+  </data>
+  <data name="DonateBuyForm.Form.Buy" xml:space="preserve">
+    <value>Comprar (para uso comercial)</value>
+  </data>
+  <data name="DonateBuyForm.Form.BuyText1" xml:space="preserve">
+    <value>Esta cópia do Software Ideas Modeler pode ser usada para fins comerciais somente após ativação. É possível obter a chave de ativação escolhendo esta opção.</value>
+  </data>
+  <data name="DonateBuyForm.Form.BuyText2" xml:space="preserve">
+    <value>Após a compra, seus relatórios de erros e solicitações terão maior prioridade. Este aviso não será mais exibido ao sair.</value>
+  </data>
+  <data name="DonateBuyForm.Form.Donate" xml:space="preserve">
+    <value>Doar</value>
+  </data>
+  <data name="DonateBuyForm.Form.DonateText1" xml:space="preserve">
+    <value>Se você for um usuário não-comercial, você pode utilizar esta aplicação gratuitamente. Opcionalmente, pode fazer doação a este projeto enviando qualquer quantia em dinheiro.</value>
+  </data>
+  <data name="DonateBuyForm.Form.DonateText2" xml:space="preserve">
+    <value>Após a doação, você aparecerpa na lista de doadores no sítio da web. (Se não quiser figurar na lista, por favor, avise-nos por mensagem.)</value>
+  </data>
+  <data name="DonateBuyForm.Form.MaybeLater" xml:space="preserve">
+    <value>Talvez depois</value>
+  </data>
+  <data name="DonateBuyForm.Form.MaybeLaterText" xml:space="preserve">
+    <value>Se não puder apoiar financeiramente este projeto, é possível fazê-lo de outras formas: tornando-se um fã no Facebook, adicionando um link em seu sítio na web para este projeto, escrever sobre o software em seu blog, comentar com seus amigos sobre o software...</value>
+  </data>
+  <data name="DonationForm.Form.Title" xml:space="preserve">
+    <value>Centro de Doação</value>
+  </data>
+  <data name="DonationForm.Form.DonateNow" xml:space="preserve">
+    <value>&amp;Doar agora</value>
+  </data>
+  <data name="DonationForm.Form.ConfirmKey" xml:space="preserve">
+    <value>&amp;Confirmar chave</value>
+  </data>
+  <data name="DonationForm.Form.WhyToDonateTitle" xml:space="preserve">
+    <value>Porque doar?</value>
+  </data>
+  <data name="DonationForm.Form.WhyToDonateText1" xml:space="preserve">
+    <value>O Software Modeler Ideas é um freeware para usuário não-comerciais (escolas, organização sem fins lucrativos). Mesmo assim, desejando, é possível apoio este projeto financeiramente e doar. Além da boa sensação, você se tornará uma patrocinador oficial deste projeto e terá vantagens sobre os demais usuários:</value>
+  </data>
+  <data name="DonationForm.Form.WhyToDonateText2" xml:space="preserve">
+    <value>1. A janela apelando por doação/compra não será mais exibida ao sair.</value>
+  </data>
+  <data name="DonationForm.Form.WhyToDonateText3" xml:space="preserve">
+    <value>2. Seus relatórios de erros e solicitações terão prioridade maior que os demais usuários.</value>
+  </data>
+  <data name="DonationForm.Form.HowToDonateTitle" xml:space="preserve">
+    <value>Como doar?</value>
+  </data>
+  <data name="DonationForm.Form.HowToDonateText" xml:space="preserve">
+    <value>A página de doações será mostrada após clicar no botão Doar Agora. Qualquer doação (mesmo uns poucos dólares/euros) é bem-vinda.</value>
+  </data>
+  <data name="DonationForm.Form.IHaveDonatedTitle" xml:space="preserve">
+    <value>Já doei...</value>
+  </data>
+  <data name="DonationForm.Form.IHaveDonatedText" xml:space="preserve">
+    <value>Em dois dias úteis (geralmente menos) você receberá o e-mail com a chave.</value>
+  </data>
+  <data name="DonationForm.Form.DonorKey" xml:space="preserve">
+    <value>Chave de doação:</value>
+  </data>
+  <data name="DonationForm.Form.ConfirmInfo" xml:space="preserve">
+    <value>Confirme a chave de doador e receba vantagens como patrocinador oficial deeste projeto.</value>
+  </data>
+  <data name="DonationForm.Form.OfficialSupporter" xml:space="preserve">
+    <value>Chave de doador válida. Você será convertido em patrocinador oficial deste projeto. Muito obrigado por seu apoio!</value>
+  </data>
+  <data name="DonationForm.Form.WrongDonorKey" xml:space="preserve">
+    <value>Chave de doador inválida.</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Title" xml:space="preserve">
+    <value>Período de Avaliação Expirou</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.MainText" xml:space="preserve">
+    <value>O período de 10 dia para avaliação expirou. Agora, se quiser continuar a usar este software, você tem que adquirir uma chave de ativação. A chave de ativação custa somente €69 / $89.</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Benefits" xml:space="preserve">
+    <value>Após a compra, você terá os seguintes benefícios:</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Benefit1" xml:space="preserve">
+    <value>Remoção do aviso de compra</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Benefit2" xml:space="preserve">
+    <value>Atualizações automáticas</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Benefit3" xml:space="preserve">
+    <value>Formulário para requerer funcionalidades e relatório de erros</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Benefit4" xml:space="preserve">
+    <value>Maior prioridade em suas solicitações e relatórios</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.ActivationKey" xml:space="preserve">
+    <value>Chave de ativação:</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Activate" xml:space="preserve">
+    <value>&amp;Ativar</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Buy" xml:space="preserve">
+    <value>&amp;Comprar</value>
+  </data>
+  <data name="EvaluationExpiredForm.Form.Close" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="UseConfirmationForm.Form.Title" xml:space="preserve">
+    <value>Confirmação de Uso</value>
+  </data>
+  <data name="UseConfirmationForm.Form.MainText" xml:space="preserve">
+    <value>Como pretende usar o Software Ideas Modeler?</value>
+  </data>
+  <data name="UseConfirmationForm.Form.CommercialUse" xml:space="preserve">
+    <value>Empresa - Uso Comercial</value>
+  </data>
+  <data name="UseConfirmationForm.Form.CommercialUseDescription" xml:space="preserve">
+    <value>Qualquer uso em projetos comerciais.</value>
+  </data>
+  <data name="UseConfirmationForm.Form.NonCommercialUse" xml:space="preserve">
+    <value>Pessoal - Uso Não-Comercial</value>
+  </data>
+  <data name="UseConfirmationForm.Form.NonCommercialUseDescription" xml:space="preserve">
+    <value>Escolas, universidades, organizações sem fins lucrativos.</value>
+  </data>
+  <data name="UseConfirmationForm.Form.ConfirmCheckBox" xml:space="preserve">
+    <value>Abaixo confirmo que ter preenchido verdadeiramente este formulário*</value>
+  </data>
+  <data name="UseConfirmationForm.Form.ConfirmNote" xml:space="preserve">
+    <value>* O preenchimento falso constituirá uma violação ao acordo de licença.</value>
+  </data>
+  <data name="UseConfirmationForm.Form.Confirm" xml:space="preserve">
+    <value>Confir&amp;mar</value>
+  </data>
+  <data name="UseConfirmationForm.Form.Close" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="SendRequestForm.Form.Title" xml:space="preserve">
+    <value>Requisição de Envio</value>
+  </data>
+  <data name="SendRequestForm.Form.Send" xml:space="preserve">
+    <value>&amp;Enviar</value>
+  </data>
+  <data name="SendRequestForm.Form.Close" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="Global.Messages.ProjectFileNotFound.title" xml:space="preserve">
+    <value>Arquivo do projeto não encontrado</value>
+  </data>
+  <data name="Global.Messages.NewStyleWarning.title" xml:space="preserve">
+    <value>Novo estilo</value>
+  </data>
+  <data name="Global.Messages.StyleTypeExists.title" xml:space="preserve">
+    <value>Estilo já existe</value>
+  </data>
+  <data name="Global.Messages.RenumberingWarning.title" xml:space="preserve">
+    <value>Nova numeração</value>
+  </data>
+  <data name="Global.Messages.DeleteStyle.title" xml:space="preserve">
+    <value>Eliminar Estilo</value>
+  </data>
+  <data name="Global.Messages.StyleClassNameExists.title" xml:space="preserve">
+    <value>Nome da Classe de Estilo existente</value>
+  </data>
+  <data name="Global.Messages.NotAllowedStyleClassName.title" xml:space="preserve">
+    <value>Nome inválido</value>
+  </data>
+  <data name="Global.Messages.SavingError.title" xml:space="preserve">
+    <value>Error ao salvar</value>
+  </data>
+  <data name="Global.Messages.DeleteTask.title" xml:space="preserve">
+    <value>Deletar Tarefa</value>
+  </data>
+  <data name="Global.Messages.DeleteToDo.title" xml:space="preserve">
+    <value>Deletar das Pendências</value>
+  </data>
+  <data name="Global.Messages.DeletePerson.title" xml:space="preserve">
+    <value>Deletar Pessoa</value>
+  </data>
+  <data name="Global.Messages.DeleteStereotype.title" xml:space="preserve">
+    <value>Deletar Estereótipo</value>
+  </data>
+  <data name="Global.Messages.NoOutputLanguageSelected.title" xml:space="preserve">
+    <value>Geração de Código Fonte</value>
+  </data>
+  <data name="Global.Messages.NoOutputDirectorySelected.title" xml:space="preserve">
+    <value>Geração de Código Fonte</value>
+  </data>
+  <data name="Global.Messages.EmptyConnectionString.title" xml:space="preserve">
+    <value>Importação da Base de Dados</value>
+  </data>
+  <data name="Global.Messages.CannotLoadTables.title" xml:space="preserve">
+    <value>Importação da Base de Dados</value>
+  </data>
+  <data name="Global.Messages.RegisteredCopy.title" xml:space="preserve">
+    <value>Cópia Registrada</value>
+  </data>
+  <data name="Global.Messages.NewerVersionWarning.title" xml:space="preserve">
+    <value>Conflito de versões no arquivo de projeto</value>
+  </data>
+  <data name="Global.Messages.ClearRecentProjectList.title" xml:space="preserve">
+    <value>Esvaziar lista de projetos.</value>
+  </data>
+  <data name="Global.Messages.InflateContainer.title" xml:space="preserve">
+    <value>Inflar Container</value>
+  </data>
+  <data name="Global.Messages.WrongOutputDirectory.title" xml:space="preserve">
+    <value>Erro ao gravar</value>
+  </data>
+  <data name="Global.Messages.InstallUpdate.title" xml:space="preserve">
+    <value>Instalar Atualização</value>
+  </data>
+  <data name="MainForm.StandardBar.New.tooltip" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="MainForm.StandardBar.Open.tooltip" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="MainForm.StandardBar.Save.tooltip" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="MainForm.StandardBar.Undo.tooltip" xml:space="preserve">
+    <value>Desfazer</value>
+  </data>
+  <data name="MainForm.StandardBar.Redo.tooltip" xml:space="preserve">
+    <value>Refazer</value>
+  </data>
+  <data name="MainForm.StandardBar.Cut.tooltip" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="MainForm.StandardBar.Copy.tooltip" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="MainForm.StandardBar.Paste.tooltip" xml:space="preserve">
+    <value>Colar</value>
+  </data>
+  <data name="MainForm.StandardBar.Print.tooltip" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="MainForm.StandardBar.PrintPreview.tooltip" xml:space="preserve">
+    <value>Visualizar Impressão</value>
+  </data>
+  <data name="MainForm.StandardBar.ShowGrid.tooltip" xml:space="preserve">
+    <value>Mostrar Grade</value>
+  </data>
+  <data name="MainForm.StandardBar.ShowAdvancedInfo.tooltip" xml:space="preserve">
+    <value>Mostrar informações avançadas</value>
+  </data>
+  <data name="MainForm.LayoutBar.BackOne.tooltip" xml:space="preserve">
+    <value>Recuar uma</value>
+  </data>
+  <data name="MainForm.LayoutBar.ForwardOne.tooltip" xml:space="preserve">
+    <value>Avançar uma</value>
+  </data>
+  <data name="MainForm.LayoutBar.SendToBack.tooltip" xml:space="preserve">
+    <value>Enviar para o fundo</value>
+  </data>
+  <data name="MainForm.LayoutBar.BringToFront.tooltip" xml:space="preserve">
+    <value>Trazer para frete</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewModel.tooltip" xml:space="preserve">
+    <value>Novo modelo</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.NewDiagram.tooltip" xml:space="preserve">
+    <value>Novo diagrama</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.ExpandAll.tooltip" xml:space="preserve">
+    <value>Expandir todos</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.Refresh.tooltip" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlClassDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Classes</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlUseCaseDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Casos de Uso</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlSequenceDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Sequencias</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlActivityDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Atividades</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlStateMachineDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Estados</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlDeploymentDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Desenvolvimento</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCompositeStructureDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Estrutura Composta</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlComponentDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Componentes</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlInteractionOverviewDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Interações</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlTimingDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Tempo</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlProfileDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Perfis</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlObjectDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Objetos</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlPackageDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Pacotes</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UmlCommunicationDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Comunicação</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.EntityRelationshipDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Entidade-Relacinamento</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.RequirementDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Requisitos</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.UserInterface.tooltip" xml:space="preserve">
+    <value>Interface de Usuário</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.CrcCardDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama Cartões CRC</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.FlowchartDiagram.tooltip" xml:space="preserve">
+    <value>Fluxograma</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.RobustnessDiagram.tooltip" xml:space="preserve">
+    <value>Diagrama de Robustez</value>
+  </data>
+  <data name="MainForm.ProjectTabPanel.Filter.tooltip" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.NewStyleSet.tooltip" xml:space="preserve">
+    <value>Novo estilo</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.OpenStyleSet.tooltip" xml:space="preserve">
+    <value>Abrir estilo</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.SaveStyleSet.tooltip" xml:space="preserve">
+    <value>Salvar estilo</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.AddStyle.tooltip" xml:space="preserve">
+    <value>Adicionar estilo</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.SetStyleAsDefault.tooltip" xml:space="preserve">
+    <value>Estilo como predefinido</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.EditStyle.tooltip" xml:space="preserve">
+    <value>Editar estilo</value>
+  </data>
+  <data name="MainForm.StylesTabPanel.DeleteStyle.tooltip" xml:space="preserve">
+    <value>Deletar estilo</value>
+  </data>
+  <data name="LayerControl.Control.AddLayer.tooltip" xml:space="preserve">
+    <value>Adicionar nova camada</value>
+  </data>
+  <data name="LayerControl.Control.DeleteLayer.tooltip" xml:space="preserve">
+    <value>Deletar camada</value>
+  </data>
+  <data name="LayerControl.Control.ShowHideLayer.tooltip" xml:space="preserve">
+    <value>Mostrar/Ocultar camada</value>
+  </data>
+  <data name="LayerControl.Control.MergeAllLayers.tooltip" xml:space="preserve">
+    <value>Fundir todas as camadas</value>
+  </data>
+  <data name="LayerControl.Control.MoveUp.tooltip" xml:space="preserve">
+    <value>Mover Acima</value>
+  </data>
+  <data name="LayerControl.Control.MoveDown.tooltip" xml:space="preserve">
+    <value>Mover Abaixo</value>
+  </data>
+  <data name="Documentation.Control.Bold.tooltip" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="Documentation.Control.Italic.tooltip" xml:space="preserve">
+    <value>itálico</value>
+  </data>
+  <data name="Documentation.Control.Underline.tooltip" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="Documentation.Control.Strikethrough.tooltip" xml:space="preserve">
+    <value>Tachado</value>
+  </data>
+</root>

@@ -1,0 +1,53 @@
+Software Ideas Modeler 5.x License
+==================================
+
+Terms and Conditions
+
+By downloading, installing, using, transmitting, distributing or copying
+Software Ideas Modeler (the "SOFTWARE"), you agree to the terms 
+of this agreement (including the software licence and disclaimer 
+of warranty) with Dušan Rodina the owner of all rights in respect 
+of this software. 
+
+Except where otherwise noted, all of the documentation and software 
+included in the Software Ideas Modeler is copyrighted by Dušan Rodina. 
+
+Copyright (C) 2009-2012 Dušan Rodina. All rights reserved.
+
+
+Professional Edition is freeware for non-commercial use only.
+
+a) NON-COMMERCIAL USERS ONLY (schools, non-profit organizations, 
+individual home users) - you may use the SOFTWARE without charge 
+(however, you can voluntary donate this project). 
+
+b) COMMERCIAL USERS* - you may use the SOFTWARE only after purchasing 
+license. 
+
+* Commercial use is considered any use in any phase of the project that 
+has financial profit or has financial profit as its goal. 
+It is also any use in corporate sector.
+
+
+Ultimate Edition can be used only with purchased license or as trial 
+for 30 days from the first installation.
+
+Purchased license specifies who is allowed to use the SOFTWARE 
+or how many users are allowed to use SOFTWARE within company 
+specified by license.
+
+
+You may not remove any proprietary notices, labels, trademarks 
+on the Software or documentation. You may not modify, de-compile, 
+disassemble or reverse engineer the Software.
+
+
+No warranties
+
+Software Ideas Modeler software is provided "as-is". No warranty of any
+kind is expressed or implied. In no event shall the author be held liable 
+for any damages arising from the use of this software. 
+
+Dušan Rodina
+http://www.softwareideas.net/
+softwareideas@softwareideas.net

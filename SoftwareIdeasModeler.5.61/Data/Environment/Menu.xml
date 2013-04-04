@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <menu name="File">
+    <menu name="New" key="N" control="true" />
+    <menu name="Open" key="O" control="true" />
+    <separator />
+    <menu name="Save" key="S" control="true" />
+    <menu name="SaveAs" />
+    <separator />
+    <menu name="CloseProject" />
+    <separator />
+    <menu name="Export" />
+    <menu name="Import" />
+    <separator />
+    <menu name="Print" key="P" control="true" />
+    <separator />
+    <menu name="RecentProjects" />
+    <separator />
+    <menu name="Exit" />
+  </menu>
+
+  <menu name="Edit">
+    <menu name="Undo" key="Z" control="true" />
+    <menu name="Redo" key="Y" control="true" />
+    <separator />
+    <menu name="Copy" key="C" control="true" />
+    <menu name="CopySpecial">
+      <menu name="CopyAsBitmap" />
+      <menu name="CopyAsMetafile" />
+    </menu>
+    <menu name="Paste" key="V" control="true" />
+    <menu name="Cut"  key="X" control="true" />
+    <menu name="Delete" />
+    <menu name="DeleteSpecial">
+      <menu name="DeleteFromDiagram" />
+      <menu name="DeleteFromProject" />
+      <menu name="DeleteWithRelations" />
+    </menu>
+    <menu name="SelectAll" key="A" control="true" />
+    <menu name="SelectAllOfSameType" key="T" control="true" />
+    <menu name="InvertSelection" />
+    <menu name="Find" key="F" control="true" />
+    <menu name="Replace" key="H" control="true" />
+  </menu>
+
+  <menu name="View">
+    <menu name="Toolbars">
+      <menu name="StandardBar" />
+      <menu name="LayoutBar" />
+      <menu name="StatusBar" />
+      <menu name="Toolbox" />
+      <menu name="SideBar" />
+    </menu>
+    <menu name="DiagramPreview" />
+    <menu name="StartPage" />
+    <menu name="ElementBrowser" key="E" control="true" shift="true" />
+    <menu name="ShowAssignedDiagrams" />
+    <menu name="ShowMultipleUsageOfElement" />
+    <menu name="ShowCreatorsAndParticipants" />
+    <menu name="Grid" key="G" alt="true" />
+    <menu name="SnapToGrid" />
+    <menu name="Rulers" />
+    <menu name="RenderingQuality">
+      <menu name="RenderingQualityDraft" />
+      <menu name="RenderingQualityNormal" />
+      <menu name="RenderingQualityBest" />
+    </menu>
+    <menu name="FullScreen" key="F12" />
+  </menu>
+
+  <menu name="Project">
+    <menu name="AddModel" key="M" control="true" />
+    <menu name="AddDiagram">
+      <menu name="NewDiagram" key="D"  control="true" shift="true" />
+
+      <menu name="UmlClassDiagram" />
+      <menu name="UmlUseCaseDiagram" />
+      <menu name="UmlActivityDiagram" />
+      <menu name="UmlDeploymentDiagram" />
+      <menu name="UmlSequenceDiagram" />
+      <menu name="UmlStateMachineDiagram" />
+      <menu name="UmlProfileDiagram" />
+      <menu name="UmlCommunicationDiagram" />
+      <menu name="UmlPackageDiagram" />
+      <menu name="UmlObjectDiagram" />
+      <menu name="UmlInteractionOverviewDiagram" />
+      <menu name="UmlComponentDiagram" />
+      <menu name="UmlCompositeStructureDiagram" />
+      <menu name="UmlTimingDiagram" />      
+      <menu name="Bpmn">
+        <menu name="BpmnCollaborationDiagram" />
+        <menu name="BpmnConversationDiagram" />
+        <menu name="BpmnChoreographyDiagram" />
+      </menu>
+      <menu name="Jsd">
+        <menu name="EntityStructureDiagram" />
+        <menu name="NetworkDiagram" />
+      </menu>
+      <menu name="Other">
+        <menu name="DataFlowDiagram" />
+        <menu name="EntityRelationshipDiagram" />
+        <menu name="RequirementDiagram" />
+        <menu name="UserInterface" />
+        <menu name="CrcCardDiagram" />
+        <menu name="FlowchartDiagram" />
+        <menu name="RobustnessDiagram" />
+        <menu name="HierarchicalTaskAnalysisDiagram" />
+        <menu name="EntityLifeHistoryDiagram" />
+      </menu>      
+    </menu>
+
+    <menu name="AddExistingDiagram" />
+    <menu name="Properties" />
+    <menu name="ModelProperties" />
+    <menu name="StyleSet">
+      <menu name="LoadStyleSet" />
+      <menu name="SaveStyleSet" />
+      <menu name="EditStyleSet" />
+      <menu name="RemoveAllCustomStyles" />
+    </menu>
+    <menu name="Aliases">
+      <menu name="CreateNewAliasGroup" />
+      <menu name="DefaultAliases" />
+    </menu>
+    <menu name="Tasks"  key="T"  control="true" alt="true"  />
+    <menu name="Persons"  key="P"  control="true" alt="true"  />
+    <menu name="Documentation" />
+    <menu name="Glossary"  key="G"  control="true" alt="true"  />
+  </menu>
+
+  <menu name="Diagram">
+    <menu name="AddLayer" />
+    <menu name="Layers">
+      <menu name="LayersMerge"  key="Down"  control="true" shift="true"  />
+      <menu name="LayersShowAll" />
+      <menu name="LayersHide" />
+      <menu name="LayersDelete" />
+    </menu>
+    <menu name="ConvertDiagram">
+      <menu name="ConvertToERDDiagram" />
+      <menu name="ConvertToClassDiagram" />
+    </menu>
+    <menu name="DiagramBounds">
+      <menu name="AutoExpandInAllDirections" />
+      <menu name="AutoExpandRightDown" />
+      <menu name="ShowBorders" />
+      <menu name="CustomDiagramSize" />
+    </menu>
+    <menu name="DiagramProperties" />
+    <menu name="ExportDiagramToImage" />
+    <menu name="ExportDiagramToPDF" />
+    <menu name="DiagramCopy">
+      <menu name="CopyToClipboardAsImage" />
+      <menu name="CopyToClipboardAsMetafile" />
+    </menu>
+
+    <menu name="Filter">
+      <menu name="ShowAllElements" />
+      <menu name="HideComments"  key="C"  control="true" alt="true"  />
+      <menu name="HideRelations" />
+      <menu name="HideCollaborations" />
+      <menu name="CreateNewFilter" />
+    </menu>
+
+    <menu name="PrintDiagram" />
+    <menu name="ExportDiagram" />
+  </menu>
+
+
+  <menu name="Element">
+    <menu name="Add">
+      <menu name="Attribute" />
+      <menu name="Operation" />
+      <menu name="TemplateParameter" />
+    </menu>
+    <menu name="ShowParts">
+      <menu name="ElementShowID" />
+      <menu name="ElementShowParentName" />
+      <menu name="ElementShowStereotypes" />
+      <menu name="ElementShowAttributes" />
+      <menu name="ElementShowOperations" />
+      <menu name="ElementShowTaggedValues" />
+      <menu name="ElementShowTemplateParameters" />
+      <menu name="ElementShowOperationParameters" />
+      <menu name="ElementShowExtensionPoints" />
+      <menu name="ElementShowRelationshipTexts" />
+      <menu name="ElementShowNullability" />
+    </menu>
+    <menu name="ElementModifiers">
+      <menu name="ElementAbstractModifier" />
+      <menu name="ElementPublicModifier" />
+      <menu name="ElementPackageModifier" />
+      <menu name="ElementProtectedModifier" />
+      <menu name="ElementPrivateModifier" />
+    </menu>
+
+    <menu name="ElementStyle" />
+    <menu name="ElementProperties" />
+    <menu name="ElementDocumentation" />
+    <menu name="ElementTaggedValues" />
+
+    <menu name="ElementPresentation">
+      <menu name="DefaultPresentation" />
+      <menu name="CustomPresentation" />
+    </menu>
+  </menu>
+
+
+  <menu name="Arrange">
+    <menu name="AutoLayout">
+      <menu name="CircleLayout" />
+      <menu name="SmartLayout" />
+      <menu name="RowLayout" />
+      <menu name="CascadeLayout" />
+    </menu>
+    <menu name="AutoSize"  key="A"  alt="true"  />
+    <menu name="RouteRelation"  key="R"  alt="true"  />
+    <menu name="Alignment">
+      <menu name="AlignmentLeft" />
+      <menu name="AlignmentRight" />
+      <menu name="AlignmentBottom" />
+      <menu name="AlignmentTop" />
+      <menu name="AlignmentCenterHorizontally" />
+      <menu name="AlignmentCenterVertically" />
+      <menu name="AlignmentToGrid" />
+    </menu>
+    <menu name="MakeSame">
+      <menu name="MakeSameWidth" />
+      <menu name="MakeSameHeight" />
+      <menu name="MakeSameBoth" />
+    </menu>
+    <menu name="Order">
+      <menu name="OrderBringToBack" />
+      <menu name="OrderBringToFront" />
+      <menu name="OrderForwardOne" />
+      <menu name="OrderBackOne" />
+    </menu>
+    <menu name="Move">
+      <menu name="MoveCustom" />
+      <menu name="MoveLeft" />
+      <menu name="MoveRight" />
+      <menu name="MoveUp" />
+      <menu name="MoveDown" />
+    </menu>
+    <menu name="Size">
+      <menu name="SizeCustom" />
+      <menu name="SizeInflate" />
+      <menu name="SizeDeflate" />
+      <menu name="SizeWider" />
+      <menu name="SizeNarrower" />
+      <menu name="SizeHigher" />
+      <menu name="SizeLower" />
+    </menu>
+    <menu name="LockItems" />
+    <menu name="GroupItems" />
+    <menu name="UngroupItems" />
+  </menu>
+
+  <menu name="Tools">
+    <menu name="GenerateDocumentation" />
+    <menu name="GenerateSourceCode" />
+    <menu name="Lists">
+      <menu name="StereotypesList" />
+      <menu name="TypesList" />
+      <menu name="ElementNames" />
+      <menu name="Graphics" />
+    </menu>
+    <menu name="Templates">
+      <menu name="SourceCodeTemplates" />
+      <menu name="DocumentationTemplates" />
+    </menu>
+    <menu name="ReverseEngineering">
+      <menu name="NetReverseEngineering" />
+      <menu name="DatabaseReverseEngineering" />
+      <menu name="SourceCode" />
+    </menu>
+    <menu name="Comparison" />
+    <menu name="RenumberElementIDs" />    
+    <menu name="Options" />
+  </menu>
+
+
+  <menu name="Windows">
+    <menu name="Cascade" />
+    <menu name="TileVertical" />
+    <menu name="TileHorizontal" />
+    <menu name="ArrangeIcons" />
+    <menu name="Minimize" />
+    <menu name="Maximize" />
+    <menu name="Close" key="W" control="true" />
+    <menu name="CloseAll" />
+  </menu>
+
+  <menu name="Help">
+    <menu name="OnlineHelp" />
+    <menu name="Donate" />
+    <menu name="ActivateForCommercialUse" />
+    <menu name="ShowLicenseInfo" />
+    <menu name="WhatsNew" />
+    <menu name="CheckForUpdates" />
+    <menu name="SendRequest" />
+    <menu name="About" />
+    <menu name="WebSite" />
+  </menu>
+
+</menu>

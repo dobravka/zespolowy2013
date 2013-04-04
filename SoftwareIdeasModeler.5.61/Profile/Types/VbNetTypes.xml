@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="VB.NET" description="" version="1.0" prefix="VbNet">
+  <type name="Boolean" description="" type="boolean">
+  </type>
+  <type name="Byte" description="" type="u-integer8">
+  </type>
+  <type name="SByte" description="" type="s-integer8">
+  </type>
+  <type name="Char" description="" type="char">
+  </type>
+  <type name="Short" description="" type="s-integer16">
+  </type>
+  <type name="UShort" description="" type="u-integer16">
+  </type>
+  <type name="Integer" description="" type="s-integer32">
+  </type>
+  <type name="UInteger" description="" type="u-integer32">
+  </type>
+  <type name="Long" description="" type="s-integer64">
+  </type>
+  <type name="ULong" description="" type="u-integer64">
+  </type>
+  <type name="Single" description="" type="s-real32">
+  </type>
+  <type name="Double" description="" type="s-real64">
+  </type>
+  <type name="Decimal" description="" type="s-decimal128">
+  </type>
+  <type name="DateTime" description="" type="datetime">
+  </type>
+  <type name="Object" description="" type="object">
+  </type>
+  <type name="String" description="" type="string">
+  </type>
+</types>

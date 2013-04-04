@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="MSSQL" description="" version="1.0" prefix="MsSql">
+  <type name="bit" description="" type="boolean">
+  </type>
+  <type name="tinyint" description="" type="u-integer8">
+  </type>
+  <type name="char(1)" description="" type="char">
+  </type>
+  <type name="smallint" description="" type="s-integer16">
+  </type>
+  <type name="int" description="" type="s-integer32">
+  </type>
+  <type name="bigint" description="" type="s-integer64">
+  </type>
+  <type name="real" description="" type="s-real32">
+  </type>
+  <type name="float" description="" type="s-real64">
+  </type>
+  <type name="decimal" description="" type="s-decimal128">
+  </type>
+  <type name="datetime" description="" type="datetime">
+  </type>
+  <type name="binary" description="" type="binary">
+  </type>
+  <type name="varchar" description="" type="string">
+  </type>
+  <type name="text" description="" type="string">
+  </type>
+</types>

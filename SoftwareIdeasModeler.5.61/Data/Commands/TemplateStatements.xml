@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<statements>
+  <group name="General">
+    <statement name="Text" value="Text" type="text" />
+    <statement name="Set Parameter" value="Set" type="expression" />
+    <statement name="Conditional" value="If" type="conditional" />
+    <statement name="NegativeConditional" value="IfNot" type="conditional" />
+  </group>
+  <group name="Project">
+    <statement name="Name" value="Project.Name" type="command" />
+    <statement name="Description" value="Project.Description" type="command" />
+    <statement name="Authors" value="Project.Authors" type="command" />
+    <statement name="Imports" value="Imports" type="foreach">
+      <statement name="Name" value="Import.Name" type="command" />
+    </statement>
+    <statement name="Models" value="Project.Models" type="foreach" />
+    <statement name="Diagrams" value="Project.Diagrams" type="foreach" />
+    <statement name="Elements" value="Project.Elements" type="foreach" />
+    <statement name="AllElements" value="Project.AllElements" type="foreach" />
+    <statement name="Glossary" value="Project.Glossary" type="foreach">
+      <statement name="CreationDate" value="GlossaryTerm.CreationDate" type="command" />
+      <statement name="Id" value="GlossaryTerm.Id" type="command" />
+      <statement name="Meaning" value="GlossaryTerm.Meaning" type="command" />
+      <statement name="Term" value="GlossaryTerm.Term" type="command" />
+      <statement name="Type" value="GlossaryTerm.Type" type="command" />
+    </statement>
+  </group>  
+  <group name="Model">
+    <statement name="Name" value="Model.Name" type="command" />
+    <statement name="Namespace" value="Model.Namespace" type="command" />
+    <statement name="CreationDate" value="Model.CreationDate" type="command" />
+    <statement name="Authors" value="Model.Authors" type="command" />
+    <statement name="Version" value="Model.Version" type="command" />
+    <statement name="SubModels" value="Model.SubModels" type="foreach" />
+    <statement name="Diagrams" value="Model.Diagrams" type="foreach" />
+    <statement name="Elements" value="Model.Elements" type="foreach" />
+    <statement name="AllElements" value="Model.AllElements" type="foreach" />
+  </group>
+  <group name="Diagram">
+    <statement name="Name" value="Diagram.Name" type="command" />
+    <statement name="Namespace" value="Diagram.Namespace" type="command" />
+    <statement name="Creator" value="Diagram.Creator" type="command" />
+    <statement name="TypeName" value="Diagram.TypeName" type="command" />
+    <statement name="CreationDate" value="Diagram.CreationDate" type="command" />
+    <statement name="Description" value="Diagram.Description" type="command" />
+    <statement name="Authors" value="Diagram.Authors" type="command" />
+    <statement name="Version" value="Diagram.Version" type="command" />
+    <statement name="Elements" value="Diagram.Elements" type="foreach" />
+  </group>
+  <group name="Element">
+    <statement name="Name" value="Element.Name" type="command" />
+    <statement name="FullName" value="Element.FullName" type="command" />
+    <statement name="ID" value="Element.ID" type="command" />
+    
+    <statement name="ElementType" value="Element.ElementType" type="command" />
+    <statement name="Visibility" value="Element.Visibility" type="command" />
+    <statement name="VisibilitySymbol" value="Element.VisibilitySymbol" type="command" />
+    <statement name="VisibilityName" value="Element.VisibilityName" type="command" />
+
+    <statement name="Namespace" value="Element.Namespace" type="command" />
+    <statement name="Documentation" value="Element.Documentation" type="command" />
+    <statement name="Documentation in lines" value="Element.DocumentationLines" type="foreach">
+      <statement name="Documentation line" value="DocumentationLine" type="command" />
+    </statement>
+    <group name="Design">
+      <statement name="X" value="DElement.X" type="command" />
+      <statement name="Y" value="DElement.Y" type="command" />
+      <statement name="Width" value="DElement.Width" type="command" />
+      <statement name="Height" value="DElement.Height" type="command" />      
+    </group>
+
+    <group name="Super Class" prefix="SuperClass" type="command" ref="Element" />
+
+    <statement name="Attributes" value="Element.Attributes" type="foreach">
+      <statement name="Name" value="Attribute.Name" type="command" />
+      <statement name="Type" value="Attribute.Type" type="command" />
+      <statement name="TypeName" value="Attribute.TypeName" type="command" />
+      <statement name="Visibility" value="Attribute.Visibility" type="command" />
+      <statement name="DefaultValue" value="Attribute.DefaultValue" type="command" />
+      <statement name="DocumentationInLines" value="Attribute.DocumentationLines" type="foreach">
+        <statement name="Documentation line" value="DocumentationLine" type="command" />
+      </statement>
+      
+      <statement name="TypeLength" value="Attribute.TypeLength" type="command" />
+      <statement name="IsNullable" value="Attribute.IsNullable" type="command" />
+      <statement name="IsPrimaryKey" value="Attribute.IsPrimaryKey" type="command" />
+      <statement name="IsForeignKey" value="Attribute.IsForeignKey" type="command" />
+      <statement name="Description" value="Attribute.Description" type="command" />
+      <statement name="HasDefaultValue" value="Attribute.HasDefaultValue" type="command" />
+      <statement name="HasTypeLength" value="Attribute.HasTypeLength" type="command" />
+      <statement name="HasDescription" value="Attribute.HasDescription" type="command" />
+    </statement>
+    <statement name="Operations" value="Element.Operations" type="foreach">
+      <statement name="Name" value="Operation.Name" type="command" />
+      <statement name="Type" value="Operation.Type" type="command" />
+      <statement name="Visibility" value="Operation.Visibility" type="command" />
+      <statement name="DocumentationInLines" value="Operation.DocumentationLines" type="foreach">
+        <statement name="Documentation line" value="DocumentationLine" type="command" />
+      </statement>
+      <statement name="Parameters" value="Operation.Parameters" type="foreach">
+        <statement name="Name" value="Parameter.Name" type="command" />
+        <statement name="Type" value="Parameter.Type" type="command" />
+      </statement>
+      <statement name="SourceCodeBody" value="Operation.SourceCodeBody" type="command" />
+    </statement>
+    <statement name="TaggedValues" value="Element.TaggedValues" type="foreach">
+      <statement name="Name" value="TaggedValue.Name" type="command" />
+      <statement name="Value" value="TaggedValue.Value" type="command" />
+    </statement>    
+    <statement name="AssociatedElements" value="Element.Associated" type="foreach" />
+    <statement name="SubElements" value="Element.Sub" type="foreach" />
+    <statement name="SuperElements" value="Element.Super" type="foreach" />
+    <statement name="UseElements" value="Element.Use" type="foreach" />
+    <statement name="Relations" value="Element.Relations" type="foreach" />
+
+    <statement name="SourceCodeBody" value="Element.SourceCodeBody" type="command" />
+  </group>
+
+</statements>

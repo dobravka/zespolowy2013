@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types name="C#" description="" version="1.0" prefix="CSharp">
+  <type name="bool" description="" type="boolean">
+  </type>
+  <type name="byte" description="" type="u-integer8">
+  </type>
+  <type name="sbyte" description="" type="s-integer8">
+  </type>
+  <type name="char" description="" type="char">
+  </type>
+  <type name="short" description="" type="s-integer16">
+  </type>
+  <type name="ushort" description="" type="u-integer16">
+  </type>
+  <type name="int" description="" type="s-integer32">
+  </type>
+  <type name="uint" description="" type="u-integer32">
+  </type>
+  <type name="long" description="" type="s-integer64">
+  </type>
+  <type name="ulong" description="" type="u-integer64">
+  </type>
+  <type name="float" description="" type="s-real32">
+  </type>
+  <type name="double" description="" type="s-real64">
+  </type>
+  <type name="decimal" description="" type="s-decimal128">
+  </type>
+  <type name="DateTime" description="" type="datetime">
+  </type>
+  <type name="object" description="" type="object">
+  </type>
+  <type name="string" description="" type="string">
+  </type>
+</types>

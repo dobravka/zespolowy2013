@@ -1,0 +1,74 @@
+﻿<sim-style-set version="1.0" name="">
+  <style>
+    <item-type stereotype="" type="UmlClass" />
+    <style-definition background-type="vertical-linear" background-color="#FF0080FF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlActor" />
+    <style-definition background-type="vertical-linear" background-color="#FFFF952B" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlUseCase" />
+    <style-definition background-type="vertical-linear" background-color="#FF6AD500" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlActivity" />
+    <style-definition background-type="vertical-linear" background-color="#FF2BFF95" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlState" />
+    <style-definition background-type="vertical-linear" background-color="#FF00D5D5" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlCompositeState" />
+    <style-definition background-type="vertical-linear" background-color="#FF55FFFF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlSignalReceipt" />
+    <style-definition background-type="vertical-linear" background-color="#FF55FF55" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlSignalSending" />
+    <style-definition background-type="vertical-linear" background-color="#FFFF5555" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlComponent" />
+    <style-definition background-type="vertical-linear" background-color="#FF2B2BFF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlCommunicationLifeline" />
+    <style-definition background-type="vertical-linear" background-color="#FFD500D5" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlObject" />
+    <style-definition background-type="vertical-linear" background-color="#FFAA55FF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlDecision" />
+    <style-definition background-type="vertical-linear" background-color="#FF555555" background-color2="#FFBFBFBF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlPackage" />
+    <style-definition background-type="vertical-linear" background-color="#FFD56A00" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="ConcreteUmlActivationBar" />
+    <style-definition background-type="vertical-linear" background-color="#FFFF55FF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlSwimlane" />
+    <style-definition background-type="vertical-linear" background-color="#FF80BFFF" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="false" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="false" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="UmlSystemBoundary" />
+    <style-definition background-type="vertical-linear" background-color="#FFFFFF55" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="false" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type stereotype="" type="ErdEntity" />
+    <style-definition background-type="vertical-linear" background-color="#FFBFFF80" background-color2="#FFFFFFFF" border-color="#FF000000" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" stereotype-color="#FF1E1E1E" text-color="#FF000000" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" />
+  </style>
+  <style>
+    <item-type type="UmlComment" stereotype="" />
+    <style-definition background-type="backward-diagonal" background-color="#FFFFAA55" background-color2="#FFFFFF80" border-color="#FFFF952B" border-width="1" shadow-type="smooth" shadow-offset="-5,-5" shadow-size="15,15" shadow-visible="true" shadow-color="#50000000" shadow-radius="7" gloss-effect="true" threed-gloss-effect="false" wrap-name-text="true" wrap-other-text="true" name-color="#FF000000" name-font="Arial;10;" stereotype-color="#FF1E1E1E" stereotype-font="Arial;10;" text-color="#FF000000" text-font="Arial;10;" />
+  </style>
+</sim-style-set>
