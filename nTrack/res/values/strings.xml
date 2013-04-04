@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Logowanie</string>
+    <string name="check_remember">Zapamiętaj ?</string>
+    <string name="password">Hasło</string>
+    <string name="login">Zaloguj</string>
+    <string name="skip">Pomiń</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="item_name">Nazwa Opcji</string>
+    <string name="item_desc">Opis Opcji</string>
+    <string name="title_activity_add_product">Nowy Produkt</string>
+    <string name="name">Nazwa</string>
+    <string name="add_prod">Dodaj Produkt</string>
+    <string name="add_in_calories">Ilość kcal</string>
+    <string name="in">produktu w</string>
+    <string name="in_sugar">Ilość gram cukru</string>
+    <string name="desc_prod">Kategorie</string>
+
+    <string-array name="add_spin_opt">
+        <item>100 ml</item>
+        <item>100 g</item>
+        <item>250 ml</item>
+        <item>250 g</item>
+    </string-array>
+
+    <string name="title_activity_weigt_control">Kontrola Wagi</string>
+
+    <string name="weight_add">Dodaj Dane</string>
+
+    <string name="weight_date_hint">Data</string>
+
+    <string name="weight_hint">Waga w kg</string>
+
+</resources>
